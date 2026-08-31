@@ -1,0 +1,18 @@
+# Test files
+debug.html
+test-*.html
+minimal.html
+
+# Excel file
+*.xlsx
+
+# IDE
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc

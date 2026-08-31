@@ -1,0 +1,28 @@
+# JLPT Learning App - Docker Compose for QNAP Container Station
+# 在 QNAP Container Station 中使用
+
+version: '3.8'
+
+services:
+  jlpt-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jlpt-learning-app
+    ports:
+      - "8080:80"  # 主机端口:容器端口
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Tokyo
+    volumes:
+      # 数据持久化：将数据目录挂载到主机
+      # 在 QNAP 上修改为主机实际路径，如 /share/Web/jlpt-data
+      - ./japanese-data:/usr/share/nginx/html/japanese-data:ro
+    labels:
+      - "com.qnap.app=jlpt-learning-app"
+      - "com.qnap.description=Japanese Language Proficiency Test Learning App"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
