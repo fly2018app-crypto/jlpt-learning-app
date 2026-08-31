@@ -273,13 +273,6 @@ const Login = {
 };
 
 const Home = {
-  methods: {
-    logout() {
-      setAuth(false);
-      clearCurrentUser();
-      this.$emit('navigate', '/login');
-    }
-  },
   computed: {
     isAdminUser() {
       return isAdmin();
@@ -287,9 +280,6 @@ const Home = {
   },
   template: `
     <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
-      <div class="w-full max-w-2xl flex justify-end mb-4">
-        <button @click="logout" class="px-4 py-2 bg-red-100 text-red-600 rounded-lg hover:bg-red-200 text-sm font-medium">登出</button>
-      </div>
       <h1 class="text-4xl font-bold text-indigo-800 mb-8">JLPT Learning App</h1>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-2xl">
         <button @click="$emit('navigate', '/words')" class="py-4 px-6 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-700">📝 単語一覧 (Words List)</button>
@@ -298,8 +288,6 @@ const Home = {
         <button @click="$emit('navigate', '/topics')" class="py-4 px-6 bg-yellow-500 text-white rounded-lg shadow-md hover:bg-yellow-600">📚 読解 (Topic Reading)</button>
         <button @click="$emit('navigate', '/favorites')" class="py-4 px-6 bg-red-500 text-white rounded-lg shadow-md hover:bg-red-600">⭐ 收藏一覧 (Favorites)</button>
         <button @click="$emit('navigate', '/settings')" class="py-4 px-6 bg-gray-500 text-white rounded-lg shadow-md hover:bg-gray-600">⚙️ 設定 (Settings)</button>
-        <button v-if="isAdminUser" @click="$emit('navigate', '/users')" class="py-4 px-6 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-700">👥 用户管理</button>
-        <button @click="$emit('navigate', '/changepassword')" class="py-4 px-6 bg-teal-600 text-white rounded-lg shadow-md hover:bg-teal-700">🔑 修改密码</button>
       </div>
     </div>
   `
@@ -1490,34 +1478,15 @@ const app = createApp({
   },
   computed: {
     currentComponent() {
-      // Check auth for protected routes
-      const protectedRoutes = ['/home', '/words', '/word', '/grammar', '/grammar', '/scenes', '/scene', '/topics', '/topic', '/favorites', '/settings', '/users', '/changepassword'];
-      const isProtected = protectedRoutes.some(r => this.currentPath.startsWith(r));
-      
-      if (isProtected && !checkAuth()) {
-        return Login;
-      }
-      
       // Admin-only routes
       if (this.currentPath.startsWith('/users') && !isAdmin()) {
         return Home;
       }
-      
       return matchRoute(this.currentPath);
     }
   },
   methods: {
     navigate(path) {
-      // Check auth for protected routes
-      const protectedRoutes = ['/home', '/words', '/word', '/grammar', '/grammar', '/scenes', '/scene', '/topics', '/topic', '/favorites', '/settings', '/users', '/changepassword'];
-      const isProtected = protectedRoutes.some(r => path.startsWith(r));
-      
-      if (isProtected && !checkAuth()) {
-        this.currentPath = '/login';
-        window.location.hash = '/login';
-        return;
-      }
-      
       // Admin-only routes
       if (path.startsWith('/users') && !isAdmin()) {
         this.currentPath = '/home';
@@ -1533,6 +1502,8 @@ const app = createApp({
     const hash = window.location.hash.slice(1);
     if (hash && hash !== '/' && hash !== '') {
       this.currentPath = hash;
+    } else {
+      this.currentPath = '/home';
     }
   },
   template: `<component :is="currentComponent" :key="currentPath" @navigate="navigate"></component>`
