@@ -16,3 +16,7 @@ Thumbs.db
 # Python cache
 __pycache__/
 *.pyc
+
+# Data files
+japanese-data/
+japanese-assets/
