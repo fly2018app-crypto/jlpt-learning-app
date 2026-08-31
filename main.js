@@ -308,22 +308,38 @@ const Home = {
 // ----- Words -----
 
 const Words = {
-  data() { return { words: [], isLoading: true, showAll: false }; },
+  data() { return { words: [], isLoading: true, showAll: false, currentPage: 1 }; },
   mounted() {
-    fetch('/japanese-data/words.json?t=' + Date.now())
+    const level = this.getSavedLevel();
+    fetch(`/japanese-data/words_${level.toLowerCase()}.json?t=${Date.now()}`)
       .then(r => r.json())
       .then(data => { this.words = data; this.isLoading = false; });
+  },
+  watch: {
+    currentPage() {
+      this.$nextTick(() => {
+        const el = document.querySelector('.list-scroll-top');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
   },
   computed: {
     currentLevel() {
       return this.getSavedLevel();
     },
     filteredWords() {
-      let result = this.words.filter(w => w.level === this.currentLevel);
+      let result = this.words;
       if (!this.showAll) {
         result = result.filter(w => !isCompleted('words', w.id));
       }
       return result.sort((a, b) => b.id - a.id);
+    },
+    totalPages() {
+      return Math.ceil(this.filteredWords.length / 30);
+    },
+    pagedWords() {
+      const start = (this.currentPage - 1) * 30;
+      return this.filteredWords.slice(start, start + 30);
     }
   },
   methods: {
@@ -359,7 +375,7 @@ const Words = {
       <div class="px-4"><div class="max-w-4xl mx-auto">
         <div v-if="isLoading" class="text-center py-10 text-gray-500">{{ t('読み込み中...', 'Loading...') }}</div>
         <div v-else class="space-y-2">
-          <div v-for="word in filteredWords" :key="word.id" @click="goToDetail(word)" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between">
+          <div v-for="(word, idx) in pagedWords" :key="word.id" @click="goToDetail(word)" :class="idx === 0 ? 'list-scroll-top' : ''" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between">
             <div class="flex-1">
               <span class="text-lg font-bold">{{ word.word }}</span>
               <span class="text-gray-500 ml-3">{{ word.reading }}</span>
@@ -375,46 +391,56 @@ const Words = {
           </div>
           <div v-if="filteredWords.length === 0" class="text-center py-10 text-gray-500">{{ t('該当する単語がありません', 'No matching words') }}</div>
         </div>
+        <div v-if="totalPages > 1" class="flex items-center justify-center gap-2 mt-4 mb-4">
+          <button @click="currentPage = 1" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&laquo;</button>
+          <button @click="currentPage--" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&lsaquo;</button>
+          <span class="px-3 py-1 text-sm text-gray-600">{{ currentPage }} / {{ totalPages }}</span>
+          <button @click="currentPage++" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&rsaquo;</button>
+          <button @click="currentPage = totalPages" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&raquo;</button>
+        </div>
       </div></div>
     </div>
   `
 };
 
 const WordDetail = {
-  data() { return { word: null, isLoading: true, allWords: [] }; },
+  data() { return { word: null, isLoading: true, levelWords: [], currentLevel: '' }; },
   mounted() {
+    this.currentLevel = this.getSavedLevel();
     const hash = window.location.hash;
     const parts = hash.split('/');
     const id = parts[2];
     if (id) {
-      fetch('/japanese-data/words.json?t=' + Date.now())
+      fetch(`/japanese-data/words_${this.currentLevel.toLowerCase()}.json?t=${Date.now()}`)
         .then(r => r.json())
         .then(data => {
-          this.allWords = data;
+          this.levelWords = data;
           this.word = data.find(w => w.id == Number(id) || w.id == id);
           this.isLoading = false;
-        });
+        })
+        .catch(() => { this.isLoading = false; });
     } else {
       this.isLoading = false;
     }
   },
   computed: {
-    currentLevel() {
-      return this.getSavedLevel();
-    },
-    filteredWords() {
-      return this.allWords.filter(w => w.level === this.currentLevel);
-    },
     currentIndex() {
       if (!this.word) return -1;
-      return this.filteredWords.findIndex(w => w.id === this.word.id);
+      return this.levelWords.findIndex(w => w.id === this.word.id);
     },
     hasNext() {
-      return this.currentIndex >= 0 && this.currentIndex < this.filteredWords.length - 1;
+      return this.currentIndex >= 0 && this.currentIndex < this.levelWords.length - 1;
+    },
+    hasPrev() {
+      return this.currentIndex > 0;
     },
     nextWord() {
       if (!this.hasNext) return null;
-      return this.filteredWords[this.currentIndex + 1];
+      return this.levelWords[this.currentIndex + 1];
+    },
+    prevWord() {
+      if (!this.hasPrev) return null;
+      return this.levelWords[this.currentIndex - 1];
     }
   },
   methods: {
@@ -424,7 +450,7 @@ const WordDetail = {
       if (this.word) {
         const isNowFav = toggleFavorite('words', { id: this.word.id, word: this.word.word, reading: this.word.reading, meaning: this.word.meaning });
         if (!isNowFav) { this.$emit('navigate', '/words'); return; }
-        }
+      }
     },
     levelBadge(level) {
       const colors = { 'N0': 'bg-purple-100 text-purple-800', 'N1': 'bg-blue-100 text-blue-800', 'N2': 'bg-green-100 text-green-800', 'N3': 'bg-orange-100 text-orange-800', 'N4': 'bg-yellow-100 text-yellow-800', 'N5': 'bg-gray-100 text-gray-800' };
@@ -435,6 +461,11 @@ const WordDetail = {
         this.$emit('navigate', '/word/' + this.nextWord.id);
       }
     },
+    goToPrev() {
+      if (this.prevWord) {
+        this.$emit('navigate', '/word/' + this.prevWord.id);
+      }
+    },
     toggleWordCompleted() {
       if (this.word) toggleCompleted('words', this.word);
     }
@@ -443,9 +474,10 @@ const WordDetail = {
     <div class="min-h-screen bg-gray-50">
       <div class="sticky top-0 z-10 bg-gray-50 pb-2 pt-4 px-4">
         <div class="max-w-2xl mx-auto flex items-center justify-between">
-          <h1 class="text-2xl font-bold">{{ this.t('単語詳細', 'Word Detail') }}</h1>
+          <h1 class="text-2xl font-bold">{{ t('単語詳細', 'Word Detail') }}</h1>
           <div class="flex gap-1.5">
             <button @click="$emit('navigate', '/words')" class="px-3 py-1.5 text-sm bg-gray-100 text-gray-600 rounded-md hover:bg-gray-200 transition">{{ t('← 一覧に戻る', '← Back to List') }}</button>
+            <button @click="goToPrev" :disabled="!hasPrev" :class="hasPrev ? 'bg-gray-200 text-gray-700 hover:bg-gray-300' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('← 前へ', '← Prev') }}</button>
             <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('次へ →', 'Next →') }}</button>
           </div>
         </div>
@@ -491,11 +523,19 @@ const WordDetail = {
 // ----- Grammar -----
 
 const Grammar = {
-  data() { return { grammar: [], isLoading: true, showAll: false }; },
+  data() { return { grammar: [], isLoading: true, showAll: false, currentPage: 1 }; },
   mounted() {
     fetch('/japanese-data/grammar.json?t=' + Date.now())
       .then(r => r.json())
       .then(data => { this.grammar = data; this.isLoading = false; });
+  },
+  watch: {
+    currentPage() {
+      this.$nextTick(() => {
+        const el = document.querySelector('.list-scroll-top');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
   },
   computed: {
     currentLevel() {
@@ -507,6 +547,13 @@ const Grammar = {
         result = result.filter(g => !isCompleted('grammar', g.id));
       }
       return result.sort((a, b) => b.id - a.id);
+    },
+    totalPages() {
+      return Math.ceil(this.filteredGrammar.length / 30);
+    },
+    pagedGrammar() {
+      const start = (this.currentPage - 1) * 30;
+      return this.filteredGrammar.slice(start, start + 30);
     }
   },
   methods: {
@@ -542,7 +589,7 @@ const Grammar = {
       <div class="px-4"><div class="max-w-4xl mx-auto">
         <div v-if="isLoading" class="text-center py-10 text-gray-500">{{ t('読み込み中...', 'Loading...') }}</div>
         <div v-else class="space-y-2">
-          <div v-for="g in filteredGrammar" :key="g.id" @click="goToDetail(g)" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between">
+          <div v-for="(g, idx) in pagedGrammar" :key="g.id" @click="goToDetail(g)" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between" :class="idx === 0 ? 'list-scroll-top' : ''">
             <div class="flex-1">
               <span class="text-lg font-bold">{{ g.title }}</span>
               <span class="text-gray-500 ml-3">{{ g.meaning }}</span>
@@ -560,7 +607,14 @@ const Grammar = {
         </div>
       </div></div>
     </div>
-  `
+  
+        <div v-if="totalPages > 1" class="flex items-center justify-center gap-2 mt-4 mb-4">
+          <button @click="currentPage = 1" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&laquo;</button>
+          <button @click="currentPage--" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&lsaquo;</button>
+          <span class="px-3 py-1 text-sm text-gray-600">{{ currentPage }} / {{ totalPages }}</span>
+          <button @click="currentPage++" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&rsaquo;</button>
+          <button @click="currentPage = totalPages" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&raquo;</button>
+        </div>`
 };
 
 const GrammarDetail = {
@@ -684,11 +738,19 @@ const GrammarDetail = {
 // ----- Scenes -----
 
 const Scenes = {
-  data() { return { scenes: [], isLoading: true, showAll: false }; },
+  data() { return { scenes: [], isLoading: true, showAll: false, currentPage: 1 }; },
   mounted() {
     fetch('/japanese-data/scenes.json?t=' + Date.now())
       .then(r => r.json())
       .then(data => { this.scenes = data; this.isLoading = false; });
+  },
+  watch: {
+    currentPage() {
+      this.$nextTick(() => {
+        const el = document.querySelector('.list-scroll-top');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
   },
   computed: {
     currentLevel() {
@@ -700,6 +762,13 @@ const Scenes = {
         result = result.filter(s => !isCompleted('scenes', s.id));
       }
       return result.sort((a, b) => b.id - a.id);
+    },
+    totalPages() {
+      return Math.ceil(this.filteredScenes.length / 30);
+    },
+    pagedScenes() {
+      const start = (this.currentPage - 1) * 30;
+      return this.filteredScenes.slice(start, start + 30);
     }
   },
   methods: {
@@ -735,7 +804,7 @@ const Scenes = {
       <div class="px-4"><div class="max-w-4xl mx-auto">
         <div v-if="isLoading" class="text-center py-10 text-gray-500">{{ t('読み込み中...', 'Loading...') }}</div>
         <div v-else class="space-y-2">
-          <div v-for="s in filteredScenes" :key="s.id" @click="goToDetail(s)" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between">
+          <div v-for="(s, idx) in pagedScenes" :key="s.id" @click="goToDetail(s)" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between" :class="idx === 0 ? 'list-scroll-top' : ''">
             <div class="flex-1">
               <span class="text-lg font-bold">{{ s.title }}</span>
             </div>
@@ -752,7 +821,14 @@ const Scenes = {
         </div>
       </div></div>
     </div>
-  `
+  
+        <div v-if="totalPages > 1" class="flex items-center justify-center gap-2 mt-4 mb-4">
+          <button @click="currentPage = 1" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&laquo;</button>
+          <button @click="currentPage--" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&lsaquo;</button>
+          <span class="px-3 py-1 text-sm text-gray-600">{{ currentPage }} / {{ totalPages }}</span>
+          <button @click="currentPage++" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&rsaquo;</button>
+          <button @click="currentPage = totalPages" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&raquo;</button>
+        </div>`
 };
 
 const SceneDetail = {
@@ -861,11 +937,19 @@ const SceneDetail = {
 // ----- Topics -----
 
 const Topics = {
-  data() { return { topics: [], isLoading: true, showAll: false }; },
+  data() { return { topics: [], isLoading: true, showAll: false, currentPage: 1 }; },
   mounted() {
     fetch('/japanese-data/topics.json?t=' + Date.now())
       .then(r => r.json())
       .then(data => { this.topics = data; this.isLoading = false; });
+  },
+  watch: {
+    currentPage() {
+      this.$nextTick(() => {
+        const el = document.querySelector('.list-scroll-top');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
   },
   computed: {
     currentLevel() {
@@ -877,6 +961,13 @@ const Topics = {
         result = result.filter(t => !isCompleted('topics', t.id));
       }
       return result.sort((a, b) => b.id - a.id);
+    },
+    totalPages() {
+      return Math.ceil(this.filteredTopics.length / 30);
+    },
+    pagedTopics() {
+      const start = (this.currentPage - 1) * 30;
+      return this.filteredTopics.slice(start, start + 30);
     }
   },
   methods: {
@@ -912,7 +1003,7 @@ const Topics = {
       <div class="px-4"><div class="max-w-4xl mx-auto">
         <div v-if="isLoading" class="text-center py-10 text-gray-500">{{ t('読み込み中...', 'Loading...') }}</div>
         <div v-else class="space-y-2">
-          <div v-for="t in filteredTopics" :key="t.id" @click="goToDetail(t)" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between">
+          <div v-for="(t, idx) in pagedTopics" :key="t.id" @click="goToDetail(t)" class="bg-white p-3 rounded-lg shadow border border-gray-200 cursor-pointer hover:shadow-md transition flex items-center justify-between" :class="idx === 0 ? 'list-scroll-top' : ''">
             <div class="flex-1">
               <span class="text-lg font-bold">{{ t.title }}</span>
             </div>
@@ -929,7 +1020,14 @@ const Topics = {
         </div>
       </div></div>
     </div>
-  `
+  
+        <div v-if="totalPages > 1" class="flex items-center justify-center gap-2 mt-4 mb-4">
+          <button @click="currentPage = 1" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&laquo;</button>
+          <button @click="currentPage--" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&lsaquo;</button>
+          <span class="px-3 py-1 text-sm text-gray-600">{{ currentPage }} / {{ totalPages }}</span>
+          <button @click="currentPage++" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&rsaquo;</button>
+          <button @click="currentPage = totalPages" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&raquo;</button>
+        </div>`
 };
 
 const TopicDetail = {
@@ -1343,6 +1441,14 @@ const Settings = {
         </div>
 
       </div></div>
+        <div v-if="totalPages > 1" class="flex items-center justify-center gap-2 mt-4 mb-4">
+          <button @click="currentPage = 1" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&laquo;</button>
+          <button @click="currentPage--" :disabled="currentPage === 1" class="px-3 py-1 rounded border text-sm" :class="currentPage === 1 ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&lsaquo;</button>
+          <span class="px-3 py-1 text-sm text-gray-600">{{ currentPage }} / {{ totalPages }}</span>
+          <button @click="currentPage++" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&rsaquo;</button>
+          <button @click="currentPage = totalPages" :disabled="currentPage === totalPages" class="px-3 py-1 rounded border text-sm" :class="currentPage === totalPages ? 'text-gray-400 border-gray-200 cursor-not-allowed' : 'text-gray-700 border-gray-300 hover:bg-gray-100'">&raquo;</button>
+        </div>
+
     </div>
   `
 };

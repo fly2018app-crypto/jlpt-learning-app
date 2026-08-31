@@ -1,0 +1,5158 @@
+[
+  {
+    "id": 1,
+    "title": "空港でのチェックイン",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "受付員",
+        "jp": "チェックインお願いしますか？",
+        "en": "Can I check you in?"
+      },
+      {
+        "speaker": "旅行者",
+        "jp": "はい、お願いします。",
+        "en": "Yes, please."
+      },
+      {
+        "speaker": "受付員",
+        "jp": "機票を見せてください。",
+        "en": "Please show me your ticket."
+      },
+      {
+        "speaker": "旅行者",
+        "jp": "これです。",
+        "en": "Here it is."
+      },
+      {
+        "speaker": "受付員",
+        "jp": "手荷物はありますか？",
+        "en": "Do you have any baggage?"
+      },
+      {
+        "speaker": "旅行者",
+        "jp": "いいえ、ありません。",
+        "en": "No, I don't."
+      },
+      {
+        "speaker": "受付員",
+        "jp": "承知しました。機内広告を楽しんでください。",
+        "en": "Alright. Please enjoy the in-flight magazine."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "ホテルの予約",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "客",
+        "jp": "部屋を予約したいです。",
+        "en": "I'd like to book a room."
+      },
+      {
+        "speaker": "フロント",
+        "jp": "いらっしゃいませ。何泊ですか？",
+        "en": "Welcome. How many nights?"
+      },
+      {
+        "speaker": "客",
+        "jp": "3泊です。",
+        "en": "Three nights."
+      },
+      {
+        "speaker": "フロント",
+        "jp": "お部屋はこちらです。",
+        "en": "Your room is here."
+      },
+      {
+        "speaker": "客",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "病院での診察",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "患者",
+        "jp": "先生、胃が痛いです。",
+        "en": "Doctor, my stomach hurts."
+      },
+      {
+        "speaker": "医師",
+        "jp": "どのくらい痛んでいますか？",
+        "en": "How long has it been hurting?"
+      },
+      {
+        "speaker": "患者",
+        "jp": "3日です。",
+        "en": "It's been three days."
+      },
+      {
+        "speaker": "医師",
+        "jp": "胃炎の可能性があります。検査をしましょう。",
+        "en": "It might be gastritis. Let's run some tests."
+      },
+      {
+        "speaker": "患者",
+        "jp": "わかりました。",
+        "en": "Okay."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "買い物の会話",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ！",
+        "en": "Welcome!"
+      },
+      {
+        "speaker": "客",
+        "jp": "こんにちは、これをください。",
+        "en": "Hi, I'd like this one, please."
+      },
+      {
+        "speaker": "店員",
+        "jp": "ありがとうございます。お値段は5000円です。",
+        "en": "Thank you. It's 5,000 yen."
+      },
+      {
+        "speaker": "客",
+        "jp": "割引してくれませんか？",
+        "en": "Can you give me a discount?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "申し訳ありませんが、価格は固定です。",
+        "en": "I'm sorry, but the price is fixed."
+      },
+      {
+        "speaker": "客",
+        "jp": "わかりました、買います。",
+        "en": "Okay, I'll buy it."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "電車の駅で",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "男性",
+        "jp": "次はどこで降りますか？",
+        "en": "Where does this train stop next?"
+      },
+      {
+        "speaker": "女性",
+        "jp": "渋谷です。",
+        "en": "Shibuya."
+      },
+      {
+        "speaker": "男性",
+        "jp": "何分で到着しますか？",
+        "en": "How long until we arrive?"
+      },
+      {
+        "speaker": "女性",
+        "jp": "5分ぐらいです。",
+        "en": "About five minutes."
+      },
+      {
+        "speaker": "男性",
+        "jp": "ありがとう。",
+        "en": "Thanks."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "学校の授業",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "先生",
+        "jp": "今日は文化交流について話しましょう。",
+        "en": "Today, let's talk about cultural exchange."
+      },
+      {
+        "speaker": "生徒",
+        "jp": "わかりました。",
+        "en": "Got it."
+      },
+      {
+        "speaker": "先生",
+        "jp": "文化交流は新しい視点を教えてくれます。",
+        "en": "Cultural exchange teaches us new perspectives."
+      },
+      {
+        "speaker": "生徒",
+        "jp": "面白いですね。",
+        "en": "That sounds interesting."
+      },
+      {
+        "speaker": "先生",
+        "jp": "そうですね。",
+        "en": "You're right."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "留学相談",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "カウンセラー",
+        "jp": "どの国へ留学したいですか？",
+        "en": "Which country do you want to study in?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "アメリカが面白そうですね。",
+        "en": "America seems interesting."
+      },
+      {
+        "speaker": "カウンセラー",
+        "jp": "英語力はどのくらいですか？",
+        "en": "How fluent are you in English?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "まだ初級ですが、がんばります。",
+        "en": "I'm still a beginner, but I'll do my best."
+      },
+      {
+        "speaker": "カウンセラー",
+        "jp": "頑張りましょう！",
+        "en": "Let's give it our best shot!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "就職面接",
+    "level": "N1",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "面接官",
+        "jp": "あなたの強みを教えてください。",
+        "en": "Please tell me your strengths."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "協調性があり、チームで働くのが得意です。",
+        "en": "I'm good at teamwork and collaboration."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "弱みは？",
+        "en": "And your weaknesses?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "完璧を求めすぎることです。",
+        "en": "I tend to demand too much perfection."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "良い点ですね。",
+        "en": "That's actually a strength."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "友達と会う",
+    "level": "N5",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "友達A",
+        "jp": "ねえ、何する？",
+        "en": "Hey, what shall we do?"
+      },
+      {
+        "speaker": "友達B",
+        "jp": "映画を見る？",
+        "en": "Wanna watch a movie?"
+      },
+      {
+        "speaker": "友達A",
+        "jp": "うん、いいね。",
+        "en": "Yeah, sounds good."
+      },
+      {
+        "speaker": "友達B",
+        "jp": "いつから？",
+        "en": "From when?"
+      },
+      {
+        "speaker": "友達A",
+        "jp": "3時から。",
+        "en": "From 3 o'clock."
+      },
+      {
+        "speaker": "友達B",
+        "jp": "わかった。",
+        "en": "Okay."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "家族の会話",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "母親",
+        "jp": "晩ごはん、何にする？",
+        "en": "What's for dinner?"
+      },
+      {
+        "speaker": "子供",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "父親",
+        "jp": "カレーはいいね。",
+        "en": "Curry sounds great."
+      },
+      {
+        "speaker": "母親",
+        "jp": "じゃあ、カレーにする。",
+        "en": "Okay then, let's make curry."
+      },
+      {
+        "speaker": "子供",
+        "jp": "やったー！",
+        "en": "Yay!"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "パーティーでの会話",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "久しぶりですね！",
+        "en": "Long time no see!"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "ええ、ごぶさいたです！",
+        "en": "Yes indeed, it's been a while!"
+      },
+      {
+        "speaker": "田中",
+        "jp": "最近どうですか？",
+        "en": "How have you been?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "元気です。仕事も順調です。",
+        "en": "I've been well, work is going smoothly."
+      },
+      {
+        "speaker": "田中",
+        "jp": "それは良かったですね。",
+        "en": "That's great to hear."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "旅館でのチェックアウト",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "フロント",
+        "jp": "チェックアウトお願いします。",
+        "en": "Checking out, please."
+      },
+      {
+        "speaker": "客",
+        "jp": "はい、お願いします。",
+        "en": "Yes, please."
+      },
+      {
+        "speaker": "フロント",
+        "jp": "合計金額は12000円です。",
+        "en": "The total is 12,000 yen."
+      },
+      {
+        "speaker": "客",
+        "jp": "クレジットカードで払えますか？",
+        "en": "Can I pay by credit card?"
+      },
+      {
+        "speaker": "フロント",
+        "jp": "はい、可能です。",
+        "en": "Yes, that's possible."
+      },
+      {
+        "speaker": "客",
+        "jp": "ありがとうございました。",
+        "en": "Thank you very much."
+      }
+    ]
+  },
+  {
+    "title": "スマホを選ぶ",
+    "level": "N3",
+    "isImportant": true,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "新しいスマホを探してるんだけど、何かおすすめある？",
+        "en": "I'm looking for a new smartphone, do you have any recommendations?"
+      },
+      {
+        "speaker": "B",
+        "jp": "予算はどれくらい？",
+        "en": "What's your budget?"
+      },
+      {
+        "speaker": "A",
+        "jp": "5万円くらいかな。性能とデザインのバランスがいいのが欲しい。",
+        "en": "Around 50,000 yen. I want something with a good balance of performance and design."
+      },
+      {
+        "speaker": "B",
+        "jp": "それならA社の最新モデルがいいよ。カメラ性能がすごくて、デザインもシンプル。",
+        "en": "Then Company A's latest model is good. The camera performance is amazing, and the design is simple."
+      },
+      {
+        "speaker": "A",
+        "jp": "B社のほうが安いけど、比べてどう？",
+        "en": "Company B's is cheaper, but how does it compare?"
+      },
+      {
+        "speaker": "B",
+        "jp": "B社のも悪くないけど、A社に比べてバッテリーの持ちが少し悪いかな。",
+        "en": "Company B's isn't bad either, but compared to A, the battery life is a bit worse."
+      },
+      {
+        "speaker": "A",
+        "jp": "バッテリーは大事だから、A社にしよう。ありがとう！",
+        "en": "Battery life is important, so I'll go with A. Thanks!"
+      }
+    ],
+    "id": 13
+  },
+  {
+    "title": "レストランを決める",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日の昼ごはん、どこに行く？",
+        "en": "Where are we going for lunch today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "イタリアンと和食、どっちがいい？",
+        "en": "Italian or Japanese food, which do you prefer?"
+      },
+      {
+        "speaker": "A",
+        "jp": "昨日もイタリアンだったから、今日は和食がいいな。",
+        "en": "We had Italian yesterday, so I'd like Japanese today."
+      },
+      {
+        "speaker": "B",
+        "jp": "駅前の寿司屋はどう？安くて美味しいよ。",
+        "en": "How about the sushi place in front of the station? It's cheap and delicious."
+      },
+      {
+        "speaker": "A",
+        "jp": "でも、先週行ったラーメン屋のほうが美味しかったよ。",
+        "en": "But the ramen shop we went to last week was more delicious."
+      },
+      {
+        "speaker": "B",
+        "jp": "確かに。じゃあ、今日はラーメンにしよう。",
+        "en": "True. Then let's go with ramen today."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうしよう！",
+        "en": "Let's do that!"
+      }
+    ],
+    "id": 14
+  },
+  {
+    "title": "就職先を比較する",
+    "level": "N2",
+    "isImportant": true,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "就活どうなってる？",
+        "en": "How's your job hunting going?"
+      },
+      {
+        "speaker": "B",
+        "jp": "2つの内定をもらってて、迷ってるんだ。",
+        "en": "I got two offers and I'm torn."
+      },
+      {
+        "speaker": "A",
+        "jp": "どんな会社？",
+        "en": "What kind of companies?"
+      },
+      {
+        "speaker": "B",
+        "jp": "大手商社とベンチャー企業。給料は大手のほうが高いんだ。",
+        "en": "A major trading company and a venture company. The major one has a higher salary."
+      },
+      {
+        "speaker": "A",
+        "jp": "でも、ベンチャーのほうが成長できるんじゃない？",
+        "en": "But you can grow more at a venture, right?"
+      },
+      {
+        "speaker": "B",
+        "jp": "そうなんだよね。安定か成長か、決められないでいる。",
+        "en": "Yeah. I can't decide between stability and growth."
+      },
+      {
+        "speaker": "A",
+        "jp": "どちらを選んでも、後悔しないといいね。",
+        "en": "I hope you won't regret whichever you choose."
+      }
+    ],
+    "id": 15
+  },
+  {
+    "title": "引っ越し先を選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "引っ越し先、どこにする？",
+        "en": "Where are you moving to?"
+      },
+      {
+        "speaker": "B",
+        "jp": "会社に近いところと、家賃が安いところで迷ってる。",
+        "en": "I'm torn between a place close to work and one with cheaper rent."
+      },
+      {
+        "speaker": "A",
+        "jp": "会社に近いと便利だけど、家賃が高いよね。",
+        "en": "Close to work is convenient, but the rent is high."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうなんだ。でも、通勤時間が長いと疲れるし。",
+        "en": "Yeah. But a long commute is tiring."
+      },
+      {
+        "speaker": "A",
+        "jp": "30分以内なら、家賃と通勤時間のバランスがいいと思うよ。",
+        "en": "If it's within 30 minutes, I think the balance between rent and commute time is good."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうだね。もう一度リストを見直してみる。",
+        "en": "You're right. I'll review the list again."
+      }
+    ],
+    "id": 16
+  },
+  {
+    "title": "留学先を決める",
+    "level": "N2",
+    "isImportant": true,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "留学するなら、どこの国がいい？",
+        "en": "If you study abroad, which country would be good?"
+      },
+      {
+        "speaker": "B",
+        "jp": "アメリカとオーストラリアで迷ってるんだ。",
+        "en": "I'm torn between America and Australia."
+      },
+      {
+        "speaker": "A",
+        "jp": "アメリカのほうが大学のレベルは高いけど、オーストラリアは生活しやすいよ。",
+        "en": "America has higher-level universities, but Australia is easier to live in."
+      },
+      {
+        "speaker": "B",
+        "jp": "治安の面では、どっちがいい？",
+        "en": "In terms of safety, which is better?"
+      },
+      {
+        "speaker": "A",
+        "jp": "オーストラリアのほうが全体的に安全だと言われてる。",
+        "en": "Australia is said to be safer overall."
+      },
+      {
+        "speaker": "B",
+        "jp": "やっぱり生活環境も大事だよね。もう少し調べてみる。",
+        "en": "Living environment is important too. I'll look into it more."
+      }
+    ],
+    "id": 17
+  },
+  {
+    "title": "スマートフォンを選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "新しいスマートフォンを探してるんだけど、何かおすすめある？",
+        "en": "I'm looking for a new smartphone, do you have any recommendations?"
+      },
+      {
+        "speaker": "B",
+        "jp": "何が一番大事？カメラ？それとも性能？",
+        "en": "What's most important? Camera? Or performance?"
+      },
+      {
+        "speaker": "A",
+        "jp": "カメラかな。よく写真を撮るから。",
+        "en": "Camera, I guess. I take photos often."
+      },
+      {
+        "speaker": "B",
+        "jp": "それならiPhoneがいいと思う。画質が優れているよ。",
+        "en": "Then I think iPhone is good. The image quality is excellent."
+      },
+      {
+        "speaker": "A",
+        "jp": "でも高いよね。Androidと比べてどう？",
+        "en": "But it's expensive, right? How does it compare to Android?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Androidは種類が多くて、安いものもある。でもカメラはiPhoneに劣るかも。",
+        "en": "Android has many types and some are cheap. But the camera might be inferior to iPhone."
+      },
+      {
+        "speaker": "A",
+        "jp": "やっぱりカメラ重視ならiPhoneにしよう。",
+        "en": "If I prioritize camera, I'll go with iPhone."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、それがいいと思う。",
+        "en": "Yeah, I think that's good."
+      }
+    ],
+    "id": 18
+  },
+  {
+    "title": "大学を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "受験する大学、もう決めた？",
+        "en": "Have you decided which university to apply to?"
+      },
+      {
+        "speaker": "B",
+        "jp": "まだ迷ってる。A大学とB大学で。",
+        "en": "I'm still torn. Between University A and University B."
+      },
+      {
+        "speaker": "A",
+        "jp": "それぞれの特徴は何？",
+        "en": "What are the characteristics of each?"
+      },
+      {
+        "speaker": "B",
+        "jp": "A大学は研究設備が優れてる。B大学は就職率が高い。",
+        "en": "University A has excellent research facilities. University B has a high employment rate."
+      },
+      {
+        "speaker": "A",
+        "jp": "何を基準に選ぶ？",
+        "en": "What criteria will you use to choose?"
+      },
+      {
+        "speaker": "B",
+        "jp": "将来研究職につきたいから、A大学のほうがいいかな。",
+        "en": "Since I want to be a researcher in the future, University A might be better."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうだね。自分の目標に合わせて選ぶのが一番だね。",
+        "en": "Yeah. Choosing based on your goals is the best."
+      },
+      {
+        "speaker": "B",
+        "jp": "ありがとう。もう少し考えてみる。",
+        "en": "Thanks. I'll think about it a bit more."
+      }
+    ],
+    "id": 19
+  },
+  {
+    "title": "レストランを選ぶ",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日の昼ごはん、どこに行く？",
+        "en": "Where should we go for lunch today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "イタリアンと和食、どっちがいい？",
+        "en": "Italian or Japanese food, which do you prefer?"
+      },
+      {
+        "speaker": "A",
+        "jp": "昨日も和食だったから、今日はイタリアンにしよう。",
+        "en": "We had Japanese yesterday, so let's go Italian today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。駅前の店と、あの新しい店と、どっちがいい？",
+        "en": "Good. The one in front of the station or that new one, which is better?"
+      },
+      {
+        "speaker": "A",
+        "jp": "新しい店のほうが評価が高いみたい。",
+        "en": "The new one seems to have better reviews."
+      },
+      {
+        "speaker": "B",
+        "jp": "でも駅前の店のほうが安いよ。",
+        "en": "But the one in front of the station is cheaper."
+      },
+      {
+        "speaker": "A",
+        "jp": "それじゃ、今日は安い方に行こう。",
+        "en": "Then let's go to the cheaper one today."
+      },
+      {
+        "speaker": "B",
+        "jp": "了解！行こう。",
+        "en": "Got it! Let's go."
+      }
+    ],
+    "id": 20
+  },
+  {
+    "title": "仕事の長所と欠点",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "新しい仕事はどう？",
+        "en": "How's the new job?"
+      },
+      {
+        "speaker": "B",
+        "jp": "長所と欠点があるよ。",
+        "en": "It has pros and cons."
+      },
+      {
+        "speaker": "A",
+        "jp": "例えば？",
+        "en": "For example?"
+      },
+      {
+        "speaker": "B",
+        "jp": "給料は前の仕事より高い。でも残業が多い。",
+        "en": "The salary is higher than my previous job. But there's a lot of overtime."
+      },
+      {
+        "speaker": "A",
+        "jp": "前の仕事と比べて、全体的にどう？",
+        "en": "Compared to your previous job, overall how is it?"
+      },
+      {
+        "speaker": "B",
+        "jp": "やりがいがあるから、今のほうがいいと思う。",
+        "en": "It's rewarding, so I think the current one is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうなんだ。自分に合ってるかどうかが大事だね。",
+        "en": "I see. Whether it suits you is what matters."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、お互いに長所と欠点があるから、バランスが大切だね。",
+        "en": "Yeah, since both have pros and cons, balance is important."
+      }
+    ],
+    "id": 21
+  },
+  {
+    "title": "旅行先を決める",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "夏休みの旅行、どこに行きたい？",
+        "en": "Where do you want to go for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "海と山、どっちがいい？",
+        "en": "Sea or mountains, which do you prefer?"
+      },
+      {
+        "speaker": "A",
+        "jp": "去年は海に行ったから、今年は山にしよう。",
+        "en": "We went to the sea last year, so let's go to the mountains this year."
+      },
+      {
+        "speaker": "B",
+        "jp": "じゃあ、北海道と長野と、どっちがいい？",
+        "en": "Then, Hokkaido or Nagano, which is better?"
+      },
+      {
+        "speaker": "A",
+        "jp": "北海道のほうが涼しいけど、長野のほうがアクセスがいいね。",
+        "en": "Hokkaido is cooler, but Nagano has better access."
+      },
+      {
+        "speaker": "B",
+        "jp": "値段はどっちが安い？",
+        "en": "Which is cheaper?"
+      },
+      {
+        "speaker": "A",
+        "jp": "長野のほうが安くて、電車でも行ける。",
+        "en": "Nagano is cheaper and accessible by train."
+      },
+      {
+        "speaker": "B",
+        "jp": "それじゃ、長野に決めよう！",
+        "en": "Then let's decide on Nagano!"
+      }
+    ],
+    "id": 22
+  },
+  {
+    "title": "スマートフォンを比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "新しいスマホを買いたいんだけど、何がいいかな？",
+        "en": "I want to buy a new smartphone, but what should I get?"
+      },
+      {
+        "speaker": "B",
+        "jp": "何が一番大事？カメラ？画面の大きさ？",
+        "en": "What's most important to you? Camera? Screen size?"
+      },
+      {
+        "speaker": "A",
+        "jp": "カメラの性能とバッテリー持ちを比較したいんだ。",
+        "en": "I want to compare camera performance and battery life."
+      },
+      {
+        "speaker": "B",
+        "jp": "この2つを比べると、A社の方がカメラがいいよ。",
+        "en": "Comparing these two, Company A has a better camera."
+      },
+      {
+        "speaker": "A",
+        "jp": "バッテリーはどう？",
+        "en": "How about the battery?"
+      },
+      {
+        "speaker": "B",
+        "jp": "B社の方がバッテリーが長持ちする。A社に比べて2時間くらい違う。",
+        "en": "Company B's battery lasts longer. About 2 hours difference compared to Company A."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうなんだ。価格はどっちが高い？",
+        "en": "I see. Which one is more expensive?"
+      },
+      {
+        "speaker": "B",
+        "jp": "A社の方が5000円ほど高い。でも、カメラ重視ならA社がおすすめ。",
+        "en": "Company A is about 5000 yen more expensive. But if you prioritize the camera, I recommend Company A."
+      }
+    ],
+    "id": 23
+  },
+  {
+    "title": "レストランを比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日の昼ごはん、どこに行く？",
+        "en": "Where should we go for lunch today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "イタリアンと和食、どっちがいい？",
+        "en": "Italian or Japanese food, which do you prefer?"
+      },
+      {
+        "speaker": "A",
+        "jp": "イタリアンの方が美味しいけど、和食の方が健康的だよね。",
+        "en": "Italian is tastier, but Japanese food is healthier."
+      },
+      {
+        "speaker": "B",
+        "jp": "値段は？",
+        "en": "How about the price?"
+      },
+      {
+        "speaker": "A",
+        "jp": "イタリアンの方が200円高い。でも、ボリュームは和食に及ばない。",
+        "en": "Italian is 200 yen more expensive. But the volume doesn't compare to Japanese food."
+      },
+      {
+        "speaker": "B",
+        "jp": "待ち時間は？",
+        "en": "How about the wait time?"
+      },
+      {
+        "speaker": "A",
+        "jp": "イタリアンは15分くらい待つけど、和食はすぐ座れる。",
+        "en": "Italian takes about 15 minutes to wait, but Japanese food you can sit right away."
+      },
+      {
+        "speaker": "B",
+        "jp": "じゃあ、今日は和食にしよう。",
+        "en": "Then let's go with Japanese food today."
+      }
+    ],
+    "id": 24
+  },
+  {
+    "title": "旅行先を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "夏休みの旅行、どこに行こうか。",
+        "en": "Where should we go for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "沖縄と北海道、どっちがいい？",
+        "en": "Okinawa or Hokkaido, which is better?"
+      },
+      {
+        "speaker": "A",
+        "jp": "沖縄は海が綺麗だけど、北海道は涼しいよね。",
+        "en": "Okinawa has beautiful seas, but Hokkaido is cool."
+      },
+      {
+        "speaker": "B",
+        "jp": "費用はどっちが安い？",
+        "en": "Which one is cheaper?"
+      },
+      {
+        "speaker": "A",
+        "jp": "北海道の方が飛行機代が安い。沖縄に比べて1万円くらい違う。",
+        "en": "Hokkaido is cheaper for airfare. About 10,000 yen difference compared to Okinawa."
+      },
+      {
+        "speaker": "B",
+        "jp": "食べ物は？",
+        "en": "How about the food?"
+      },
+      {
+        "speaker": "A",
+        "jp": "沖縄は沖縄料理、北海道は海鮮。どっちも美味しいけど、海鮮の方が好き。",
+        "en": "Okinawa has Okinawan cuisine, Hokkaido has seafood. Both are delicious, but I prefer seafood."
+      },
+      {
+        "speaker": "B",
+        "jp": "じゃあ、北海道にしよう。",
+        "en": "Then let's go with Hokkaido."
+      }
+    ],
+    "id": 25
+  },
+  {
+    "title": "仕事を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "転職しようか迷ってるんだけど。",
+        "en": "I'm thinking about changing jobs."
+      },
+      {
+        "speaker": "B",
+        "jp": "今の会社と比べて、どう？",
+        "en": "Compared to your current company, how is it?"
+      },
+      {
+        "speaker": "A",
+        "jp": "給料は新しい会社の方が高いけど、休日は今の会社の方が多い。",
+        "en": "The salary is higher at the new company, but there are more holidays at the current one."
+      },
+      {
+        "speaker": "B",
+        "jp": "勤務時間は？",
+        "en": "How about working hours?"
+      },
+      {
+        "speaker": "A",
+        "jp": "今の会社に比べて、残業が多いんだよね。",
+        "en": "Compared to the current company, there is more overtime."
+      },
+      {
+        "speaker": "B",
+        "jp": "やりがいは？",
+        "en": "How about job satisfaction?"
+      },
+      {
+        "speaker": "A",
+        "jp": "新しい会社の方がやりがいはあると思う。でも、安定性を考えると…。",
+        "en": "I think the new company has more satisfaction. But considering stability..."
+      },
+      {
+        "speaker": "B",
+        "jp": "どっちも一長一短だね。",
+        "en": "Both have their pros and cons."
+      }
+    ],
+    "id": 26
+  },
+  {
+    "title": "引っ越し先を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "引っ越し先を迷ってるんだけど。",
+        "en": "I'm torn about where to move."
+      },
+      {
+        "speaker": "B",
+        "jp": "どの辺りがいい？",
+        "en": "What area are you looking at?"
+      },
+      {
+        "speaker": "A",
+        "jp": "渋谷と新宿を比較してる。",
+        "en": "I'm comparing Shibuya and Shinjuku."
+      },
+      {
+        "speaker": "B",
+        "jp": "家賃はどっちが高い？",
+        "en": "Which one has higher rent?"
+      },
+      {
+        "speaker": "A",
+        "jp": "新宿の方が5万円高い。渋谷に比べて交通便は少し悪い。",
+        "en": "Shinjuku is 50,000 yen more expensive. Compared to Shibuya, transportation is a bit worse."
+      },
+      {
+        "speaker": "B",
+        "jp": "駅からの距離は？",
+        "en": "How about distance from the station?"
+      },
+      {
+        "speaker": "A",
+        "jp": "渋谷は駅から5分、新宿は8分。どっちも徒歩圏内。",
+        "en": "Shibuya is 5 minutes from the station, Shinjuku is 8 minutes. Both are walking distance."
+      },
+      {
+        "speaker": "B",
+        "jp": "買い物は？",
+        "en": "How about shopping?"
+      },
+      {
+        "speaker": "A",
+        "jp": "新宿の方が店が多い。でも、渋谷の方がおしゃれな店が多いよ。",
+        "en": "Shinjuku has more shops. But Shibuya has more stylish shops."
+      },
+      {
+        "speaker": "B",
+        "jp": "生活費全体で比べたら？",
+        "en": "Comparing overall living costs?"
+      },
+      {
+        "speaker": "A",
+        "jp": "家賃を入れると新宿の方が全体的に高いね。",
+        "en": "Including rent, Shinjuku is overall more expensive."
+      }
+    ],
+    "id": 27
+  },
+  {
+    "title": "車を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "新しい車を買いたいんだけど。",
+        "en": "I want to buy a new car."
+      },
+      {
+        "speaker": "B",
+        "jp": "何を重視してる？",
+        "en": "What are you prioritizing?"
+      },
+      {
+        "speaker": "A",
+        "jp": "燃費と価格を比較してる。",
+        "en": "I'm comparing fuel efficiency and price."
+      },
+      {
+        "speaker": "B",
+        "jp": "トヨタと日産を比べたら？",
+        "en": "Why not compare Toyota and Nissan?"
+      },
+      {
+        "speaker": "A",
+        "jp": "トヨタの方が燃費がいい。日産に比べて2km/L違う。",
+        "en": "Toyota has better fuel efficiency. 2km/L difference compared to Nissan."
+      },
+      {
+        "speaker": "B",
+        "jp": "価格は？",
+        "en": "How about price?"
+      },
+      {
+        "speaker": "A",
+        "jp": "日産の方が30万円安い。でも、維持費はトヨタの方が安い。",
+        "en": "Nissan is 300,000 yen cheaper. But maintenance costs are lower for Toyota."
+      },
+      {
+        "speaker": "B",
+        "jp": "デザインは？",
+        "en": "How about design?"
+      },
+      {
+        "speaker": "A",
+        "jp": "好みによるけど、私は日産の方が好き。",
+        "en": "It depends on preference, but I like Nissan better."
+      },
+      {
+        "speaker": "B",
+        "jp": "総合的に判断しないとね。",
+        "en": "You need to make a comprehensive judgment."
+      }
+    ],
+    "id": 28
+  },
+  {
+    "title": "保険を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "生命保険に入ろうと思ってるんだけど。",
+        "en": "I'm thinking of getting life insurance."
+      },
+      {
+        "speaker": "B",
+        "jp": "比較サイトを使った方がいいよ。",
+        "en": "You should use a comparison site."
+      },
+      {
+        "speaker": "A",
+        "jp": "A社とB社を比べてる。",
+        "en": "I'm comparing Company A and Company B."
+      },
+      {
+        "speaker": "B",
+        "jp": "保険料はどっちが安い？",
+        "en": "Which one has lower premiums?"
+      },
+      {
+        "speaker": "A",
+        "jp": "B社の方が月2000円安い。A社に比べて保障は少し少ない。",
+        "en": "Company B is 2000 yen cheaper per month. Compared to Company A, coverage is a bit less."
+      },
+      {
+        "speaker": "B",
+        "jp": "保障内容は？",
+        "en": "How about coverage?"
+      },
+      {
+        "speaker": "A",
+        "jp": "A社は入院保障が手厚い。B社はがん保障が充実している。",
+        "en": "Company A has generous hospitalization coverage. Company B has comprehensive cancer coverage."
+      },
+      {
+        "speaker": "B",
+        "jp": "どっちを重視する？",
+        "en": "Which one do you prioritize?"
+      },
+      {
+        "speaker": "A",
+        "jp": "若いから、がん保障が充実しているB社がいいかな。",
+        "en": "Since I'm young, Company B with comprehensive cancer coverage might be better."
+      },
+      {
+        "speaker": "B",
+        "jp": "自分に合ったものを選んだ方がいいよ。",
+        "en": "You should choose what suits you."
+      }
+    ],
+    "id": 29
+  },
+  {
+    "title": "英語教室を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "英語を習いたいんだけど、どの教室がいい？",
+        "en": "I want to learn English, but which school is good?"
+      },
+      {
+        "speaker": "B",
+        "jp": "駅前と市役所前を比較してみたら？",
+        "en": "Why not compare the one in front of the station and the one in front of city hall?"
+      },
+      {
+        "speaker": "A",
+        "jp": "授業料は？",
+        "en": "How about tuition?"
+      },
+      {
+        "speaker": "B",
+        "jp": "駅前の方が月5000円高い。市役所前に比べてネイティブの先生が多い。",
+        "en": "The one in front of the station is 5000 yen more expensive per month. Compared to city hall, there are more native teachers."
+      },
+      {
+        "speaker": "A",
+        "jp": "クラスの人数は？",
+        "en": "How about class size?"
+      },
+      {
+        "speaker": "B",
+        "jp": "市役所前は大人数、駅前は少人数制。駅前に比べて、市役所前の方が発言機会が少ない。",
+        "en": "City hall has large classes, station front has small classes. Compared to station front, there are fewer speaking opportunities at city hall."
+      },
+      {
+        "speaker": "A",
+        "jp": "どっちが上達する？",
+        "en": "Which one helps you improve more?"
+      },
+      {
+        "speaker": "B",
+        "jp": "少人数制の方が効果的だと言われている。",
+        "en": "It's said that small class sizes are more effective."
+      },
+      {
+        "speaker": "A",
+        "jp": "駅前にしようかな。",
+        "en": "Maybe I'll go with the station front one."
+      }
+    ],
+    "id": 30
+  },
+  {
+    "title": "結婚式場を比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "結婚式場を探してるんだけど。",
+        "en": "I'm looking for a wedding venue."
+      },
+      {
+        "speaker": "B",
+        "jp": "教会式と神社式、どっちがいい？",
+        "en": "Church-style or Shinto-style, which do you prefer?"
+      },
+      {
+        "speaker": "A",
+        "jp": "費用はどっちが高い？",
+        "en": "Which one is more expensive?"
+      },
+      {
+        "speaker": "B",
+        "jp": "教会式の方が100万円高い。神社式に比べて装華が豪華。",
+        "en": "Church-style is 1 million yen more expensive. Compared to Shinto-style, the decoration is more luxurious."
+      },
+      {
+        "speaker": "A",
+        "jp": "参列者の数は？",
+        "en": "How about the number of guests?"
+      },
+      {
+        "speaker": "B",
+        "jp": "教会式は200人まで、神社式は80人まで。教会式に比べて神社式は小規模。",
+        "en": "Church-style can hold up to 200 people, Shinto-style up to 80. Compared to church-style, Shinto-style is smaller."
+      },
+      {
+        "speaker": "A",
+        "jp": "雰囲気は？",
+        "en": "How about the atmosphere?"
+      },
+      {
+        "speaker": "B",
+        "jp": "教会式はロマンチック、神社式は伝統的。好みによるけど。",
+        "en": "Church-style is romantic, Shinto-style is traditional. It depends on preference."
+      },
+      {
+        "speaker": "A",
+        "jp": "両親は神社式がいいと言ってる。",
+        "en": "My parents say Shinto-style is better."
+      },
+      {
+        "speaker": "B",
+        "jp": "両方見学してみたら？",
+        "en": "Why not tour both?"
+      }
+    ],
+    "id": 31
+  },
+  {
+    "title": "賃貸マンションを比較する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "引っ越しのためにマンションを探してるんだけど。",
+        "en": "I'm looking to move and need to find an apartment."
+      },
+      {
+        "speaker": "B",
+        "jp": "どの辺りがいい？",
+        "en": "What area are you looking at?"
+      },
+      {
+        "speaker": "A",
+        "jp": "A駅周辺とB駅周辺を比較してる。",
+        "en": "I'm comparing around Station A and Station B."
+      },
+      {
+        "speaker": "B",
+        "jp": "家賃はどっちが高い？",
+        "en": "Which one has higher rent?"
+      },
+      {
+        "speaker": "A",
+        "jp": "A駅の方が2万円高い。B駅に比べて駅からの距離が近い。",
+        "en": "Station A is 20,000 yen more expensive. Compared to Station B, it's closer to the station."
+      },
+      {
+        "speaker": "B",
+        "jp": "間取りは？",
+        "en": "How about the layout?"
+      },
+      {
+        "speaker": "A",
+        "jp": "A駅は1K、B駅は1DK。B駅の方が部屋が広い。",
+        "en": "Station A is 1K, Station B is 1DK. Station B has a larger room."
+      },
+      {
+        "speaker": "B",
+        "jp": "築年数は？",
+        "en": "How about the building age?"
+      },
+      {
+        "speaker": "A",
+        "jp": "A駅は新築、B駅は築10年。A駅に比べてB駅は少し古い。",
+        "en": "Station A is new construction, Station B is 10 years old. Compared to Station A, Station B is a bit old."
+      },
+      {
+        "speaker": "B",
+        "jp": "総合的にどっちがいい？",
+        "en": "Overall which is better?"
+      },
+      {
+        "speaker": "A",
+        "jp": "予算を考えるとB駅がいいかな。",
+        "en": "Considering the budget, Station B might be better."
+      }
+    ],
+    "id": 32
+  },
+  {
+    "title": "カフェで友達と話す",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "この前、新しいカフェに行った？",
+        "en": "Did you go to the new cafe the other day?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、雰囲気は良かったけど、コーヒーは普通だった。",
+        "en": "Yeah, the atmosphere was good but the coffee was average."
+      },
+      {
+        "speaker": "A",
+        "jp": "この前のカフェと比べてどう？",
+        "en": "How does it compare to the last cafe?"
+      },
+      {
+        "speaker": "B",
+        "jp": "こちらの方が落ち着くね。",
+        "en": "This one is more relaxing."
+      },
+      {
+        "speaker": "A",
+        "jp": "じゃあ、次はそこに行こう。",
+        "en": "Then let's go there next time."
+      }
+    ],
+    "id": 33
+  },
+  {
+    "title": "本を選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "何か面白い本はないかな？",
+        "en": "I wonder if there are any interesting books?"
+      },
+      {
+        "speaker": "B",
+        "jp": "この小説はどう？評価が高いよ。",
+        "en": "How about this novel? It has high ratings."
+      },
+      {
+        "speaker": "A",
+        "jp": "前に読んだことある？",
+        "en": "Have you read it before?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいえ、でもレビューがいいみたい。",
+        "en": "No, but the reviews seem good."
+      },
+      {
+        "speaker": "A",
+        "jp": "値段と内容を比較して決めよう。",
+        "en": "Let's compare price and content to decide."
+      }
+    ],
+    "id": 34
+  },
+  {
+    "title": "服を選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "この服、どう？",
+        "en": "How about this outfit?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいと思うけど、高いね。",
+        "en": "I think it's nice, but it's expensive."
+      },
+      {
+        "speaker": "A",
+        "jp": "前に買ったのと比べてどう？",
+        "en": "How does it compare to what you bought before?"
+      },
+      {
+        "speaker": "B",
+        "jp": "こちらの方が品質がいいね。",
+        "en": "This one has better quality."
+      },
+      {
+        "speaker": "A",
+        "jp": "メリットとデメリットを考えてから決めよう。",
+        "en": "Let's decide after considering the merits and demerits."
+      }
+    ],
+    "id": 35
+  },
+  {
+    "title": "映画を選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日の映画、何を見る？",
+        "en": "What movie are we watching today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "アクションとラブロマンスで迷ってる。",
+        "en": "I'm torn between action and romance."
+      },
+      {
+        "speaker": "A",
+        "jp": "どっちがいいかな？",
+        "en": "Which one is better?"
+      },
+      {
+        "speaker": "B",
+        "jp": "アクションは面白いけど、ラブロマンスは感動的だよ。",
+        "en": "Action is fun, but romance is moving."
+      },
+      {
+        "speaker": "A",
+        "jp": "気分で選ぼう。",
+        "en": "Let's choose based on our mood."
+      }
+    ],
+    "id": 36
+  },
+  {
+    "title": "スポーツクラブを選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "スポーツクラブに入りたいんだけど。",
+        "en": "I want to join a sports club."
+      },
+      {
+        "speaker": "B",
+        "jp": "何がしたい？",
+        "en": "What do you want to do?"
+      },
+      {
+        "speaker": "A",
+        "jp": "水泳とテニスで迷ってる。",
+        "en": "I'm torn between swimming and tennis."
+      },
+      {
+        "speaker": "B",
+        "jp": "水泳は全身運動だよ。",
+        "en": "Swimming is a full-body workout."
+      },
+      {
+        "speaker": "A",
+        "jp": "テニスは技術が必要だね。",
+        "en": "Tennis requires skill."
+      },
+      {
+        "speaker": "B",
+        "jp": "体験してから決めればいいよ。",
+        "en": "You can try it and then decide."
+      }
+    ],
+    "id": 37
+  },
+  {
+    "title": "デパートで買い物",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "プレゼントを選んでるんだけど。",
+        "en": "I'm choosing a present."
+      },
+      {
+        "speaker": "B",
+        "jp": "誰へのプレゼント？",
+        "en": "A present for whom?"
+      },
+      {
+        "speaker": "A",
+        "jp": "母へのプレゼント。",
+        "en": "A present for my mother."
+      },
+      {
+        "speaker": "B",
+        "jp": "このスカーフはどう？",
+        "en": "How about this scarf?"
+      },
+      {
+        "speaker": "A",
+        "jp": "前に買ったのと比べて品質がいいね。",
+        "en": "The quality is better compared to what I bought before."
+      },
+      {
+        "speaker": "B",
+        "jp": "色もきれいだよ。",
+        "en": "The color is beautiful too."
+      }
+    ],
+    "id": 38
+  },
+  {
+    "title": "スーパーで食材を選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今晚の夕食、何を作る？",
+        "en": "What are you making for dinner tonight?"
+      },
+      {
+        "speaker": "B",
+        "jp": "肉と魚で迷ってる。",
+        "en": "I'm torn between meat and fish."
+      },
+      {
+        "speaker": "A",
+        "jp": "どっちが安い？",
+        "en": "Which is cheaper?"
+      },
+      {
+        "speaker": "B",
+        "jp": "魚の方が少し高いけど、健康的だよ。",
+        "en": "Fish is a bit more expensive, but it's healthy."
+      },
+      {
+        "speaker": "A",
+        "jp": "健康には変えられないね。",
+        "en": "Nothing can replace health."
+      },
+      {
+        "speaker": "B",
+        "jp": "じゃあ、魚にしよう。",
+        "en": "Then let's go with fish."
+      }
+    ],
+    "id": 39
+  },
+  {
+    "title": "音楽を聴く",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "最近何の音楽を聴いてる？",
+        "en": "What music have you been listening to lately?"
+      },
+      {
+        "speaker": "B",
+        "jp": "J-POPと洋楽で迷ってる。",
+        "en": "I'm torn between J-POP and Western music."
+      },
+      {
+        "speaker": "A",
+        "jp": "どっちが好き？",
+        "en": "Which do you like better?"
+      },
+      {
+        "speaker": "B",
+        "jp": "J-POPは歌詞がわかるけど、洋楽はリズムがいい。",
+        "en": "I understand the lyrics in J-POP, but Western music has good rhythm."
+      },
+      {
+        "speaker": "A",
+        "jp": "両方聴けばいいじゃない。",
+        "en": "Why not listen to both?"
+      }
+    ],
+    "id": 40
+  },
+  {
+    "title": "旅行の相談",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "来年の旅行、どこに行きたい？",
+        "en": "Where do you want to go for next year's trip?"
+      },
+      {
+        "speaker": "B",
+        "jp": "ヨーロッパとアメリカで迷ってる。",
+        "en": "I'm torn between Europe and America."
+      },
+      {
+        "speaker": "A",
+        "jp": "それぞれの特徴は？",
+        "en": "What are the characteristics of each?"
+      },
+      {
+        "speaker": "B",
+        "jp": "ヨーロッパは歴史が深いけど、お金がかかる。",
+        "en": "Europe has deep history, but it costs money."
+      },
+      {
+        "speaker": "A",
+        "jp": "アメリカは広いけど、移動が大変。",
+        "en": "America is big, but getting around is tough."
+      },
+      {
+        "speaker": "B",
+        "jp": "予算と日程を比較して決めよう。",
+        "en": "Let's compare budget and schedule to decide."
+      }
+    ],
+    "id": 41
+  },
+  {
+    "title": "アルバイトを選ぶ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "アルバイトを探してるんだけど。",
+        "en": "I'm looking for a part-time job."
+      },
+      {
+        "speaker": "B",
+        "jp": "どんな仕事がしたい？",
+        "en": "What kind of work do you want to do?"
+      },
+      {
+        "speaker": "A",
+        "jp": "カフェとコンビニで迷ってる。",
+        "en": "I'm torn between a cafe and a convenience store."
+      },
+      {
+        "speaker": "B",
+        "jp": "カフェは楽しいけど、忙しいよ。",
+        "en": "Cafe is fun, but busy."
+      },
+      {
+        "speaker": "A",
+        "jp": "コンビニは簡単だけど、つまらない。",
+        "en": "Convenience store is easy, but boring."
+      },
+      {
+        "speaker": "B",
+        "jp": "自分に合った方を選んだ方がいいよ。",
+        "en": "You should choose the one that suits you."
+      }
+    ],
+    "id": 42
+  },
+  {
+    "title": "空港での入国審査",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "審査官",
+        "jp": "目的は何ですか？",
+        "en": "What is the purpose of your visit?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "留学です。",
+        "en": "I'm here to study abroad."
+      },
+      {
+        "speaker": "審査官",
+        "jp": "期間はどのくらいですか？",
+        "en": "How long is your stay?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "二年間です。",
+        "en": "For two years."
+      },
+      {
+        "speaker": "審査官",
+        "jp": "住宿先は？",
+        "en": "Where will you stay?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "学生寮です。",
+        "en": "In a student dormitory."
+      },
+      {
+        "speaker": "審査官",
+        "jp": "はい、どうぞ。",
+        "en": "Alright, go ahead."
+      }
+    ],
+    "id": 43
+  },
+  {
+    "title": "アパートを借りる",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "アパートを探しているんですが。",
+        "en": "I'm looking for an apartment."
+      },
+      {
+        "speaker": "不動産屋",
+        "jp": "予算はどのくらいですか？",
+        "en": "What's your budget?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "5万円以下で、駅から近いところがいいです。",
+        "en": "Under 50,000 yen, close to the station."
+      },
+      {
+        "speaker": "不動産屋",
+        "jp": "このアパートはどうですか？駅から徒歩5分です。",
+        "en": "How about this apartment? It's 5 minutes walk from the station."
+      },
+      {
+        "speaker": "学生",
+        "jp": "家賃はいくらですか？",
+        "en": "How much is the rent?"
+      },
+      {
+        "speaker": "不動産屋",
+        "jp": "4万8千円です。",
+        "en": "It's 48,000 yen."
+      },
+      {
+        "speaker": "学生",
+        "jp": "契約したいです。",
+        "en": "I'd like to sign a contract."
+      }
+    ],
+    "id": 44
+  },
+  {
+    "title": "寮の入寮手続き",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "入寮の手続きをしたいんですが。",
+        "en": "I want to complete the check-in procedure."
+      },
+      {
+        "speaker": "管理人",
+        "jp": "名前と学籍番号をお願いします。",
+        "en": "Please give me your name and student ID."
+      },
+      {
+        "speaker": "学生",
+        "jp": "山田太郎、学籍番号は123456です。",
+        "en": "Taro Yamada, student ID is 123456."
+      },
+      {
+        "speaker": "管理人",
+        "jp": "これは寮の規則です。",
+        "en": "These are the dormitory rules."
+      },
+      {
+        "speaker": "学生",
+        "jp": "門限は何時ですか？",
+        "en": "What time is curfew?"
+      },
+      {
+        "speaker": "管理人",
+        "jp": "11時です。遅れる場合は連絡してください。",
+        "en": "It's 11 PM. Please contact us if you'll be late."
+      }
+    ],
+    "id": 45
+  },
+  {
+    "title": "銀行で口座を開く",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "銀行口座を開きたいんですが。",
+        "en": "I want to open a bank account."
+      },
+      {
+        "speaker": "銀行員",
+        "jp": "パスポートと在留カードをお願いします。",
+        "en": "Please give me your passport and residence card."
+      },
+      {
+        "speaker": "学生",
+        "jp": "はい、どうぞ。",
+        "en": "Here you go."
+      },
+      {
+        "speaker": "銀行員",
+        "jp": "こちらにサインをお願いします。",
+        "en": "Please sign here."
+      },
+      {
+        "speaker": "学生",
+        "jp": "キャッシュカードはいつもらえますか？",
+        "en": "When can I get the cash card?"
+      },
+      {
+        "speaker": "銀行員",
+        "jp": "一週間後に届きます。",
+        "en": "It will arrive in a week."
+      }
+    ],
+    "id": 46
+  },
+  {
+    "title": "携帯電話を契約する",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "携帯電話を契約したいんですが。",
+        "en": "I want to sign up for a mobile phone."
+      },
+      {
+        "speaker": "店員",
+        "jp": "どのプランがいいですか？",
+        "en": "Which plan would you like?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "安いプランはありますか？",
+        "en": "Is there a cheap plan?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "このプランは月額2000円です。",
+        "en": "This plan is 2000 yen per month."
+      },
+      {
+        "speaker": "学生",
+        "jp": "契約期間は？",
+        "en": "What's the contract period?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "一年間です。",
+        "en": "It's one year."
+      },
+      {
+        "speaker": "学生",
+        "jp": "契約します。",
+        "en": "I'll sign up."
+      }
+    ],
+    "id": 47
+  },
+  {
+    "title": "学校のオリエンテーション",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "先生",
+        "jp": "ようこそ。今日は学校の案内をします。",
+        "en": "Welcome. Today I'll show you around the school."
+      },
+      {
+        "speaker": "学生",
+        "jp": "よろしくお願いします。",
+        "en": "Nice to meet you."
+      },
+      {
+        "speaker": "先生",
+        "jp": "これは学校の地図です。",
+        "en": "This is a map of the school."
+      },
+      {
+        "speaker": "学生",
+        "jp": "図書館はどこですか？",
+        "en": "Where is the library?"
+      },
+      {
+        "speaker": "先生",
+        "jp": "あの建物の2階です。",
+        "en": "On the second floor of that building."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ],
+    "id": 48
+  },
+  {
+    "title": "郵便局で手紙を送る",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "この手紙を送りたいんですが。",
+        "en": "I want to send this letter."
+      },
+      {
+        "speaker": "局員",
+        "jp": "航空便ですか、船便ですか？",
+        "en": "Air mail or sea mail?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "航空便でお願いします。",
+        "en": "Air mail please."
+      },
+      {
+        "speaker": "局員",
+        "jp": "アメリカまでですか？",
+        "en": "To America?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "はい。",
+        "en": "Yes."
+      },
+      {
+        "speaker": "局員",
+        "jp": "200円です。",
+        "en": "It's 200 yen."
+      },
+      {
+        "speaker": "学生",
+        "jp": "いくらですか？",
+        "en": "How much is it?"
+      }
+    ],
+    "id": 49
+  },
+  {
+    "title": "警察署に届け出る",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "財布を盗まれたんですが。",
+        "en": "My wallet was stolen."
+      },
+      {
+        "speaker": "警察",
+        "jp": "いつ、どこでですか？",
+        "en": "When and where?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "昨日、駅でです。",
+        "en": "Yesterday, at the station."
+      },
+      {
+        "speaker": "警察",
+        "jp": "中身は何が入っていましたか？",
+        "en": "What was inside?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "現金とクレジットカードです。",
+        "en": "Cash and a credit card."
+      },
+      {
+        "speaker": "警察",
+        "jp": "盗難届を出します。",
+        "en": "I'll file a theft report."
+      },
+      {
+        "speaker": "学生",
+        "jp": "カードを止めたいんですが。",
+        "en": "I want to cancel the card."
+      },
+      {
+        "speaker": "警察",
+        "jp": "カード会社にも連絡してください。",
+        "en": "Please contact the card company too."
+      }
+    ],
+    "id": 50
+  },
+  {
+    "title": "市役所で届け出る",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "転入届を出したいんですが。",
+        "en": "I want to submit a moving-in notification."
+      },
+      {
+        "speaker": "係員",
+        "jp": "パスポートと在留カードをお願いします。",
+        "en": "Please give me your passport and residence card."
+      },
+      {
+        "speaker": "学生",
+        "jp": "はい、どうぞ。",
+        "en": "Here you go."
+      },
+      {
+        "speaker": "係員",
+        "jp": "こちらに住所を記入してください。",
+        "en": "Please fill in your address here."
+      },
+      {
+        "speaker": "学生",
+        "jp": "これでいいですか？",
+        "en": "Is this okay?"
+      },
+      {
+        "speaker": "係員",
+        "jp": "はい、完了です。",
+        "en": "Yes, it's complete."
+      }
+    ],
+    "id": 51
+  },
+  {
+    "title": "図書館で本を借りる",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "学生",
+        "jp": "本を借りたいんですが。",
+        "en": "I want to borrow a book."
+      },
+      {
+        "speaker": "司書",
+        "jp": "図書館カードはありますか？",
+        "en": "Do you have a library card?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "いいえ、まだです。",
+        "en": "No, not yet."
+      },
+      {
+        "speaker": "司書",
+        "jp": "では、作りましょう。学生証はありますか？",
+        "en": "Then let's make one. Do you have a student ID?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "はい、あります。",
+        "en": "Yes, I do."
+      },
+      {
+        "speaker": "司書",
+        "jp": "これは貸出カードです。返却期限は2週間です。",
+        "en": "This is the lending card. The return period is 2 weeks."
+      }
+    ],
+    "id": 52
+  },
+  {
+    "title": "退職の挨拶",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "部長、お時間よろしいですか。",
+        "en": "Manager, do you have a moment?"
+      },
+      {
+        "speaker": "部長",
+        "jp": "ああ、田中さん。何ですか。",
+        "en": "Yes, Tanaka. What is it?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "実は、來月で退職させていただきたいと思っています。",
+        "en": "Actually, I'd like to resign from next month."
+      },
+      {
+        "speaker": "部長",
+        "jp": "そうですか。理由を聞いてもいいですか。",
+        "en": "I see. May I ask the reason?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "家族の事情で、地元に戻ることになりました。",
+        "en": "Due to family circumstances, I've decided to return to my hometown."
+      },
+      {
+        "speaker": "部長",
+        "jp": "そうですか。殘念ですが、頑張ってください。",
+        "en": "I see. That's a shame, but do your best."
+      },
+      {
+        "speaker": "田中",
+        "jp": "ありがとうございます。引き継ぎは完璧に行います。",
+        "en": "Thank you. I'll carry out the handover perfectly."
+      },
+      {
+        "speaker": "部長",
+        "jp": "頼もしいです。新しい職場でも成功を祈っています。",
+        "en": "That's reassuring. I wish you success at your new workplace."
+      }
+    ],
+    "id": 53
+  },
+  {
+    "title": "引き継ぎの會話",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "鈴木さん、引き継ぎをお願いできますか。",
+        "en": "Suzuki, can I ask you to take over?"
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "はい、もちろんです。どのような業務ですか。",
+        "en": "Yes, of course. What kind of work is it?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "このプロジェクトの進捗狀況を説明します。",
+        "en": "I'll explain the progress of this project."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "資料はありますか。",
+        "en": "Do you have any materials?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、このファイルにまとめてあります。",
+        "en": "Yes, I've compiled them in this file."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "わかりました。不明點があったら聞きます。",
+        "en": "Understood. I'll ask if I have any questions."
+      },
+      {
+        "speaker": "田中",
+        "jp": "ありがとうございます。よろしくお願いします。",
+        "en": "Thank you. I appreciate your help."
+      }
+    ],
+    "id": 54
+  },
+  {
+    "title": "転職面接",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "面接官",
+        "jp": "簡單に自己PRをお願いします。",
+        "en": "Please give a brief self-introduction."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "私はIT業界で5年の経験があります。",
+        "en": "I have 5 years of experience in the IT industry."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "當社を志望した理由は何ですか。",
+        "en": "Why do you want to join our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "貴社の成長性に惹かれたからです。",
+        "en": "I was attracted by your company's growth potential."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "希望の勤務條件はありますか。",
+        "en": "Do you have any preferred working conditions?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "柔軟な勤務時間を希望しています。",
+        "en": "I hope for flexible working hours."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "わかりました。結果は後日お知らせします。",
+        "en": "Understood. We'll inform you of the results later."
+      }
+    ],
+    "id": 55
+  },
+  {
+    "title": "新しい職場での自己紹介",
+    "level": "N5",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "新人",
+        "jp": "はじめまして、田中です。",
+        "en": "Nice to meet you, I'm Tanaka."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "はじめまして、鈴木です。",
+        "en": "Nice to meet you, I'm Suzuki."
+      },
+      {
+        "speaker": "新人",
+        "jp": "今日からお世話になります。",
+        "en": "I appreciate your help from today."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "こちらこそ。何かあったら聞いてください。",
+        "en": "Likewise. Please ask me if you need anything."
+      },
+      {
+        "speaker": "新人",
+        "jp": "ありがとうございます。よろしくお願いします。",
+        "en": "Thank you. I look forward to working with you."
+      }
+    ],
+    "id": 56
+  },
+  {
+    "title": "退職の挨拶メール",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "皆様、お世話になりました。",
+        "en": "Thank you everyone for your support."
+      },
+      {
+        "speaker": "同僚A",
+        "jp": "田中さん、お疲れ様でした。",
+        "en": "Tanaka, thank you for your hard work."
+      },
+      {
+        "speaker": "同僚B",
+        "jp": "また一緒に仕事しましょう。",
+        "en": "Let's work together again sometime."
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、ぜひ。お體に気をつけてください。",
+        "en": "Yes, definitely. Please take care of your health."
+      },
+      {
+        "speaker": "同僚A",
+        "jp": "田中さんも頑張ってください。",
+        "en": "You do your best too, Tanaka."
+      }
+    ],
+    "id": 57
+  },
+  {
+    "title": "働き方転換とワークライフバランス",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "相談者",
+        "jp": "最近、仕事と生活のバランスが取れません。",
+        "en": "Lately, I can't balance work and life."
+      },
+      {
+        "speaker": "カウンセラー",
+        "jp": "どのような問題がありますか。",
+        "en": "What kind of problems do you have?"
+      },
+      {
+        "speaker": "相談者",
+        "jp": "殘業が多くて、家族と過ごす時間がありません。",
+        "en": "There's too much overtime, and I have no time with my family."
+      },
+      {
+        "speaker": "カウンセラー",
+        "jp": "上司に相談しましたか。",
+        "en": "Have you talked to your boss?"
+      },
+      {
+        "speaker": "相談者",
+        "jp": "いいえ、まだです。",
+        "en": "No, not yet."
+      },
+      {
+        "speaker": "カウンセラー",
+        "jp": "まずは上司に相談してみてください。",
+        "en": "First, please talk to your boss."
+      },
+      {
+        "speaker": "相談者",
+        "jp": "わかりました。そうします。",
+        "en": "Understood. I will."
+      }
+    ],
+    "id": 58
+  },
+  {
+    "title": "退職後のキャリアプラン",
+    "level": "N1",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "キャリアカウンセラー",
+        "jp": "退職後の計畫はありますか。",
+        "en": "Do you have any plans after retirement?"
+      },
+      {
+        "speaker": "相談者",
+        "jp": "まだ具體的には決まっていません。",
+        "en": "I haven't decided specifically yet."
+      },
+      {
+        "speaker": "キャリアカウンセラー",
+        "jp": "どのような仕事をしたいですか。",
+        "en": "What kind of work would you like to do?"
+      },
+      {
+        "speaker": "相談者",
+        "jp": "自分の経験を活かせる仕事をしたいです。",
+        "en": "I want to do work that utilizes my experience."
+      },
+      {
+        "speaker": "キャリアカウンセラー",
+        "jp": "それは良い考えですね。",
+        "en": "That's a good idea."
+      },
+      {
+        "speaker": "相談者",
+        "jp": "何かアドバイスはありますか。",
+        "en": "Do you have any advice?"
+      },
+      {
+        "speaker": "キャリアカウンセラー",
+        "jp": "まずは自分の強みを分析してみてください。",
+        "en": "First, please analyze your strengths."
+      }
+    ],
+    "id": 59
+  },
+  {
+    "title": "転職活動の面接対策",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "友人",
+        "jp": "面接の準備は進んでいますか。",
+        "en": "Is your interview preparation going well?"
+      },
+      {
+        "speaker": "転職者",
+        "jp": "はい、自己PRを練習しています。",
+        "en": "Yes, I'm practicing my self-introduction."
+      },
+      {
+        "speaker": "友人",
+        "jp": "どんなことを話す予定ですか。",
+        "en": "What are you planning to say?"
+      },
+      {
+        "speaker": "転職者",
+        "jp": "自分の強みと、當社で貢獻できることを話します。",
+        "en": "I'll talk about my strengths and what I can contribute to your company."
+      },
+      {
+        "speaker": "友人",
+        "jp": "それは良い考えですね。",
+        "en": "That's a good idea."
+      },
+      {
+        "speaker": "転職者",
+        "jp": "ありがとうございます。緊張しています。",
+        "en": "Thank you. I'm nervous."
+      },
+      {
+        "speaker": "友人",
+        "jp": "大丈夫です。頑張ってください。",
+        "en": "It'll be fine. Do your best."
+      }
+    ],
+    "id": 60
+  },
+  {
+    "title": "仕事の引き継ぎマニュアル",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "鈴木さん、引き継ぎマニュアルを作りました。",
+        "en": "Suzuki, I've created a handover manual."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "ありがとうございます。助かります。",
+        "en": "Thank you. That helps a lot."
+      },
+      {
+        "speaker": "田中",
+        "jp": "このファイルに手順をまとめました。",
+        "en": "I've compiled the procedures in this file."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "わかりました。後で読みます。",
+        "en": "Understood. I'll read it later."
+      },
+      {
+        "speaker": "田中",
+        "jp": "不明點があったら、いつでも聞いてください。",
+        "en": "If you have any questions, please ask me anytime."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "ありがとうございます。助かります。",
+        "en": "Thank you. That helps a lot."
+      }
+    ],
+    "id": 61
+  },
+  {
+    "title": "新しい職場での自己紹介（入社初日）",
+    "level": "N5",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "新人",
+        "jp": "はじめまして、田中です。今日からお世話になります。",
+        "en": "Nice to meet you, I'm Tanaka. I appreciate your help from today."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "はじめまして、鈴木です。ようこそ。",
+        "en": "Nice to meet you, I'm Suzuki. Welcome."
+      },
+      {
+        "speaker": "新人",
+        "jp": "ありがとうございます。よろしくお願いします。",
+        "en": "Thank you. I look forward to working with you."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "何かあったら、いつでも聞いてください。",
+        "en": "If you need anything, please ask me anytime."
+      },
+      {
+        "speaker": "新人",
+        "jp": "ありがとうございます。頑張ります。",
+        "en": "Thank you. I'll do my best."
+      }
+    ],
+    "id": 62
+  },
+  {
+    "title": "スーパーで食材を買う",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "レジ",
+        "jp": "ポイントカードはお持ちですか。",
+        "en": "Do you have a point card?"
+      },
+      {
+        "speaker": "客",
+        "jp": "いいえ、ありません。",
+        "en": "No, I don't."
+      },
+      {
+        "speaker": "レジ",
+        "jp": "袋はご用意しますか。",
+        "en": "Do you need a bag?"
+      },
+      {
+        "speaker": "客",
+        "jp": "はい、お願いします。",
+        "en": "Yes, please."
+      },
+      {
+        "speaker": "レジ",
+        "jp": "合計で850円です。",
+        "en": "That's 850 yen total."
+      },
+      {
+        "speaker": "客",
+        "jp": "1000円でお願いします。",
+        "en": "Here's 1000 yen."
+      }
+    ],
+    "id": 63
+  },
+  {
+    "title": "レストランで注文",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ。何名様ですか。",
+        "en": "Welcome. How many people?"
+      },
+      {
+        "speaker": "客",
+        "jp": "2名です。",
+        "en": "Two people."
+      },
+      {
+        "speaker": "店員",
+        "jp": "こちらへどうぞ。",
+        "en": "Right this way please."
+      },
+      {
+        "speaker": "客",
+        "jp": "メニューをお願いします。",
+        "en": "Can I have a menu?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "お決まりになりましたか。",
+        "en": "Have you decided?"
+      },
+      {
+        "speaker": "客",
+        "jp": "パスタをお願いします。",
+        "en": "I'll have the pasta."
+      }
+    ],
+    "id": 64
+  },
+  {
+    "title": "カフェで",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "店員",
+        "jp": "ご注文は？",
+        "en": "Your order?"
+      },
+      {
+        "speaker": "客",
+        "jp": "コーヒーをお願いします。",
+        "en": "Coffee please."
+      },
+      {
+        "speaker": "店員",
+        "jp": "ホットですか、アイスですか。",
+        "en": "Hot or iced?"
+      },
+      {
+        "speaker": "客",
+        "jp": "ホットでお願いします。",
+        "en": "Hot please."
+      },
+      {
+        "speaker": "店員",
+        "jp": "サイズはS、M、Lがございます。",
+        "en": "We have S, M, and L sizes."
+      },
+      {
+        "speaker": "客",
+        "jp": "Mサイズでお願いします。",
+        "en": "Medium please."
+      }
+    ],
+    "id": 65
+  },
+  {
+    "title": "駅で切符を買う",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "客",
+        "jp": "東京までいくらですか。",
+        "en": "How much to Tokyo?"
+      },
+      {
+        "speaker": "駅員",
+        "jp": "1500円です。",
+        "en": "1500 yen."
+      },
+      {
+        "speaker": "客",
+        "jp": "往復でお願いします。",
+        "en": "Round trip please."
+      },
+      {
+        "speaker": "駅員",
+        "jp": "3000円になります。",
+        "en": "That will be 3000 yen."
+      },
+      {
+        "speaker": "客",
+        "jp": "Suicaで払えますか。",
+        "en": "Can I pay with Suica?"
+      },
+      {
+        "speaker": "駅員",
+        "jp": "はい、どうぞ。",
+        "en": "Yes, of course."
+      }
+    ],
+    "id": 66
+  },
+  {
+    "title": "バスに乗る",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "運転手",
+        "jp": "次の停留所は新宿です。",
+        "en": "The next stop is Shinjuku."
+      },
+      {
+        "speaker": "客",
+        "jp": "すみません、降ります。",
+        "en": "Excuse me, I'm getting off."
+      },
+      {
+        "speaker": "運転手",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      },
+      {
+        "speaker": "客",
+        "jp": "ここから東京駅まで歩けますか。",
+        "en": "Can I walk to Tokyo Station from here?"
+      },
+      {
+        "speaker": "運転手",
+        "jp": "いいえ、無理です。電車に乗ってください。",
+        "en": "No, that's not possible. Please take the train."
+      },
+      {
+        "speaker": "客",
+        "jp": "わかりました。",
+        "en": "I understand."
+      }
+    ],
+    "id": 67
+  },
+  {
+    "title": "天気の話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日はいい天気ですね。",
+        "en": "Nice weather today, isn't it?"
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。暑いですね。",
+        "en": "Yes, it's hot."
+      },
+      {
+        "speaker": "A",
+        "jp": "明日は雨が降るそうですよ。",
+        "en": "I heard it will rain tomorrow."
+      },
+      {
+        "speaker": "B",
+        "jp": "本当ですか。嫌ですね。",
+        "en": "Really? That's too bad."
+      },
+      {
+        "speaker": "A",
+        "jp": "傘を持って行った方がいいですよ。",
+        "en": "You should take an umbrella."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうします。",
+        "en": "I will."
+      }
+    ],
+    "id": 68
+  },
+  {
+    "title": "台風の話",
+    "level": "N3",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "台風が近づいているそうです。",
+        "en": "A typhoon is approaching."
+      },
+      {
+        "speaker": "B",
+        "jp": "本当ですか。怖いですね。",
+        "en": "Really? That's scary."
+      },
+      {
+        "speaker": "A",
+        "jp": "明日は外出しない方がいいでしょう。",
+        "en": "You shouldn't go out tomorrow."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。気をつけます。",
+        "en": "Understood. I'll be careful."
+      },
+      {
+        "speaker": "A",
+        "jp": "準備はありますか。",
+        "en": "Are you prepared?"
+      },
+      {
+        "speaker": "B",
+        "jp": "まだです。買い物に行きます。",
+        "en": "Not yet. I'll go shopping."
+      }
+    ],
+    "id": 69
+  },
+  {
+    "id": 70,
+    "title": "パソコンの操作",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "このパソコン、動かないんだけど。",
+        "en": "This computer won't work."
+      },
+      {
+        "speaker": "B",
+        "jp": "一度電源を切ってみて。",
+        "en": "Try turning it off once."
+      },
+      {
+        "speaker": "A",
+        "jp": "切ったよ。もう一度つけてみる。",
+        "en": "I turned it off. I'll try turning it on again."
+      },
+      {
+        "speaker": "B",
+        "jp": "うまくいった？",
+        "en": "Did it work?"
+      },
+      {
+        "speaker": "A",
+        "jp": "うん、ありがとう！",
+        "en": "Yes, thanks!"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "デジタルでの会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日はデジタルについて話しましょう。",
+        "en": "Let's talk about デジタル today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まずデジタルの基本から始めましょう。",
+        "en": "Let's start with the basics of デジタル."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "デジタルは大切ですからね。",
+        "en": "デジタル is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "デジタルでの会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日はデジタルについて話しましょう。",
+        "en": "Let's talk about デジタル today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まずデジタルの基本から始めましょう。",
+        "en": "Let's start with the basics of デジタル."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "デジタルは大切ですからね。",
+        "en": "デジタル is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "気象での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は気象について話しましょう。",
+        "en": "Let's talk about 気象 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず気象の基本から始めましょう。",
+        "en": "Let's start with the basics of 気象."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "気象は大切ですからね。",
+        "en": "気象 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "気象での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は気象について話しましょう。",
+        "en": "Let's talk about 気象 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず気象の基本から始めましょう。",
+        "en": "Let's start with the basics of 気象."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "気象は大切ですからね。",
+        "en": "気象 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "観光での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は観光について話しましょう。",
+        "en": "Let's talk about 観光 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず観光の基本から始めましょう。",
+        "en": "Let's start with the basics of 観光."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "観光は大切ですからね。",
+        "en": "観光 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "観光での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は観光について話しましょう。",
+        "en": "Let's talk about 観光 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず観光の基本から始めましょう。",
+        "en": "Let's start with the basics of 観光."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "観光は大切ですからね。",
+        "en": "観光 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "料理での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は料理について話しましょう。",
+        "en": "Let's talk about 料理 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず料理の基本から始めましょう。",
+        "en": "Let's start with the basics of 料理."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "料理は大切ですからね。",
+        "en": "料理 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "料理での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は料理について話しましょう。",
+        "en": "Let's talk about 料理 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず料理の基本から始めましょう。",
+        "en": "Let's start with the basics of 料理."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "料理は大切ですからね。",
+        "en": "料理 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "健康での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は健康について話しましょう。",
+        "en": "Let's talk about 健康 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず健康の基本から始めましょう。",
+        "en": "Let's start with the basics of 健康."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "健康は大切ですからね。",
+        "en": "健康 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "健康での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は健康について話しましょう。",
+        "en": "Let's talk about 健康 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず健康の基本から始めましょう。",
+        "en": "Let's start with the basics of 健康."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "健康は大切ですからね。",
+        "en": "健康 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "学校での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は学校について話しましょう。",
+        "en": "Let's talk about 学校 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず学校の基本から始めましょう。",
+        "en": "Let's start with the basics of 学校."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "学校は大切ですからね。",
+        "en": "学校 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "学校での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は学校について話しましょう。",
+        "en": "Let's talk about 学校 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず学校の基本から始めましょう。",
+        "en": "Let's start with the basics of 学校."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "学校は大切ですからね。",
+        "en": "学校 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "仕事での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は仕事について話しましょう。",
+        "en": "Let's talk about 仕事 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず仕事の基本から始めましょう。",
+        "en": "Let's start with the basics of 仕事."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "仕事は大切ですからね。",
+        "en": "仕事 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "仕事での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は仕事について話しましょう。",
+        "en": "Let's talk about 仕事 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず仕事の基本から始めましょう。",
+        "en": "Let's start with the basics of 仕事."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "仕事は大切ですからね。",
+        "en": "仕事 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "家庭での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は家庭について話しましょう。",
+        "en": "Let's talk about 家庭 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず家庭の基本から始めましょう。",
+        "en": "Let's start with the basics of 家庭."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "家庭は大切ですからね。",
+        "en": "家庭 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "家庭での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は家庭について話しましょう。",
+        "en": "Let's talk about 家庭 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず家庭の基本から始めましょう。",
+        "en": "Let's start with the basics of 家庭."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "家庭は大切ですからね。",
+        "en": "家庭 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "動物での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は動物について話しましょう。",
+        "en": "Let's talk about 動物 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず動物の基本から始めましょう。",
+        "en": "Let's start with the basics of 動物."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "動物は大切ですからね。",
+        "en": "動物 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "動物での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は動物について話しましょう。",
+        "en": "Let's talk about 動物 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず動物の基本から始めましょう。",
+        "en": "Let's start with the basics of 動物."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "動物は大切ですからね。",
+        "en": "動物 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "運動での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は運動について話しましょう。",
+        "en": "Let's talk about 運動 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず運動の基本から始めましょう。",
+        "en": "Let's start with the basics of 運動."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "運動は大切ですからね。",
+        "en": "運動 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "運動での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は運動について話しましょう。",
+        "en": "Let's talk about 運動 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず運動の基本から始めましょう。",
+        "en": "Let's start with the basics of 運動."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "運動は大切ですからね。",
+        "en": "運動 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "音楽での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は音楽について話しましょう。",
+        "en": "Let's talk about 音楽 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず音楽の基本から始めましょう。",
+        "en": "Let's start with the basics of 音楽."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "音楽は大切ですからね。",
+        "en": "音楽 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "音楽での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は音楽について話しましょう。",
+        "en": "Let's talk about 音楽 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず音楽の基本から始めましょう。",
+        "en": "Let's start with the basics of 音楽."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "音楽は大切ですからね。",
+        "en": "音楽 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "自然での会話1",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は自然について話しましょう。",
+        "en": "Let's talk about 自然 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず自然の基本から始めましょう。",
+        "en": "Let's start with the basics of 自然."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "自然は大切ですからね。",
+        "en": "自然 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "自然での会話2",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は自然について話しましょう。",
+        "en": "Let's talk about 自然 today."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。何から始めますか。",
+        "en": "Sounds good. Where do we start?"
+      },
+      {
+        "speaker": "A",
+        "jp": "まず自然の基本から始めましょう。",
+        "en": "Let's start with the basics of 自然."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。お願いします。",
+        "en": "Understood. Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "自然は大切ですからね。",
+        "en": "自然 is important, after all."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。頑張りましょう。",
+        "en": "Yes. Let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "選挙の話",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今度の選挙で投票する？",
+        "en": "Are you voting in the next election?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、まだ決めてないんだ。",
+        "en": "Yeah, I haven't decided yet."
+      },
+      {
+        "speaker": "A",
+        "jp": "どの政党に入れるつもり？",
+        "en": "Which party are you going to vote for?"
+      },
+      {
+        "speaker": "B",
+        "jp": "まだわからない。政策をよく見てから決める。",
+        "en": "I don't know yet. I'll decide after looking at their policies."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうだね。大切な一票だからね。",
+        "en": "That's right. It's an important vote."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、ちゃんと考えなきゃ。",
+        "en": "Yeah, I need to think carefully."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "経済ニュース",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日の経済ニュース見た？",
+        "en": "Did you see today's economic news?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、株価が上がってたね。",
+        "en": "Yeah, stock prices were up."
+      },
+      {
+        "speaker": "A",
+        "jp": "為替はどう？",
+        "en": "How about the exchange rate?"
+      },
+      {
+        "speaker": "B",
+        "jp": "少し下がってるみたい。",
+        "en": "It seems to have dropped a bit."
+      },
+      {
+        "speaker": "A",
+        "jp": "経済は難しいね。",
+        "en": "Economics is difficult."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうだね。",
+        "en": "It sure is."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "エコ活動",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "最近エコ活動してる？",
+        "en": "Have you been doing eco activities lately?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、リサイクルを心がけてる。",
+        "en": "Yeah, I'm trying to recycle."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね。私も節約を始めたんだ。",
+        "en": "Nice. I've started saving energy too."
+      },
+      {
+        "speaker": "B",
+        "jp": "一緒に頑張ろう。",
+        "en": "Let's do our best together."
+      },
+      {
+        "speaker": "A",
+        "jp": "地球のために大切だね。",
+        "en": "It's important for the Earth."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうだね。",
+        "en": "It sure is."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "科学実験",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "この実験、成功した？",
+        "en": "Did this experiment succeed?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、予想通りの結果が出た。",
+        "en": "Yeah, the result was as expected."
+      },
+      {
+        "speaker": "A",
+        "jp": "よかったね。",
+        "en": "That's good."
+      },
+      {
+        "speaker": "B",
+        "jp": "でも、また確認する必要がある。",
+        "en": "But we need to verify it again."
+      },
+      {
+        "speaker": "A",
+        "jp": "科学は大切だね。",
+        "en": "Science is important."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうだね。",
+        "en": "It sure is."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "歴史の話",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "日本について知りたいことがあるんだけど。",
+        "en": "There's something I want to know about Japan."
+      },
+      {
+        "speaker": "B",
+        "jp": "何？",
+        "en": "What is it?"
+      },
+      {
+        "speaker": "A",
+        "jp": "江戸時代はどんな時代だった？",
+        "en": "What was the Edo period like?"
+      },
+      {
+        "speaker": "B",
+        "jp": "武士が活躍した時代だよ。",
+        "en": "It was an era when samurai were active."
+      },
+      {
+        "speaker": "A",
+        "jp": "面白いね。",
+        "en": "That's interesting."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、もっと調べてみて。",
+        "en": "Yeah, look into it more."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "スポーツの話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "何かスポーツしてる？",
+        "en": "Do you play any sports?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、テニスをしてる。",
+        "en": "Yeah, I play tennis."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね。私も始めたいな。",
+        "en": "Nice. I want to start too."
+      },
+      {
+        "speaker": "B",
+        "jp": "一緒にやろう。",
+        "en": "Let's do it together."
+      },
+      {
+        "speaker": "A",
+        "jp": "ありがとう。楽しみだな。",
+        "en": "Thanks. I'm looking forward to it."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、頑張ろう。",
+        "en": "Yeah, let's do our best."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "音楽の話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "どんな音楽が好き？",
+        "en": "What kind of music do you like?"
+      },
+      {
+        "speaker": "B",
+        "jp": "クラシックが好き。",
+        "en": "I like classical music."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね。何か楽器やってる？",
+        "en": "Nice. Do you play any instruments?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、ピアノを習ってる。",
+        "en": "Yeah, I'm learning piano."
+      },
+      {
+        "speaker": "A",
+        "jp": "すごいね。",
+        "en": "That's amazing."
+      },
+      {
+        "speaker": "B",
+        "jp": "ありがとう。",
+        "en": "Thank you."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "料理の話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "何か料理作ったことある？",
+        "en": "Have you ever cooked anything?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、カレーを作ったことある。",
+        "en": "Yeah, I've made curry."
+      },
+      {
+        "speaker": "A",
+        "jp": "すごい。私も習いたい。",
+        "en": "Amazing. I want to learn too."
+      },
+      {
+        "speaker": "B",
+        "jp": "一緒に作ろう。",
+        "en": "Let's make it together."
+      },
+      {
+        "speaker": "A",
+        "jp": "ありがとう。",
+        "en": "Thank you."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、楽しみだね。",
+        "en": "Yeah, looking forward to it."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "病院での会話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "医者",
+        "jp": "どうしましたか。",
+        "en": "What's wrong?"
+      },
+      {
+        "speaker": "患者",
+        "jp": "頭が痛いんです。",
+        "en": "I have a headache."
+      },
+      {
+        "speaker": "医者",
+        "jp": "熱はありますか。",
+        "en": "Do you have a fever?"
+      },
+      {
+        "speaker": "患者",
+        "jp": "はい、少しあります。",
+        "en": "Yes, a little."
+      },
+      {
+        "speaker": "医者",
+        "jp": "この薬を飲んでください。",
+        "en": "Please take this medicine."
+      },
+      {
+        "speaker": "患者",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "学校の会話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "先生",
+        "jp": "今日の宿題は終わりましたか。",
+        "en": "Did you finish today's homework?"
+      },
+      {
+        "speaker": "学生",
+        "jp": "はい、終わりました。",
+        "en": "Yes, I did."
+      },
+      {
+        "speaker": "先生",
+        "jp": "よくできましたね。",
+        "en": "Well done."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      },
+      {
+        "speaker": "先生",
+        "jp": "次は予習をしておいてください。",
+        "en": "Please prepare for next time."
+      },
+      {
+        "speaker": "学生",
+        "jp": "わかりました。",
+        "en": "Understood."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "国際会談",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "首脳会談が行われたそうですね。",
+        "en": "I hear a summit meeting was held."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、貿易について話し合ったそうです。",
+        "en": "Yes, they reportedly discussed trade."
+      },
+      {
+        "speaker": "A",
+        "jp": "いい結果が出るといいですね。",
+        "en": "I hope there will be good results."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。平和が大切ですから。",
+        "en": "Yes. Peace is important."
+      },
+      {
+        "speaker": "A",
+        "jp": "世界が注目しています。",
+        "en": "The world is watching."
+      },
+      {
+        "speaker": "B",
+        "jp": "頑張ってほしいですね。",
+        "en": "I hope they do their best."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "ニュースを見る",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日のニュース見た？",
+        "en": "Did you see today's news?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、天気のニュースが面白かった。",
+        "en": "Yeah, the weather news was interesting."
+      },
+      {
+        "speaker": "A",
+        "jp": "明日は雨だって。",
+        "en": "They said it will rain tomorrow."
+      },
+      {
+        "speaker": "B",
+        "jp": "本当？傘を持っていこう。",
+        "en": "Really? I'll take an umbrella."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうだね。",
+        "en": "That's right."
+      },
+      {
+        "speaker": "B",
+        "jp": "ニュースは大切だね。",
+        "en": "News is important."
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "法廷の話",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "弁護士",
+        "jp": "被告は本当にやったのですか。",
+        "en": "Did the defendant really do it?"
+      },
+      {
+        "speaker": "被告",
+        "jp": "いいえ、やっていません。",
+        "en": "No, I didn't."
+      },
+      {
+        "speaker": "弁護士",
+        "jp": "証拠はありますか。",
+        "en": "Is there any evidence?"
+      },
+      {
+        "speaker": "被告",
+        "jp": "ありません。無実です。",
+        "en": "No. I'm innocent."
+      },
+      {
+        "speaker": "弁護士",
+        "jp": "わかりました。信じます。",
+        "en": "Understood. I believe you."
+      },
+      {
+        "speaker": "被告",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "農作業の話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "今日は農作業をしたの？",
+        "en": "Did you do farm work today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、野菜を収穫したよ。",
+        "en": "Yeah, I harvested vegetables."
+      },
+      {
+        "speaker": "A",
+        "jp": "すごいね。どんな野菜？",
+        "en": "Amazing. What kind of vegetables?"
+      },
+      {
+        "speaker": "B",
+        "jp": "トマトとキュウリ。",
+        "en": "Tomatoes and cucumbers."
+      },
+      {
+        "speaker": "A",
+        "jp": "おいしそう。",
+        "en": "They look delicious."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、食べよう。",
+        "en": "Yeah, let's eat them."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "買い物で服を選ぶ",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "この服、どう？",
+        "en": "How about this clothes?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。試着してもいい？",
+        "en": "Nice. Can I try it on?"
+      },
+      {
+        "speaker": "A",
+        "jp": "うん、どうぞ。",
+        "en": "Yes, please."
+      },
+      {
+        "speaker": "B",
+        "jp": "ちょっと小さいな。",
+        "en": "It's a bit small."
+      },
+      {
+        "speaker": "A",
+        "jp": "じゃあ、大きいサイズを取ってくる。",
+        "en": "Then I'll get a larger size."
+      },
+      {
+        "speaker": "B",
+        "jp": "ありがとう。",
+        "en": "Thank you."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "美容の話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "最近スキンケア始めたの？",
+        "en": "Have you started skincare recently?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、肌を大切にしたいから。",
+        "en": "Yeah, because I want to take care of my skin."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね。何使ってる？",
+        "en": "Nice. What do you use?"
+      },
+      {
+        "speaker": "B",
+        "jp": "この化粧水。",
+        "en": "This lotion."
+      },
+      {
+        "speaker": "A",
+        "jp": "よさそう。",
+        "en": "It looks good."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、ありがとう。",
+        "en": "Yeah, thanks."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "子供の話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "お子さんはおいくつですか。",
+        "en": "How old is your child?"
+      },
+      {
+        "speaker": "B",
+        "jp": "3歳です。",
+        "en": "3 years old."
+      },
+      {
+        "speaker": "A",
+        "jp": "かわいいですね。",
+        "en": "That's cute."
+      },
+      {
+        "speaker": "B",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      },
+      {
+        "speaker": "A",
+        "jp": "何が好きですか。",
+        "en": "What do they like?"
+      },
+      {
+        "speaker": "B",
+        "jp": "絵本が大好きです。",
+        "en": "They love picture books."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "介護の話",
+    "level": "N4",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "お元気ですか。",
+        "en": "How are you?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、まあまあ。",
+        "en": "Yeah, so-so."
+      },
+      {
+        "speaker": "A",
+        "jp": "何かお手伝いしましょうか。",
+        "en": "Can I help you with anything?"
+      },
+      {
+        "speaker": "B",
+        "jp": "ありがとう。助かります。",
+        "en": "Thank you. That helps."
+      },
+      {
+        "speaker": "A",
+        "jp": "無理しないでください。",
+        "en": "Don't push yourself."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、気をつける。",
+        "en": "Yeah, I'll be careful."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "お参り",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "初詣に行った？",
+        "en": "Did you go for New Year's visit?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、神社に行った。",
+        "en": "Yeah, I went to a shrine."
+      },
+      {
+        "speaker": "A",
+        "jp": "おみくじ引いた？",
+        "en": "Did you draw a fortune?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、大吉だった。",
+        "en": "Yeah, it was great fortune."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね。",
+        "en": "That's nice."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、嬉しい。",
+        "en": "Yeah, I'm happy."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "悩みを聞く",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "どうしたの？元気ないね。",
+        "en": "What's wrong? You don't look well."
+      },
+      {
+        "speaker": "B",
+        "jp": "ちょっと悩みがあって。",
+        "en": "I have a little worry."
+      },
+      {
+        "speaker": "A",
+        "jp": "何？話して。",
+        "en": "What is it? Tell me."
+      },
+      {
+        "speaker": "B",
+        "jp": "仕事がうまくいかなくて。",
+        "en": "Work isn't going well."
+      },
+      {
+        "speaker": "A",
+        "jp": "大丈夫。頑張って。",
+        "en": "It'll be fine. Do your best."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、ありがとう。",
+        "en": "Yeah, thanks."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "宇宙の話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "宇宙について知りたいことがある。",
+        "en": "There's something I want to know about space."
+      },
+      {
+        "speaker": "B",
+        "jp": "何？",
+        "en": "What is it?"
+      },
+      {
+        "speaker": "A",
+        "jp": "月はどうして光ってるの？",
+        "en": "Why does the moon shine?"
+      },
+      {
+        "speaker": "B",
+        "jp": "太陽の光を反射してるんだよ。",
+        "en": "It reflects the sun's light."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうなんだ。勉強になる。",
+        "en": "I see. That's educational."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、もっと調べてみて。",
+        "en": "Yeah, look into it more."
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "部屋探し",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "いい部屋は見つかった？",
+        "en": "Did you find a good room?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、いいのがあった。",
+        "en": "Yeah, I found a good one."
+      },
+      {
+        "speaker": "A",
+        "jp": "どんな部屋？",
+        "en": "What kind of room?"
+      },
+      {
+        "speaker": "B",
+        "jp": "明るくて広い部屋。",
+        "en": "A bright and spacious room."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね。家賃は？",
+        "en": "Nice. How's the rent?"
+      },
+      {
+        "speaker": "B",
+        "jp": "少し高いけど、いい部屋。",
+        "en": "A bit expensive, but it's a good room."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "道を尋ねる",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "すみません、駅はどこですか。",
+        "en": "Excuse me, where is the station?"
+      },
+      {
+        "speaker": "B",
+        "jp": "まっすぐ行って、右に曲がってください。",
+        "en": "Go straight and turn right."
+      },
+      {
+        "speaker": "A",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      },
+      {
+        "speaker": "B",
+        "jp": "どういたしまして。",
+        "en": "You're welcome."
+      },
+      {
+        "speaker": "A",
+        "jp": "歩いて何分くらいですか。",
+        "en": "How many minutes on foot?"
+      },
+      {
+        "speaker": "B",
+        "jp": "5分くらいです。",
+        "en": "About 5 minutes."
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "電話の会話",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "もしもし、田中です。",
+        "en": "Hello, this is Tanaka."
+      },
+      {
+        "speaker": "B",
+        "jp": "あ、田中さん。佐藤です。",
+        "en": "Oh, Tanaka. It's Sato."
+      },
+      {
+        "speaker": "A",
+        "jp": "明日の約束、覚えてる？",
+        "en": "Do you remember tomorrow's promise?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、覚えてる。",
+        "en": "Yeah, I remember."
+      },
+      {
+        "speaker": "A",
+        "jp": "よろしくね。",
+        "en": "See you then."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、またね。",
+        "en": "Yeah, see you."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "映画館で",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "何の映画を見たい？",
+        "en": "What movie do you want to see?"
+      },
+      {
+        "speaker": "B",
+        "jp": "アクション映画が見たい。",
+        "en": "I want to see an action movie."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね。今何時から？",
+        "en": "Nice. What time does it start?"
+      },
+      {
+        "speaker": "B",
+        "jp": "7時から。",
+        "en": "At 7."
+      },
+      {
+        "speaker": "A",
+        "jp": "じゃあ、買いに行こう。",
+        "en": "Then let's go buy tickets."
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、行こう。",
+        "en": "Yeah, let's go."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "お正月の挨拶",
+    "level": "N5",
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "あけましておめでとうございます。",
+        "en": "Happy New Year."
+      },
+      {
+        "speaker": "B",
+        "jp": "あけましておめでとうございます。",
+        "en": "Happy New Year."
+      },
+      {
+        "speaker": "A",
+        "jp": "今年もよろしくお願いします。",
+        "en": "Nice to meet you this year too."
+      },
+      {
+        "speaker": "B",
+        "jp": "こちらこそ。",
+        "en": "Likewise."
+      },
+      {
+        "speaker": "A",
+        "jp": "お年玉はもらった？",
+        "en": "Did you get otoshidama?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、もらったよ。",
+        "en": "Yeah, I got it."
+      }
+    ]
+  },
+  {
+    "title": "退職の挨拶を言う",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "本日はお忙しいところをお越しいただき、ありがとうございます。",
+        "en": "Thank you for coming today despite your busy schedules."
+      },
+      {
+        "speaker": "同僚A",
+        "jp": "田中さん、長い間お疲れ様でした。",
+        "en": "Tanaka-san, thank you for your hard work over the years."
+      },
+      {
+        "speaker": "田中",
+        "jp": "皆さんと一緒に働けて、本当に幸せでした。",
+        "en": "I was truly happy to work with all of you."
+      },
+      {
+        "speaker": "同僚B",
+        "jp": "田中さんのおかげで、プロジェクトが成功しましたね。",
+        "en": "Thanks to you, the project was a success."
+      },
+      {
+        "speaker": "田中",
+        "jp": "いいえ、皆さんの協力があってこそです。",
+        "en": "No, it was only possible because of everyone's cooperation."
+      },
+      {
+        "speaker": "同僚A",
+        "jp": "これからも頑張ってくださいね。",
+        "en": "Please continue to do your best."
+      },
+      {
+        "speaker": "田中",
+        "jp": "皆さんもお元気で。またお会いできる日を楽しみにしています。",
+        "en": "Stay well, everyone. I look forward to the day we meet again."
+      }
+    ],
+    "id": 121
+  },
+  {
+    "title": "引き継ぎの面談",
+    "level": "N3",
+    "isImportant": true,
+    "dialogues": [
+      {
+        "speaker": "山田",
+        "jp": "田中さん、引き継ぎについてお話しさせてください。",
+        "en": "Tanaka-san, let me discuss the handover with you."
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、こちらが引継ぎ資料です。",
+        "en": "Yes, here are the handover documents."
+      },
+      {
+        "speaker": "山田",
+        "jp": "このプロジェクトの現在の状況はどうなっていますか？",
+        "en": "What is the current status of this project?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "現在、最終テストの段階で、来月末にリリース予定です。",
+        "en": "We are currently in the final testing phase, scheduled for release at the end of next month."
+      },
+      {
+        "speaker": "山田",
+        "jp": "クライアントとの連絡先はこちらで合っていますか？",
+        "en": "Is this the correct contact information for the client?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、最新の連絡先を資料に記載しておきました。",
+        "en": "Yes, I've listed the latest contact information in the documents."
+      },
+      {
+        "speaker": "山田",
+        "jp": "ありがとうございます。他に何か共有することはありますか？",
+        "en": "Thank you. Is there anything else you'd like to share?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、クライアントの鈴木さんは細かいこだわりがあるので、最初は時間をかけて対応してください。",
+        "en": "Yes, the client Suzuki-san is particular about details, so please take time to respond carefully at first."
+      }
+    ],
+    "id": 122
+  },
+  {
+    "title": "退職日の最終業務",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "今日が最終出勤日です。最終確認をさせてください。",
+        "en": "Today is my last day. Let me do a final check."
+      },
+      {
+        "speaker": "事務",
+        "jp": "退職手続きの書類は全て揃っていますか？",
+        "en": "Are all the retirement procedure documents ready?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、これで全てです。年金手帳も返却お願いします。",
+        "en": "Yes, that's everything. Please return my pension book."
+      },
+      {
+        "speaker": "事務",
+        "jp": "かしこまりました。退職証明書は後日お渡しします。",
+        "en": "Understood. We will issue your retirement certificate at a later date."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "田中さん、お荷物はこれだけですか？",
+        "en": "Tanaka-san, are these all your belongings?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、これだけです。後は机等の片付けをお願いします。",
+        "en": "Yes, that's all. Please clean up the desk and other things."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "了解しました。お疲れ様でした！",
+        "en": "Got it. Thank you for your hard work!"
+      }
+    ],
+    "id": 123
+  },
+  {
+    "title": "送別会でのスピーチ",
+    "level": "N3",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "同僚代表",
+        "jp": "それでは、田中さんから一言お願いします。",
+        "en": "Now, Tanaka-san, please say a few words."
+      },
+      {
+        "speaker": "田中",
+        "jp": "皆さん、ありがとうございます。長い間本当にお世話になりました。",
+        "en": "Thank you everyone. I've been truly indebted to you for a long time."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "田中さんと一緒に働けて楽しかったです！",
+        "en": "It was fun working with you, Tanaka-san!"
+      },
+      {
+        "speaker": "田中",
+        "jp": "私も皆さんとの時間は一生の宝物です。",
+        "en": "The time with all of you is a lifelong treasure for me."
+      },
+      {
+        "speaker": "同僚代表",
+        "jp": "田中さんの新しい活躍を応援しています！",
+        "en": "We support your new endeavors, Tanaka-san!"
+      },
+      {
+        "speaker": "田中",
+        "jp": "皆さんもお元気で。これからも頑張ってください。",
+        "en": "Stay well, everyone. Keep up the good work."
+      },
+      {
+        "speaker": "同僚全員",
+        "jp": "田中さん、ありがとうございました！",
+        "en": "Thank you, Tanaka-san!"
+      }
+    ],
+    "id": 124
+  },
+  {
+    "title": "後任者への引き継ぎ",
+    "level": "N2",
+    "isImportant": true,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "鈴木さん、これから引き継ぎを始めますが、よろしいですか？",
+        "en": "Suzuki-san, I'd like to start the handover now, is that alright?"
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "はい、お願いします。まず全体的な概要を教えてください。",
+        "en": "Yes, please. First, tell me the overall picture."
+      },
+      {
+        "speaker": "田中",
+        "jp": "このプロジェクトは3つのフェーズに分かれており、現在はフェーズ2です。",
+        "en": "This project is divided into 3 phases, and we are currently in Phase 2."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "各フェーズの期限はいつですか？",
+        "en": "What are the deadlines for each phase?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "フェーズ2は今月末、フェーズ3は来月末の完了予定です。",
+        "en": "Phase 2 is due by the end of this month, and Phase 3 by the end of next month."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "了解しました。何か注意点はありますか？",
+        "en": "Understood. Are there any points to be careful about?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "クライアントの佐藤さんは細かい確認をされるので、丁寧に対応してください。",
+        "en": "The client, Mr. Sato, checks in detail, so please handle it carefully."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "ありがとうございます。よろしくお願いします。",
+        "en": "Thank you. I look forward to working with you."
+      }
+    ],
+    "id": 125
+  },
+  {
+    "title": "転職面接での自己PR",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "面接官",
+        "jp": "本日はお越しいただきありがとうございます。まず、自己紹介をお願いします。",
+        "en": "Thank you for coming today. First, please introduce yourself."
+      },
+      {
+        "speaker": "山田",
+        "jp": "はい、山田と申します。現在は制作会社でディレクターをしており、過去5年間で10以上のプロジェクトを手がけてきました。",
+        "en": "Yes, my name is Yamada. I am currently a director at a production company, and I have been involved in over 10 projects in the past 5 years."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "素晴らしい経験ですね。では、なぜ当社を志望されたのですか？",
+        "en": "That is great experience. So why did you apply to our company?"
+      },
+      {
+        "speaker": "山田",
+        "jp": "これまで培ったプロジェクトマネジメントのスキルを、より大きな舞台で活かしたいと考えたからです。貴社は業界でも特に革新的な取り組みをされており、そこに非常に魅力を感じました。",
+        "en": "I wanted to apply the project management skills I have developed on a bigger stage. Your company is known for particularly innovative initiatives in the industry, and I found that very appealing."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "なるほど。実際に働くことになった場合、どのような点が不安ですか？",
+        "en": "I see. If you were to actually work here, what would you be anxious about?"
+      },
+      {
+        "speaker": "山田",
+        "jp": "新しい環境やチームメンバーとの関係づくりです。以前の職場では円満退職させていただいたので、スムーズに移行できるよう、入社後は積極的にコミュニケーションを取っていきたいと考えています。",
+        "en": "It is about building relationships in a new environment and with team members. Since I left my previous job amicably, I plan to actively communicate after joining to ensure a smooth transition."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "良い心構えですね。最後に、何か質問はありますか？",
+        "en": "That is a good mindset. Finally, do you have any questions?"
+      },
+      {
+        "speaker": "山田",
+        "jp": "入社後の研修制度について教えていただけますでしょうか？",
+        "en": "Could you tell me about the training system after joining?"
+      },
+      {
+        "speaker": "面接官",
+        "jp": "もちろんです。入社後1週間は集中研修があり、その後3ヶ月間はメンターがつきます。",
+        "en": "Of course. There is intensive training for the first week after joining, and for the next 3 months, you will have a mentor."
+      },
+      {
+        "speaker": "山田",
+        "jp": "素晴らしい制度ですね。本日はありがとうございました。",
+        "en": "That is a great system. Thank you for today."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "いえいえ、こちらこそ。結果は1週間以内にご連絡いたします。",
+        "en": "Not at all, thank you too. We will contact you within a week with the results."
+      }
+    ],
+    "id": 126
+  },
+  {
+    "title": "後任者への引き継ぎ説明",
+    "level": "N2",
+    "isImportant": true,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "鈴木さん、これから引き継ぎを始めますが、よろしいですか？",
+        "en": "Suzuki-san, I would like to start the handover now, is that alright?"
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "はい、お願いします。まず全体的な概要を教えてください。",
+        "en": "Yes, please. First, tell me the overall picture."
+      },
+      {
+        "speaker": "田中",
+        "jp": "このプロジェクトは3つのフェーズに分かれており、現在はフェーズ2です。",
+        "en": "This project is divided into 3 phases, and we are currently in Phase 2."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "各フェーズの期限はいつですか？",
+        "en": "What are the deadlines for each phase?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "フェーズ2は今月末、フェーズ3は来月末の完了予定です。",
+        "en": "Phase 2 is due by the end of this month, and Phase 3 by the end of next month."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "了解しました。何か注意点はありますか？",
+        "en": "Understood. Are there any points to be careful about?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "クライアントの佐藤さんは細かい確認をされるので、丁寧に対応してください。",
+        "en": "The client Mr Sato checks in detail, so please handle it carefully."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "承知しました。関連書類はどこにありますか？",
+        "en": "Understood. Where are the related documents?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "共有ドライブのプロジェクトXフォルダに入っています。",
+        "en": "They are in the Project X folder on the shared drive."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "分かりました。何か質問があった時は、どうすればいいですか？",
+        "en": "Okay. If I have questions, what should I do?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "私にメールで連絡してください。できるだけ早く答えます。",
+        "en": "Contact me by email. I will respond as quickly as possible."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "分かりました。引き継ぎ書の控えもいただけるでしょうか？",
+        "en": "Understood. Could I also get a copy of the handover document?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、もちろんです。これが引き継ぎ書の原本です。",
+        "en": "Yes, of course. Here is the original of the handover document."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "ありがとうございます。後ほど確認して、不明点があればご連絡します。",
+        "en": "Thank you. I will review it later and contact you if there are any unclear points."
+      }
+    ],
+    "id": 127
+  },
+  {
+    "title": "退職の挨拶メールを送る鈴木さんと部長の会話",
+    "level": "N4",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "鈴木",
+        "jp": "部長、お疲れ様です。鈴木です。",
+        "en": "Department head, thank you for your hard work. This is Suzuki."
+      },
+      {
+        "speaker": "部長",
+        "jp": "ああ、鈴木さん。何か用？",
+        "en": "Oh, Suzuki-san. What is it?"
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "ちょっと相談したいことがあって、メールを送りました。見ていただけますか？",
+        "en": "I have something I would like to consult about, so I sent an email. Could you take a look?"
+      },
+      {
+        "speaker": "部長",
+        "jp": "うん、今見てるよ。退職のご挨拶？",
+        "en": "Yeah, I am looking at it now. Farewell greeting?"
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "はい、退職を決めたので、関係者の皆様にご挨拶メールを作ってみました。",
+        "en": "Yes, since I have decided to resign, I drafted a farewell email for all relevant people."
+      },
+      {
+        "speaker": "部長",
+        "jp": "うん、内容はいいと思うよ。ただ、もう少し感謝の気持ちを強調したほうがいいんじゃない？",
+        "en": "I think the content is good. Though, would not it be better to emphasize your gratitude a bit more?"
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "おっしゃる通りです。ここにこれまでのご指導に心より感謝申し上げますという一文を加えました。",
+        "en": "You are right. I have added a line here saying I sincerely thank you for your guidance so far."
+      },
+      {
+        "speaker": "部長",
+        "jp": "いいね。それでばっちりじゃない？",
+        "en": "That is good. That should be perfect."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "ありがとうございます！これで送信してもよろしいでしょうか？",
+        "en": "Thank you! May I send it now?"
+      },
+      {
+        "speaker": "部長",
+        "jp": "うん、問題ないよ。ただ、CCに総務部も入れるのを忘れないでね。",
+        "en": "Yeah, no problem. Just do not forget to CC the general affairs department."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "分かりました。総務部にもCCで送ります。",
+        "en": "Understood. I will CC the general affairs department too."
+      },
+      {
+        "speaker": "部長",
+        "jp": "届いたら、ウェルカムボードにコメントを書くよ。",
+        "en": "When it arrives, I will write a comment on the welcome board."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "ありがとうございます！これからもよろしくお願い申し上げます。",
+        "en": "Thank you! I look forward to staying in touch."
+      }
+    ],
+    "id": 128
+  }
+]
