@@ -97,17 +97,17 @@ def get_all_existing_keywords():
     keywords = {"words": [], "grammar": [], "scenes": [], "topics": []}
     words = load_json(DATA_DIR / "words.json")
     for w in words:
-        keywords["words"].append(w["word"])
-        keywords["words"].append(w["reading"])
+        keywords["words"].append(w.get("word", ""))
+        keywords["words"].append(w.get("reading", ""))
     grammar = load_json(DATA_DIR / "grammar.json")
     for g in grammar:
-        keywords["grammar"].append(g["title"])
+        keywords["grammar"].append(g.get("title", ""))
     scenes = load_json(DATA_DIR / "scenes.json")
     for s in scenes:
-        keywords["scenes"].append(s["title"])
+        keywords["scenes"].append(s.get("title", ""))
     topics = load_json(DATA_DIR / "topics.json")
     for t in topics:
-        keywords["topics"].append(t["title"])
+        keywords["topics"].append(t.get("title", ""))
     return keywords
 
 
