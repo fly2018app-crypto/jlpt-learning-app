@@ -465,8 +465,8 @@ const WordDetail = {
           <h1 class="text-2xl font-bold">{{ t('単語詳細', 'Word Detail') }}</h1>
           <div class="flex gap-1.5">
             <button @click="$emit('navigate', '/words')" class="px-3 py-1.5 text-sm bg-gray-100 text-gray-600 rounded-md hover:bg-gray-200 transition">{{ t('← 一覧に戻る', '← Back to List') }}</button>
-            <button @click="goToPrev" :disabled="!hasPrev" :class="hasPrev ? 'bg-gray-200 text-gray-700 hover:bg-gray-300' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('← 前へ', '← Prev') }}</button>
-            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('次へ →', 'Next →') }}</button>
+            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-gray-200 text-gray-700 hover:bg-gray-300' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('← 前へ', '← Prev') }}</button>
+            <button @click="goToPrev" :disabled="!hasPrev" :class="hasPrev ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('次へ →', 'Next →') }}</button>
           </div>
         </div>
       </div>
@@ -637,9 +637,16 @@ const GrammarDetail = {
     hasNext() {
       return this.currentIndex >= 0 && this.currentIndex < this.filteredGrammar.length - 1;
     },
+    hasPrev() {
+      return this.currentIndex > 0;
+    },
     nextGrammar() {
       if (!this.hasNext) return null;
       return this.filteredGrammar[this.currentIndex + 1];
+    },
+    prevGrammar() {
+      if (!this.hasPrev) return null;
+      return this.filteredGrammar[this.currentIndex - 1];
     }
   },
   methods: {
@@ -659,6 +666,11 @@ const GrammarDetail = {
         this.$emit('navigate', '/grammar/' + this.nextGrammar.id);
       }
     },
+    goToPrev() {
+      if (this.prevGrammar) {
+        this.$emit('navigate', '/grammar/' + this.prevGrammar.id);
+      }
+    },
     toggleGrammarCompleted() {
       if (this.grammar) toggleCompleted('grammar', this.grammar);
     }
@@ -670,7 +682,8 @@ const GrammarDetail = {
           <h1 class="text-2xl font-bold">{{ t('文法詳細', 'Grammar Detail') }}</h1>
           <div class="flex gap-1.5">
             <button @click="$emit('navigate', '/grammar')" class="px-3 py-1.5 text-sm bg-gray-100 text-gray-600 rounded-md hover:bg-gray-200 transition">{{ t('← 一覧に戻る', '← Back to List') }}</button>
-            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('次へ →', 'Next →') }}</button>
+            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-gray-200 text-gray-700 hover:bg-gray-300' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('← 前へ', '← Prev') }}</button>
+            <button @click="goToPrev" :disabled="!hasPrev" :class="hasPrev ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('次へ →', 'Next →') }}</button>
           </div>
         </div>
       </div>
@@ -851,9 +864,16 @@ const SceneDetail = {
     hasNext() {
       return this.currentIndex >= 0 && this.currentIndex < this.filteredScenes.length - 1;
     },
+    hasPrev() {
+      return this.currentIndex > 0;
+    },
     nextScene() {
       if (!this.hasNext) return null;
       return this.filteredScenes[this.currentIndex + 1];
+    },
+    prevScene() {
+      if (!this.hasPrev) return null;
+      return this.filteredScenes[this.currentIndex - 1];
     }
   },
   methods: {
@@ -875,6 +895,11 @@ const SceneDetail = {
       if (this.nextScene) {
         this.$emit('navigate', '/scene/' + this.nextScene.id);
       }
+    },
+    goToPrev() {
+      if (this.prevScene) {
+        this.$emit('navigate', '/scene/' + this.prevScene.id);
+      }
     }
   },
   template: `
@@ -884,7 +909,8 @@ const SceneDetail = {
           <h1 class="text-2xl font-bold">{{ t('シーン詳細', 'Scene Detail') }}</h1>
           <div class="flex gap-1.5">
             <button @click="$emit('navigate', '/scenes')" class="px-3 py-1.5 text-sm bg-gray-100 text-gray-600 rounded-md hover:bg-gray-200 transition">{{ t('← 一覧に戻る', '← Back to List') }}</button>
-            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('次へ →', 'Next →') }}</button>
+            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-gray-200 text-gray-700 hover:bg-gray-300' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('← 前へ', '← Prev') }}</button>
+            <button @click="goToPrev" :disabled="!hasPrev" :class="hasPrev ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">{{ t('次へ →', 'Next →') }}</button>
           </div>
         </div>
       </div>
@@ -898,7 +924,7 @@ const SceneDetail = {
           <div class="border-t pt-4">
             <h3 class="text-sm font-semibold text-gray-500 uppercase mb-3">{{ t('会話 (Dialogues)', 'Dialogues') }}</h3>
             <div class="space-y-3">
-              <div v-for="(d, idx) in scene.dialogues" :key="idx" class="flex gap-3">
+              <div v-for="(d, idx) in scene.lines" :key="idx" class="flex gap-3">
                 <div class="flex-shrink-0 w-20 text-sm font-semibold text-purple-600 text-right">{{ d.speaker }}</div>
                 <div class="flex-1 bg-gray-50 p-3 rounded-lg">
                   <p class="text-gray-800">{{ d.jp }}</p>
@@ -1050,9 +1076,16 @@ const TopicDetail = {
     hasNext() {
       return this.currentIndex >= 0 && this.currentIndex < this.filteredTopics.length - 1;
     },
+    hasPrev() {
+      return this.currentIndex > 0;
+    },
     nextTopic() {
       if (!this.hasNext) return null;
       return this.filteredTopics[this.currentIndex + 1];
+    },
+    prevTopic() {
+      if (!this.hasPrev) return null;
+      return this.filteredTopics[this.currentIndex - 1];
     }
   },
   methods: {
@@ -1071,6 +1104,11 @@ const TopicDetail = {
       if (this.nextTopic) {
         this.$emit('navigate', '/topic/' + this.nextTopic.id);
       }
+    },
+    goToPrev() {
+      if (this.prevTopic) {
+        this.$emit('navigate', '/topic/' + this.prevTopic.id);
+      }
     }
   },
   template: `
@@ -1080,7 +1118,8 @@ const TopicDetail = {
           <h1 class="text-2xl font-bold">読解詳細</h1>
           <div class="flex gap-1.5">
             <button @click="$emit('navigate', '/topics')" class="px-3 py-1.5 text-sm bg-gray-100 text-gray-600 rounded-md hover:bg-gray-200 transition">← 一覧に戻る</button>
-            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">次へ →</button>
+            <button @click="goToNext" :disabled="!hasNext" :class="hasNext ? 'bg-gray-200 text-gray-700 hover:bg-gray-300' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">← 前へ</button>
+            <button @click="goToPrev" :disabled="!hasPrev" :class="hasPrev ? 'bg-indigo-500 text-white hover:bg-indigo-600' : 'bg-gray-100 text-gray-300 cursor-not-allowed'" class="px-3 py-1.5 text-sm rounded-md transition">次へ →</button>
           </div>
         </div>
       </div>

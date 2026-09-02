@@ -40,6 +40,29 @@
         "jp": "承知しました。機内広告を楽しんでください。",
         "en": "Alright. Please enjoy the in-flight magazine."
       }
+    ],
+    "context": "空港でチェックイン手続きをするシーン。",
+    "lines": [
+      {
+        "speaker": "乗客",
+        "jp": "すみません、東京行きの便にチェックインしたいのですが。",
+        "en": "Excuse me, I'd like to check in for the flight to Tokyo."
+      },
+      {
+        "speaker": "係員",
+        "jp": "パスポートと航空券をお願いします。お荷物はおいくつですか？",
+        "en": "May I have your passport and ticket? How many pieces of luggage do you have?"
+      },
+      {
+        "speaker": "乗客",
+        "jp": "スケースが一つだけです。機内持ち込みたいものもあります。",
+        "en": "Just one suitcase. I also have something to carry on."
+      },
+      {
+        "speaker": "係員",
+        "jp": "搭乗ゲートは12番です。30分前にご案内します。",
+        "en": "Your boarding gate is number 12. We'll announce it 30 minutes before."
+      }
     ]
   },
   {
@@ -73,6 +96,29 @@
         "jp": "ありがとうございます。",
         "en": "Thank you."
       }
+    ],
+    "context": "ホテルで予約をしてチェックインするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "予約をしています。名前は田中です。",
+        "en": "I have a reservation. My name is Tanaka."
+      },
+      {
+        "speaker": "フロント",
+        "jp": "田中様ですね。シングルルームで3泊ですね。",
+        "en": "Mr. Tanaka. A single room for 3 nights."
+      },
+      {
+        "speaker": "客",
+        "jp": "はい。朝食はついていますか？",
+        "en": "Yes. Is breakfast included?"
+      },
+      {
+        "speaker": "フロント",
+        "jp": "はい、7階のレストランで6時から9時までです。",
+        "en": "Yes, on the 7th floor restaurant from 6 to 9."
+      }
     ]
   },
   {
@@ -105,6 +151,29 @@
         "speaker": "患者",
         "jp": "わかりました。",
         "en": "Okay."
+      }
+    ],
+    "context": "病院で診察を受けるシーン。",
+    "lines": [
+      {
+        "speaker": "患者",
+        "jp": "熱が続いています。38度くらいあります。",
+        "en": "I have a fever. Around 38 degrees."
+      },
+      {
+        "speaker": "医師",
+        "jp": "咳は出ますか？喉は痛いですか？",
+        "en": "Do you have a cough? Does your throat hurt?"
+      },
+      {
+        "speaker": "患者",
+        "jp": "ええ、少し咳が出ます。",
+        "en": "Yes, I have a slight cough."
+      },
+      {
+        "speaker": "医師",
+        "jp": "では、聴診器で胸の音を聞かせてください。",
+        "en": "Then let me listen to your chest with a stethoscope."
       }
     ]
   },
@@ -144,6 +213,29 @@
         "jp": "わかりました、買います。",
         "en": "Okay, I'll buy it."
       }
+    ],
+    "context": "店で買い物をするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "すみません、このセーターはありますか？",
+        "en": "Excuse me, do you have this sweater?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、お取りいたします。サイズは何サイズですか？",
+        "en": "Yes, I'll get it for you. What size are you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "Mサイズでお願いします。試着してもいいですか？",
+        "en": "Size M please. Can I try it on?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、試着室はあちらです。",
+        "en": "Yes, the fitting room is over there."
+      }
     ]
   },
   {
@@ -176,6 +268,29 @@
         "speaker": "男性",
         "jp": "ありがとう。",
         "en": "Thanks."
+      }
+    ],
+    "context": "駅で切符を買うシーン。",
+    "lines": [
+      {
+        "speaker": "乗客",
+        "jp": "すみません、新宿までの切符をください。",
+        "en": "Excuse me, a ticket to Shinjuku please."
+      },
+      {
+        "speaker": "駅員",
+        "jp": "片道ですか、往復ですか？",
+        "en": "One way or round trip?"
+      },
+      {
+        "speaker": "乗客",
+        "jp": "片道でお願いします。",
+        "en": "One way please."
+      },
+      {
+        "speaker": "駅員",
+        "jp": "200円になります。",
+        "en": "That will be 200 yen."
       }
     ]
   },
@@ -210,6 +325,29 @@
         "jp": "そうですね。",
         "en": "You're right."
       }
+    ],
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
+      }
     ]
   },
   {
@@ -243,6 +381,29 @@
         "jp": "頑張りましょう！",
         "en": "Let's give it our best shot!"
       }
+    ],
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
+      }
     ]
   },
   {
@@ -275,6 +436,29 @@
         "speaker": "面接官",
         "jp": "良い点ですね。",
         "en": "That's actually a strength."
+      }
+    ],
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
       }
     ]
   },
@@ -314,6 +498,29 @@
         "jp": "わかった。",
         "en": "Okay."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -347,6 +554,29 @@
         "jp": "やったー！",
         "en": "Yay!"
       }
+    ],
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
+      }
     ]
   },
   {
@@ -379,6 +609,29 @@
         "speaker": "田中",
         "jp": "それは良かったですね。",
         "en": "That's great to hear."
+      }
+    ],
+    "context": "挨拶をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはようございます。",
+        "en": "Good morning."
+      },
+      {
+        "speaker": "B",
+        "jp": "おはようございます。今日もいい天気ですね。",
+        "en": "Good morning. It's nice weather today too."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですね。今日も一日頑張りましょう。",
+        "en": "Yes it is. Let's do our best today too."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、頑張りましょう。",
+        "en": "Yes, let's do our best."
       }
     ]
   },
@@ -417,6 +670,29 @@
         "speaker": "客",
         "jp": "ありがとうございました。",
         "en": "Thank you very much."
+      }
+    ],
+    "context": "ホテルで予約をしてチェックインするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "予約をしています。名前は田中です。",
+        "en": "I have a reservation. My name is Tanaka."
+      },
+      {
+        "speaker": "フロント",
+        "jp": "田中様ですね。シングルルームで3泊ですね。",
+        "en": "Mr. Tanaka. A single room for 3 nights."
+      },
+      {
+        "speaker": "客",
+        "jp": "はい。朝食はついていますか？",
+        "en": "Yes. Is breakfast included?"
+      },
+      {
+        "speaker": "フロント",
+        "jp": "はい、7階のレストランで6時から9時までです。",
+        "en": "Yes, on the 7th floor restaurant from 6 to 9."
       }
     ]
   },
@@ -461,7 +737,30 @@
         "en": "Battery life is important, so I'll go with A. Thanks!"
       }
     ],
-    "id": 13
+    "id": 13,
+    "context": "電話での会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "もしもし、田中です。",
+        "en": "Hello, this is Tanaka."
+      },
+      {
+        "speaker": "B",
+        "jp": "あ、田中さん。佐藤です。",
+        "en": ""
+      },
+      {
+        "speaker": "A",
+        "jp": "こんにちは。実はお願いがあるんですが。",
+        "en": "Hello. Actually, I have a favor to ask."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、何ですか？",
+        "en": "Sure, what is it?"
+      }
+    ]
   },
   {
     "title": "レストランを決める",
@@ -504,7 +803,30 @@
         "en": "Let's do that!"
       }
     ],
-    "id": 14
+    "id": 14,
+    "context": "レストランで注文するシーン。",
+    "lines": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ。何名様ですか？",
+        "en": "Welcome. How many people?"
+      },
+      {
+        "speaker": "客",
+        "jp": "2人です。",
+        "en": "Two people."
+      },
+      {
+        "speaker": "店員",
+        "jp": "こちらへどうぞ。メニューをお持ちします。",
+        "en": "Please come this way. I'll bring the menu."
+      },
+      {
+        "speaker": "客",
+        "jp": "すみません、注文をお願いします。",
+        "en": "Excuse me, I'd like to order."
+      }
+    ]
   },
   {
     "title": "就職先を比較する",
@@ -547,7 +869,30 @@
         "en": "I hope you won't regret whichever you choose."
       }
     ],
-    "id": 15
+    "id": 15,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "引っ越し先を選ぶ",
@@ -585,7 +930,30 @@
         "en": "You're right. I'll review the list again."
       }
     ],
-    "id": 16
+    "id": 16,
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
+      }
+    ]
   },
   {
     "title": "留学先を決める",
@@ -623,7 +991,30 @@
         "en": "Living environment is important too. I'll look into it more."
       }
     ],
-    "id": 17
+    "id": 17,
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
+      }
+    ]
   },
   {
     "title": "スマートフォンを選ぶ",
@@ -671,7 +1062,30 @@
         "en": "Yeah, I think that's good."
       }
     ],
-    "id": 18
+    "id": 18,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "大学を比較する",
@@ -719,7 +1133,30 @@
         "en": "Thanks. I'll think about it a bit more."
       }
     ],
-    "id": 19
+    "id": 19,
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
+      }
+    ]
   },
   {
     "title": "レストランを選ぶ",
@@ -767,7 +1204,30 @@
         "en": "Got it! Let's go."
       }
     ],
-    "id": 20
+    "id": 20,
+    "context": "レストランで注文するシーン。",
+    "lines": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ。何名様ですか？",
+        "en": "Welcome. How many people?"
+      },
+      {
+        "speaker": "客",
+        "jp": "2人です。",
+        "en": "Two people."
+      },
+      {
+        "speaker": "店員",
+        "jp": "こちらへどうぞ。メニューをお持ちします。",
+        "en": "Please come this way. I'll bring the menu."
+      },
+      {
+        "speaker": "客",
+        "jp": "すみません、注文をお願いします。",
+        "en": "Excuse me, I'd like to order."
+      }
+    ]
   },
   {
     "title": "仕事の長所と欠点",
@@ -815,7 +1275,30 @@
         "en": "Yeah, since both have pros and cons, balance is important."
       }
     ],
-    "id": 21
+    "id": 21,
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
+      }
+    ]
   },
   {
     "title": "旅行先を決める",
@@ -863,7 +1346,30 @@
         "en": "Then let's decide on Nagano!"
       }
     ],
-    "id": 22
+    "id": 22,
+    "context": "旅行の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "夏休みはどこに行く？",
+        "en": "Where are you going for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "北海道に行きたいな。",
+        "en": "I want to go to Hokkaido."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね！何をする予定？",
+        "en": "Nice! What are you planning to do?"
+      },
+      {
+        "speaker": "B",
+        "jp": "スキーをしたり、温泉に入ったりしたい。",
+        "en": "I want to ski and go to hot springs."
+      }
+    ]
   },
   {
     "title": "スマートフォンを比較する",
@@ -911,7 +1417,30 @@
         "en": "Company A is about 5000 yen more expensive. But if you prioritize the camera, I recommend Company A."
       }
     ],
-    "id": 23
+    "id": 23,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "レストランを比較する",
@@ -959,7 +1488,30 @@
         "en": "Then let's go with Japanese food today."
       }
     ],
-    "id": 24
+    "id": 24,
+    "context": "レストランで注文するシーン。",
+    "lines": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ。何名様ですか？",
+        "en": "Welcome. How many people?"
+      },
+      {
+        "speaker": "客",
+        "jp": "2人です。",
+        "en": "Two people."
+      },
+      {
+        "speaker": "店員",
+        "jp": "こちらへどうぞ。メニューをお持ちします。",
+        "en": "Please come this way. I'll bring the menu."
+      },
+      {
+        "speaker": "客",
+        "jp": "すみません、注文をお願いします。",
+        "en": "Excuse me, I'd like to order."
+      }
+    ]
   },
   {
     "title": "旅行先を比較する",
@@ -1007,7 +1559,30 @@
         "en": "Then let's go with Hokkaido."
       }
     ],
-    "id": 25
+    "id": 25,
+    "context": "旅行の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "夏休みはどこに行く？",
+        "en": "Where are you going for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "北海道に行きたいな。",
+        "en": "I want to go to Hokkaido."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね！何をする予定？",
+        "en": "Nice! What are you planning to do?"
+      },
+      {
+        "speaker": "B",
+        "jp": "スキーをしたり、温泉に入ったりしたい。",
+        "en": "I want to ski and go to hot springs."
+      }
+    ]
   },
   {
     "title": "仕事を比較する",
@@ -1055,7 +1630,30 @@
         "en": "Both have their pros and cons."
       }
     ],
-    "id": 26
+    "id": 26,
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
+      }
+    ]
   },
   {
     "title": "引っ越し先を比較する",
@@ -1118,7 +1716,30 @@
         "en": "Including rent, Shinjuku is overall more expensive."
       }
     ],
-    "id": 27
+    "id": 27,
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
+      }
+    ]
   },
   {
     "title": "車を比較する",
@@ -1176,7 +1797,30 @@
         "en": "You need to make a comprehensive judgment."
       }
     ],
-    "id": 28
+    "id": 28,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "保険を比較する",
@@ -1234,7 +1878,30 @@
         "en": "You should choose what suits you."
       }
     ],
-    "id": 29
+    "id": 29,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "英語教室を比較する",
@@ -1287,7 +1954,30 @@
         "en": "Maybe I'll go with the station front one."
       }
     ],
-    "id": 30
+    "id": 30,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "結婚式場を比較する",
@@ -1345,7 +2035,30 @@
         "en": "Why not tour both?"
       }
     ],
-    "id": 31
+    "id": 31,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "賃貸マンションを比較する",
@@ -1408,7 +2121,30 @@
         "en": "Considering the budget, Station B might be better."
       }
     ],
-    "id": 32
+    "id": 32,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "カフェで友達と話す",
@@ -1441,7 +2177,30 @@
         "en": "Then let's go there next time."
       }
     ],
-    "id": 33
+    "id": 33,
+    "context": "カフェで注文するシーン。",
+    "lines": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ。何にしますか？",
+        "en": "Welcome. What can I get you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "コーヒーを一つお願いします。",
+        "en": "One coffee please."
+      },
+      {
+        "speaker": "店員",
+        "jp": "ホットですか、アイスですか？",
+        "en": "Hot or iced?"
+      },
+      {
+        "speaker": "客",
+        "jp": "ホットでお願いします。",
+        "en": "Hot please."
+      }
+    ]
   },
   {
     "title": "本を選ぶ",
@@ -1474,7 +2233,30 @@
         "en": "Let's compare price and content to decide."
       }
     ],
-    "id": 34
+    "id": 34,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "服を選ぶ",
@@ -1507,7 +2289,30 @@
         "en": "Let's decide after considering the merits and demerits."
       }
     ],
-    "id": 35
+    "id": 35,
+    "context": "店で買い物をするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "すみません、このセーターはありますか？",
+        "en": "Excuse me, do you have this sweater?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、お取りいたします。サイズは何サイズですか？",
+        "en": "Yes, I'll get it for you. What size are you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "Mサイズでお願いします。試着してもいいですか？",
+        "en": "Size M please. Can I try it on?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、試着室はあちらです。",
+        "en": "Yes, the fitting room is over there."
+      }
+    ]
   },
   {
     "title": "映画を選ぶ",
@@ -1540,7 +2345,30 @@
         "en": "Let's choose based on our mood."
       }
     ],
-    "id": 36
+    "id": 36,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "スポーツクラブを選ぶ",
@@ -1578,7 +2406,30 @@
         "en": "You can try it and then decide."
       }
     ],
-    "id": 37
+    "id": 37,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "デパートで買い物",
@@ -1616,7 +2467,30 @@
         "en": "The color is beautiful too."
       }
     ],
-    "id": 38
+    "id": 38,
+    "context": "店で買い物をするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "すみません、このセーターはありますか？",
+        "en": "Excuse me, do you have this sweater?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、お取りいたします。サイズは何サイズですか？",
+        "en": "Yes, I'll get it for you. What size are you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "Mサイズでお願いします。試着してもいいですか？",
+        "en": "Size M please. Can I try it on?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、試着室はあちらです。",
+        "en": "Yes, the fitting room is over there."
+      }
+    ]
   },
   {
     "title": "スーパーで食材を選ぶ",
@@ -1654,7 +2528,30 @@
         "en": "Then let's go with fish."
       }
     ],
-    "id": 39
+    "id": 39,
+    "context": "店で買い物をするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "すみません、このセーターはありますか？",
+        "en": "Excuse me, do you have this sweater?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、お取りいたします。サイズは何サイズですか？",
+        "en": "Yes, I'll get it for you. What size are you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "Mサイズでお願いします。試着してもいいですか？",
+        "en": "Size M please. Can I try it on?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、試着室はあちらです。",
+        "en": "Yes, the fitting room is over there."
+      }
+    ]
   },
   {
     "title": "音楽を聴く",
@@ -1687,7 +2584,30 @@
         "en": "Why not listen to both?"
       }
     ],
-    "id": 40
+    "id": 40,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "title": "旅行の相談",
@@ -1725,7 +2645,30 @@
         "en": "Let's compare budget and schedule to decide."
       }
     ],
-    "id": 41
+    "id": 41,
+    "context": "旅行の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "夏休みはどこに行く？",
+        "en": "Where are you going for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "北海道に行きたいな。",
+        "en": "I want to go to Hokkaido."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね！何をする予定？",
+        "en": "Nice! What are you planning to do?"
+      },
+      {
+        "speaker": "B",
+        "jp": "スキーをしたり、温泉に入ったりしたい。",
+        "en": "I want to ski and go to hot springs."
+      }
+    ]
   },
   {
     "title": "アルバイトを選ぶ",
@@ -1763,7 +2706,30 @@
         "en": "You should choose the one that suits you."
       }
     ],
-    "id": 42
+    "id": 42,
+    "context": "比較をする会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "AとBと、どっちがいい？",
+        "en": "Which is better, A or B?"
+      },
+      {
+        "speaker": "B",
+        "jp": "Aの方がいいと思う。",
+        "en": "I think A is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "どうして？",
+        "en": "Why?"
+      },
+      {
+        "speaker": "B",
+        "jp": "安くて使いやすいから。",
+        "en": "Because it's cheaper and easier to use."
+      }
+    ]
   },
   {
     "title": "空港での入国審査",
@@ -1806,7 +2772,30 @@
         "en": "Alright, go ahead."
       }
     ],
-    "id": 43
+    "id": 43,
+    "context": "空港でチェックイン手続きをするシーン。",
+    "lines": [
+      {
+        "speaker": "乗客",
+        "jp": "すみません、東京行きの便にチェックインしたいのですが。",
+        "en": "Excuse me, I'd like to check in for the flight to Tokyo."
+      },
+      {
+        "speaker": "係員",
+        "jp": "パスポートと航空券をお願いします。お荷物はおいくつですか？",
+        "en": "May I have your passport and ticket? How many pieces of luggage do you have?"
+      },
+      {
+        "speaker": "乗客",
+        "jp": "スケースが一つだけです。機内持ち込みたいものもあります。",
+        "en": "Just one suitcase. I also have something to carry on."
+      },
+      {
+        "speaker": "係員",
+        "jp": "搭乗ゲートは12番です。30分前にご案内します。",
+        "en": "Your boarding gate is number 12. We'll announce it 30 minutes before."
+      }
+    ]
   },
   {
     "title": "アパートを借りる",
@@ -1849,7 +2838,30 @@
         "en": "I'd like to sign a contract."
       }
     ],
-    "id": 44
+    "id": 44,
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
+      }
+    ]
   },
   {
     "title": "寮の入寮手続き",
@@ -1887,7 +2899,30 @@
         "en": "It's 11 PM. Please contact us if you'll be late."
       }
     ],
-    "id": 45
+    "id": 45,
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
+      }
+    ]
   },
   {
     "title": "銀行で口座を開く",
@@ -1925,7 +2960,30 @@
         "en": "It will arrive in a week."
       }
     ],
-    "id": 46
+    "id": 46,
+    "context": "銀行で口座を開くシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "口座を開きたいのですが。",
+        "en": "I'd like to open an account."
+      },
+      {
+        "speaker": "行員",
+        "jp": "身分証明書はお持ちですか？",
+        "en": "Do you have identification?"
+      },
+      {
+        "speaker": "客",
+        "jp": "はい、免許証です。",
+        "en": "Yes, my driver's license."
+      },
+      {
+        "speaker": "行員",
+        "jp": "こちらにサインをお願いします。",
+        "en": "Please sign here."
+      }
+    ]
   },
   {
     "title": "携帯電話を契約する",
@@ -1968,7 +3026,30 @@
         "en": "I'll sign up."
       }
     ],
-    "id": 47
+    "id": 47,
+    "context": "電話での会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "もしもし、田中です。",
+        "en": "Hello, this is Tanaka."
+      },
+      {
+        "speaker": "B",
+        "jp": "あ、田中さん。佐藤です。",
+        "en": ""
+      },
+      {
+        "speaker": "A",
+        "jp": "こんにちは。実はお願いがあるんですが。",
+        "en": "Hello. Actually, I have a favor to ask."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、何ですか？",
+        "en": "Sure, what is it?"
+      }
+    ]
   },
   {
     "title": "学校のオリエンテーション",
@@ -2006,7 +3087,30 @@
         "en": "Thank you."
       }
     ],
-    "id": 48
+    "id": 48,
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
+      }
+    ]
   },
   {
     "title": "郵便局で手紙を送る",
@@ -2049,7 +3153,30 @@
         "en": "How much is it?"
       }
     ],
-    "id": 49
+    "id": 49,
+    "context": "郵便局で手紙を送るシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "この手紙を送りたいのですが。",
+        "en": "I'd like to send this letter."
+      },
+      {
+        "speaker": "局員",
+        "jp": "国内ですか、海外ですか？",
+        "en": "Domestic or international?"
+      },
+      {
+        "speaker": "客",
+        "jp": "国内です。",
+        "en": "Domestic."
+      },
+      {
+        "speaker": "局員",
+        "jp": "82円になります。",
+        "en": "That will be 82 yen."
+      }
+    ]
   },
   {
     "title": "警察署に届け出る",
@@ -2097,7 +3224,30 @@
         "en": "Please contact the card company too."
       }
     ],
-    "id": 50
+    "id": 50,
+    "context": "警察に届け出るシーン。",
+    "lines": [
+      {
+        "speaker": "被害者",
+        "jp": "すみません、盗難に遭いました。",
+        "en": "Excuse me, I've been robbed."
+      },
+      {
+        "speaker": "警察",
+        "jp": "いつ、どこでですか？",
+        "en": "When and where did it happen?"
+      },
+      {
+        "speaker": "被害者",
+        "jp": "昨日、駅の近くでです。",
+        "en": "Yesterday, near the station."
+      },
+      {
+        "speaker": "警察",
+        "jp": "詳しく教えてください。",
+        "en": "Please tell me the details."
+      }
+    ]
   },
   {
     "title": "市役所で届け出る",
@@ -2135,7 +3285,30 @@
         "en": "Yes, it's complete."
       }
     ],
-    "id": 51
+    "id": 51,
+    "context": "市役所で手続きをするシーン。",
+    "lines": [
+      {
+        "speaker": "市民",
+        "jp": "転入届を出したいのですが。",
+        "en": "I'd like to submit a moving-in notification."
+      },
+      {
+        "speaker": "係員",
+        "jp": "前の住所を教えてください。",
+        "en": "Please tell me your previous address."
+      },
+      {
+        "speaker": "市民",
+        "jp": "はい、こちらです。",
+        "en": "Yes, here it is."
+      },
+      {
+        "speaker": "係員",
+        "jp": "こちらにサインをお願いします。",
+        "en": "Please sign here."
+      }
+    ]
   },
   {
     "title": "図書館で本を借りる",
@@ -2173,7 +3346,30 @@
         "en": "This is the lending card. The return period is 2 weeks."
       }
     ],
-    "id": 52
+    "id": 52,
+    "context": "図書館で本を借りるシーン。",
+    "lines": [
+      {
+        "speaker": "利用者",
+        "jp": "本を借りたいのですが。",
+        "en": "I'd like to borrow a book."
+      },
+      {
+        "speaker": "司書",
+        "jp": "カードはお持ちですか？",
+        "en": "Do you have a card?"
+      },
+      {
+        "speaker": "利用者",
+        "jp": "はい、これです。",
+        "en": "Yes, here it is."
+      },
+      {
+        "speaker": "司書",
+        "jp": "2週間まで借りられます。",
+        "en": "You can borrow it for up to 2 weeks."
+      }
+    ]
   },
   {
     "title": "退職の挨拶",
@@ -2221,7 +3417,30 @@
         "en": "That's reassuring. I wish you success at your new workplace."
       }
     ],
-    "id": 53
+    "id": 53,
+    "context": "挨拶をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはようございます。",
+        "en": "Good morning."
+      },
+      {
+        "speaker": "B",
+        "jp": "おはようございます。今日もいい天気ですね。",
+        "en": "Good morning. It's nice weather today too."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですね。今日も一日頑張りましょう。",
+        "en": "Yes it is. Let's do our best today too."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、頑張りましょう。",
+        "en": "Yes, let's do our best."
+      }
+    ]
   },
   {
     "title": "引き継ぎの會話",
@@ -2264,7 +3483,30 @@
         "en": "Thank you. I appreciate your help."
       }
     ],
-    "id": 54
+    "id": 54,
+    "context": "退職・引き継ぎに関する会話。",
+    "lines": [
+      {
+        "speaker": "退職者",
+        "jp": "実は、来月で退職することになりました。",
+        "en": "Actually, I'll be leaving the company next month."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "そうですか。寂しくなりますね。",
+        "en": "I see. We'll miss you."
+      },
+      {
+        "speaker": "退職者",
+        "jp": "引き継ぎはしっかりやりますので。",
+        "en": "I'll make sure to do a proper handover."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
   },
   {
     "title": "転職面接",
@@ -2307,7 +3549,30 @@
         "en": "Understood. We'll inform you of the results later."
       }
     ],
-    "id": 55
+    "id": 55,
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
+      }
+    ]
   },
   {
     "title": "新しい職場での自己紹介",
@@ -2340,7 +3605,30 @@
         "en": "Thank you. I look forward to working with you."
       }
     ],
-    "id": 56
+    "id": 56,
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
+      }
+    ]
   },
   {
     "title": "退職の挨拶メール",
@@ -2373,7 +3661,30 @@
         "en": "You do your best too, Tanaka."
       }
     ],
-    "id": 57
+    "id": 57,
+    "context": "挨拶をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはようございます。",
+        "en": "Good morning."
+      },
+      {
+        "speaker": "B",
+        "jp": "おはようございます。今日もいい天気ですね。",
+        "en": "Good morning. It's nice weather today too."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですね。今日も一日頑張りましょう。",
+        "en": "Yes it is. Let's do our best today too."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、頑張りましょう。",
+        "en": "Yes, let's do our best."
+      }
+    ]
   },
   {
     "title": "働き方転換とワークライフバランス",
@@ -2416,7 +3727,30 @@
         "en": "Understood. I will."
       }
     ],
-    "id": 58
+    "id": 58,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "title": "退職後のキャリアプラン",
@@ -2459,7 +3793,30 @@
         "en": "First, please analyze your strengths."
       }
     ],
-    "id": 59
+    "id": 59,
+    "context": "退職・引き継ぎに関する会話。",
+    "lines": [
+      {
+        "speaker": "退職者",
+        "jp": "実は、来月で退職することになりました。",
+        "en": "Actually, I'll be leaving the company next month."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "そうですか。寂しくなりますね。",
+        "en": "I see. We'll miss you."
+      },
+      {
+        "speaker": "退職者",
+        "jp": "引き継ぎはしっかりやりますので。",
+        "en": "I'll make sure to do a proper handover."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
   },
   {
     "title": "転職活動の面接対策",
@@ -2502,7 +3859,30 @@
         "en": "It'll be fine. Do your best."
       }
     ],
-    "id": 60
+    "id": 60,
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
+      }
+    ]
   },
   {
     "title": "仕事の引き継ぎマニュアル",
@@ -2540,7 +3920,30 @@
         "en": "Thank you. That helps a lot."
       }
     ],
-    "id": 61
+    "id": 61,
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
+      }
+    ]
   },
   {
     "title": "新しい職場での自己紹介（入社初日）",
@@ -2573,7 +3976,30 @@
         "en": "Thank you. I'll do my best."
       }
     ],
-    "id": 62
+    "id": 62,
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
+      }
+    ]
   },
   {
     "title": "スーパーで食材を買う",
@@ -2610,7 +4036,30 @@
         "en": "Here's 1000 yen."
       }
     ],
-    "id": 63
+    "id": 63,
+    "context": "店で買い物をするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "すみません、このセーターはありますか？",
+        "en": "Excuse me, do you have this sweater?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、お取りいたします。サイズは何サイズですか？",
+        "en": "Yes, I'll get it for you. What size are you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "Mサイズでお願いします。試着してもいいですか？",
+        "en": "Size M please. Can I try it on?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、試着室はあちらです。",
+        "en": "Yes, the fitting room is over there."
+      }
+    ]
   },
   {
     "title": "レストランで注文",
@@ -2647,7 +4096,30 @@
         "en": "I'll have the pasta."
       }
     ],
-    "id": 64
+    "id": 64,
+    "context": "レストランで注文するシーン。",
+    "lines": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ。何名様ですか？",
+        "en": "Welcome. How many people?"
+      },
+      {
+        "speaker": "客",
+        "jp": "2人です。",
+        "en": "Two people."
+      },
+      {
+        "speaker": "店員",
+        "jp": "こちらへどうぞ。メニューをお持ちします。",
+        "en": "Please come this way. I'll bring the menu."
+      },
+      {
+        "speaker": "客",
+        "jp": "すみません、注文をお願いします。",
+        "en": "Excuse me, I'd like to order."
+      }
+    ]
   },
   {
     "title": "カフェで",
@@ -2684,7 +4156,30 @@
         "en": "Medium please."
       }
     ],
-    "id": 65
+    "id": 65,
+    "context": "カフェで注文するシーン。",
+    "lines": [
+      {
+        "speaker": "店員",
+        "jp": "いらっしゃいませ。何にしますか？",
+        "en": "Welcome. What can I get you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "コーヒーを一つお願いします。",
+        "en": "One coffee please."
+      },
+      {
+        "speaker": "店員",
+        "jp": "ホットですか、アイスですか？",
+        "en": "Hot or iced?"
+      },
+      {
+        "speaker": "客",
+        "jp": "ホットでお願いします。",
+        "en": "Hot please."
+      }
+    ]
   },
   {
     "title": "駅で切符を買う",
@@ -2721,7 +4216,30 @@
         "en": "Yes, of course."
       }
     ],
-    "id": 66
+    "id": 66,
+    "context": "駅で切符を買うシーン。",
+    "lines": [
+      {
+        "speaker": "乗客",
+        "jp": "すみません、新宿までの切符をください。",
+        "en": "Excuse me, a ticket to Shinjuku please."
+      },
+      {
+        "speaker": "駅員",
+        "jp": "片道ですか、往復ですか？",
+        "en": "One way or round trip?"
+      },
+      {
+        "speaker": "乗客",
+        "jp": "片道でお願いします。",
+        "en": "One way please."
+      },
+      {
+        "speaker": "駅員",
+        "jp": "200円になります。",
+        "en": "That will be 200 yen."
+      }
+    ]
   },
   {
     "title": "バスに乗る",
@@ -2758,7 +4276,30 @@
         "en": "I understand."
       }
     ],
-    "id": 67
+    "id": 67,
+    "context": "駅で切符を買うシーン。",
+    "lines": [
+      {
+        "speaker": "乗客",
+        "jp": "すみません、新宿までの切符をください。",
+        "en": "Excuse me, a ticket to Shinjuku please."
+      },
+      {
+        "speaker": "駅員",
+        "jp": "片道ですか、往復ですか？",
+        "en": "One way or round trip?"
+      },
+      {
+        "speaker": "乗客",
+        "jp": "片道でお願いします。",
+        "en": "One way please."
+      },
+      {
+        "speaker": "駅員",
+        "jp": "200円になります。",
+        "en": "That will be 200 yen."
+      }
+    ]
   },
   {
     "title": "天気の話",
@@ -2795,7 +4336,30 @@
         "en": "I will."
       }
     ],
-    "id": 68
+    "id": 68,
+    "context": "天気の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "今日はいい天気ですね。",
+        "en": "It's nice weather today."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。でも、午後は雨が降るそうですよ。",
+        "en": "Yes it is. But I heard it will rain in the afternoon."
+      },
+      {
+        "speaker": "A",
+        "jp": "本当ですか？傘を持っていこう。",
+        "en": "Really? I'll bring an umbrella."
+      },
+      {
+        "speaker": "B",
+        "jp": "ええ、持っていった方がいいですよ。",
+        "en": "Yes, you should bring one."
+      }
+    ]
   },
   {
     "title": "台風の話",
@@ -2832,7 +4396,30 @@
         "en": "Not yet. I'll go shopping."
       }
     ],
-    "id": 69
+    "id": 69,
+    "context": "天気の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "今日はいい天気ですね。",
+        "en": "It's nice weather today."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。でも、午後は雨が降るそうですよ。",
+        "en": "Yes it is. But I heard it will rain in the afternoon."
+      },
+      {
+        "speaker": "A",
+        "jp": "本当ですか？傘を持っていこう。",
+        "en": "Really? I'll bring an umbrella."
+      },
+      {
+        "speaker": "B",
+        "jp": "ええ、持っていった方がいいですよ。",
+        "en": "Yes, you should bring one."
+      }
+    ]
   },
   {
     "id": 70,
@@ -2863,6 +4450,29 @@
         "speaker": "A",
         "jp": "うん、ありがとう！",
         "en": "Yes, thanks!"
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -2901,6 +4511,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "電話での会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "もしもし、田中です。",
+        "en": "Hello, this is Tanaka."
+      },
+      {
+        "speaker": "B",
+        "jp": "あ、田中さん。佐藤です。",
+        "en": ""
+      },
+      {
+        "speaker": "A",
+        "jp": "こんにちは。実はお願いがあるんですが。",
+        "en": "Hello. Actually, I have a favor to ask."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、何ですか？",
+        "en": "Sure, what is it?"
+      }
     ]
   },
   {
@@ -2937,6 +4570,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "電話での会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "もしもし、田中です。",
+        "en": "Hello, this is Tanaka."
+      },
+      {
+        "speaker": "B",
+        "jp": "あ、田中さん。佐藤です。",
+        "en": ""
+      },
+      {
+        "speaker": "A",
+        "jp": "こんにちは。実はお願いがあるんですが。",
+        "en": "Hello. Actually, I have a favor to ask."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、何ですか？",
+        "en": "Sure, what is it?"
       }
     ]
   },
@@ -2975,6 +4631,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "天気の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "今日はいい天気ですね。",
+        "en": "It's nice weather today."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。でも、午後は雨が降るそうですよ。",
+        "en": "Yes it is. But I heard it will rain in the afternoon."
+      },
+      {
+        "speaker": "A",
+        "jp": "本当ですか？傘を持っていこう。",
+        "en": "Really? I'll bring an umbrella."
+      },
+      {
+        "speaker": "B",
+        "jp": "ええ、持っていった方がいいですよ。",
+        "en": "Yes, you should bring one."
+      }
     ]
   },
   {
@@ -3011,6 +4690,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "天気の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "今日はいい天気ですね。",
+        "en": "It's nice weather today."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですね。でも、午後は雨が降るそうですよ。",
+        "en": "Yes it is. But I heard it will rain in the afternoon."
+      },
+      {
+        "speaker": "A",
+        "jp": "本当ですか？傘を持っていこう。",
+        "en": "Really? I'll bring an umbrella."
+      },
+      {
+        "speaker": "B",
+        "jp": "ええ、持っていった方がいいですよ。",
+        "en": "Yes, you should bring one."
       }
     ]
   },
@@ -3049,6 +4751,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "旅行の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "夏休みはどこに行く？",
+        "en": "Where are you going for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "北海道に行きたいな。",
+        "en": "I want to go to Hokkaido."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね！何をする予定？",
+        "en": "Nice! What are you planning to do?"
+      },
+      {
+        "speaker": "B",
+        "jp": "スキーをしたり、温泉に入ったりしたい。",
+        "en": "I want to ski and go to hot springs."
+      }
     ]
   },
   {
@@ -3085,6 +4810,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "旅行の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "夏休みはどこに行く？",
+        "en": "Where are you going for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "北海道に行きたいな。",
+        "en": "I want to go to Hokkaido."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね！何をする予定？",
+        "en": "Nice! What are you planning to do?"
+      },
+      {
+        "speaker": "B",
+        "jp": "スキーをしたり、温泉に入ったりしたい。",
+        "en": "I want to ski and go to hot springs."
       }
     ]
   },
@@ -3123,6 +4871,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3159,6 +4930,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3197,6 +4991,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3233,6 +5050,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3271,6 +5111,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
+      }
     ]
   },
   {
@@ -3307,6 +5170,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
       }
     ]
   },
@@ -3345,6 +5231,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
+      }
     ]
   },
   {
@@ -3381,6 +5290,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
       }
     ]
   },
@@ -3419,6 +5351,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
+      }
     ]
   },
   {
@@ -3455,6 +5410,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
       }
     ]
   },
@@ -3493,6 +5471,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3529,6 +5530,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3567,6 +5591,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3603,6 +5650,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3641,6 +5711,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3677,6 +5770,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3715,6 +5831,29 @@
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3751,6 +5890,29 @@
         "speaker": "B",
         "jp": "そうですね。頑張りましょう。",
         "en": "Yes. Let's do our best."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3789,6 +5951,29 @@
         "jp": "うん、ちゃんと考えなきゃ。",
         "en": "Yeah, I need to think carefully."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3825,6 +6010,29 @@
         "speaker": "B",
         "jp": "そうだね。",
         "en": "It sure is."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3863,6 +6071,29 @@
         "jp": "そうだね。",
         "en": "It sure is."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3899,6 +6130,29 @@
         "speaker": "B",
         "jp": "そうだね。",
         "en": "It sure is."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -3937,6 +6191,29 @@
         "jp": "うん、もっと調べてみて。",
         "en": "Yeah, look into it more."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -3973,6 +6250,29 @@
         "speaker": "B",
         "jp": "うん、頑張ろう。",
         "en": "Yeah, let's do our best."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -4011,6 +6311,29 @@
         "jp": "ありがとう。",
         "en": "Thank you."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -4047,6 +6370,29 @@
         "speaker": "B",
         "jp": "うん、楽しみだね。",
         "en": "Yeah, looking forward to it."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -4085,6 +6431,29 @@
         "jp": "ありがとうございます。",
         "en": "Thank you."
       }
+    ],
+    "context": "病院で診察を受けるシーン。",
+    "lines": [
+      {
+        "speaker": "患者",
+        "jp": "熱が続いています。38度くらいあります。",
+        "en": "I have a fever. Around 38 degrees."
+      },
+      {
+        "speaker": "医師",
+        "jp": "咳は出ますか？喉は痛いですか？",
+        "en": "Do you have a cough? Does your throat hurt?"
+      },
+      {
+        "speaker": "患者",
+        "jp": "ええ、少し咳が出ます。",
+        "en": "Yes, I have a slight cough."
+      },
+      {
+        "speaker": "医師",
+        "jp": "では、聴診器で胸の音を聞かせてください。",
+        "en": "Then let me listen to your chest with a stethoscope."
+      }
     ]
   },
   {
@@ -4121,6 +6490,29 @@
         "speaker": "学生",
         "jp": "わかりました。",
         "en": "Understood."
+      }
+    ],
+    "context": "学校での会話。",
+    "lines": [
+      {
+        "speaker": "先生",
+        "jp": "今日は第5課を勉強します。教科書を開いてください。",
+        "en": "Today we'll study Lesson 5. Please open your textbooks."
+      },
+      {
+        "speaker": "学生",
+        "jp": "先生、この文法がわかりません。",
+        "en": "Teacher, I don't understand this grammar."
+      },
+      {
+        "speaker": "先生",
+        "jp": "いいですね。もう一度説明しますよ。",
+        "en": "Good question. I'll explain it again."
+      },
+      {
+        "speaker": "学生",
+        "jp": "ありがとうございます。",
+        "en": "Thank you very much."
       }
     ]
   },
@@ -4159,6 +6551,29 @@
         "jp": "頑張ってほしいですね。",
         "en": "I hope they do their best."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -4195,6 +6610,29 @@
         "speaker": "B",
         "jp": "ニュースは大切だね。",
         "en": "News is important."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -4233,6 +6671,29 @@
         "jp": "ありがとうございます。",
         "en": "Thank you."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -4269,6 +6730,29 @@
         "speaker": "B",
         "jp": "うん、食べよう。",
         "en": "Yeah, let's eat them."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -4307,6 +6791,29 @@
         "jp": "ありがとう。",
         "en": "Thank you."
       }
+    ],
+    "context": "店で買い物をするシーン。",
+    "lines": [
+      {
+        "speaker": "客",
+        "jp": "すみません、このセーターはありますか？",
+        "en": "Excuse me, do you have this sweater?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、お取りいたします。サイズは何サイズですか？",
+        "en": "Yes, I'll get it for you. What size are you?"
+      },
+      {
+        "speaker": "客",
+        "jp": "Mサイズでお願いします。試着してもいいですか？",
+        "en": "Size M please. Can I try it on?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、試着室はあちらです。",
+        "en": "Yes, the fitting room is over there."
+      }
     ]
   },
   {
@@ -4343,6 +6850,29 @@
         "speaker": "B",
         "jp": "うん、ありがとう。",
         "en": "Yeah, thanks."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -4381,6 +6911,29 @@
         "jp": "絵本が大好きです。",
         "en": "They love picture books."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -4417,6 +6970,29 @@
         "speaker": "B",
         "jp": "うん、気をつける。",
         "en": "Yeah, I'll be careful."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -4455,6 +7031,29 @@
         "jp": "うん、嬉しい。",
         "en": "Yeah, I'm happy."
       }
+    ],
+    "context": "旅行の話をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "夏休みはどこに行く？",
+        "en": "Where are you going for summer vacation?"
+      },
+      {
+        "speaker": "B",
+        "jp": "北海道に行きたいな。",
+        "en": "I want to go to Hokkaido."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいね！何をする予定？",
+        "en": "Nice! What are you planning to do?"
+      },
+      {
+        "speaker": "B",
+        "jp": "スキーをしたり、温泉に入ったりしたい。",
+        "en": "I want to ski and go to hot springs."
+      }
     ]
   },
   {
@@ -4491,6 +7090,29 @@
         "speaker": "B",
         "jp": "うん、ありがとう。",
         "en": "Yeah, thanks."
+      }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
       }
     ]
   },
@@ -4529,6 +7151,29 @@
         "jp": "うん、もっと調べてみて。",
         "en": "Yeah, look into it more."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -4565,6 +7210,29 @@
         "speaker": "B",
         "jp": "少し高いけど、いい部屋。",
         "en": "A bit expensive, but it's a good room."
+      }
+    ],
+    "context": "家庭での会話。",
+    "lines": [
+      {
+        "speaker": "母",
+        "jp": "今日の夕飯は何がいい？",
+        "en": "What do you want for dinner today?"
+      },
+      {
+        "speaker": "子",
+        "jp": "カレーがいい！",
+        "en": "I want curry!"
+      },
+      {
+        "speaker": "母",
+        "jp": "わかった。じゃあ、お買い物に行ってくるね。",
+        "en": "Okay. I'll go shopping then."
+      },
+      {
+        "speaker": "子",
+        "jp": "手伝う！",
+        "en": "I'll help!"
       }
     ]
   },
@@ -4603,6 +7271,29 @@
         "jp": "5分くらいです。",
         "en": "About 5 minutes."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -4639,6 +7330,29 @@
         "speaker": "B",
         "jp": "うん、またね。",
         "en": "Yeah, see you."
+      }
+    ],
+    "context": "電話での会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "もしもし、田中です。",
+        "en": "Hello, this is Tanaka."
+      },
+      {
+        "speaker": "B",
+        "jp": "あ、田中さん。佐藤です。",
+        "en": ""
+      },
+      {
+        "speaker": "A",
+        "jp": "こんにちは。実はお願いがあるんですが。",
+        "en": "Hello. Actually, I have a favor to ask."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、何ですか？",
+        "en": "Sure, what is it?"
       }
     ]
   },
@@ -4677,6 +7391,29 @@
         "jp": "うん、行こう。",
         "en": "Yeah, let's go."
       }
+    ],
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
     ]
   },
   {
@@ -4713,6 +7450,29 @@
         "speaker": "B",
         "jp": "うん、もらったよ。",
         "en": "Yeah, I got it."
+      }
+    ],
+    "context": "挨拶をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはようございます。",
+        "en": "Good morning."
+      },
+      {
+        "speaker": "B",
+        "jp": "おはようございます。今日もいい天気ですね。",
+        "en": "Good morning. It's nice weather today too."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですね。今日も一日頑張りましょう。",
+        "en": "Yes it is. Let's do our best today too."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、頑張りましょう。",
+        "en": "Yes, let's do our best."
       }
     ]
   },
@@ -4757,7 +7517,30 @@
         "en": "Stay well, everyone. I look forward to the day we meet again."
       }
     ],
-    "id": 121
+    "id": 121,
+    "context": "挨拶をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはようございます。",
+        "en": "Good morning."
+      },
+      {
+        "speaker": "B",
+        "jp": "おはようございます。今日もいい天気ですね。",
+        "en": "Good morning. It's nice weather today too."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですね。今日も一日頑張りましょう。",
+        "en": "Yes it is. Let's do our best today too."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、頑張りましょう。",
+        "en": "Yes, let's do our best."
+      }
+    ]
   },
   {
     "title": "引き継ぎの面談",
@@ -4805,7 +7588,30 @@
         "en": "Yes, the client Suzuki-san is particular about details, so please take time to respond carefully at first."
       }
     ],
-    "id": 122
+    "id": 122,
+    "context": "退職・引き継ぎに関する会話。",
+    "lines": [
+      {
+        "speaker": "退職者",
+        "jp": "実は、来月で退職することになりました。",
+        "en": "Actually, I'll be leaving the company next month."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "そうですか。寂しくなりますね。",
+        "en": "I see. We'll miss you."
+      },
+      {
+        "speaker": "退職者",
+        "jp": "引き継ぎはしっかりやりますので。",
+        "en": "I'll make sure to do a proper handover."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
   },
   {
     "title": "退職日の最終業務",
@@ -4848,7 +7654,30 @@
         "en": "Got it. Thank you for your hard work!"
       }
     ],
-    "id": 123
+    "id": 123,
+    "context": "職場での会話。",
+    "lines": [
+      {
+        "speaker": "上司",
+        "jp": "この書類、今日中に終わらせてくれる？",
+        "en": "Can you finish this document by the end of the day?"
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、頑張ります。",
+        "en": "Yes, I'll do my best."
+      },
+      {
+        "speaker": "上司",
+        "jp": "ありがとう。頑張ってね。",
+        "en": "Thank you. Do your best."
+      },
+      {
+        "speaker": "部下",
+        "jp": "はい、わかりました。",
+        "en": "Yes, I understand."
+      }
+    ]
   },
   {
     "title": "送別会でのスピーチ",
@@ -4891,7 +7720,30 @@
         "en": "Thank you, Tanaka-san!"
       }
     ],
-    "id": 124
+    "id": 124,
+    "context": "挨拶をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはようございます。",
+        "en": "Good morning."
+      },
+      {
+        "speaker": "B",
+        "jp": "おはようございます。今日もいい天気ですね。",
+        "en": "Good morning. It's nice weather today too."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですね。今日も一日頑張りましょう。",
+        "en": "Yes it is. Let's do our best today too."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、頑張りましょう。",
+        "en": "Yes, let's do our best."
+      }
+    ]
   },
   {
     "title": "後任者への引き継ぎ",
@@ -4939,7 +7791,30 @@
         "en": "Thank you. I look forward to working with you."
       }
     ],
-    "id": 125
+    "id": 125,
+    "context": "退職・引き継ぎに関する会話。",
+    "lines": [
+      {
+        "speaker": "退職者",
+        "jp": "実は、来月で退職することになりました。",
+        "en": "Actually, I'll be leaving the company next month."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "そうですか。寂しくなりますね。",
+        "en": "I see. We'll miss you."
+      },
+      {
+        "speaker": "退職者",
+        "jp": "引き継ぎはしっかりやりますので。",
+        "en": "I'll make sure to do a proper handover."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
   },
   {
     "title": "転職面接での自己PR",
@@ -5002,7 +7877,30 @@
         "en": "Not at all, thank you too. We will contact you within a week with the results."
       }
     ],
-    "id": 126
+    "id": 126,
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
+      }
+    ]
   },
   {
     "title": "後任者への引き継ぎ説明",
@@ -5080,7 +7978,30 @@
         "en": "Thank you. I will review it later and contact you if there are any unclear points."
       }
     ],
-    "id": 127
+    "id": 127,
+    "context": "退職・引き継ぎに関する会話。",
+    "lines": [
+      {
+        "speaker": "退職者",
+        "jp": "実は、来月で退職することになりました。",
+        "en": "Actually, I'll be leaving the company next month."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "そうですか。寂しくなりますね。",
+        "en": "I see. We'll miss you."
+      },
+      {
+        "speaker": "退職者",
+        "jp": "引き継ぎはしっかりやりますので。",
+        "en": "I'll make sure to do a proper handover."
+      },
+      {
+        "speaker": "同僚",
+        "jp": "ありがとうございます。",
+        "en": "Thank you."
+      }
+    ]
   },
   {
     "title": "退職の挨拶メールを送る鈴木さんと部長の会話",
@@ -5153,7 +8074,30 @@
         "en": "Thank you! I look forward to staying in touch."
       }
     ],
-    "id": 128
+    "id": 128,
+    "context": "挨拶をするシーン。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはようございます。",
+        "en": "Good morning."
+      },
+      {
+        "speaker": "B",
+        "jp": "おはようございます。今日もいい天気ですね。",
+        "en": "Good morning. It's nice weather today too."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですね。今日も一日頑張りましょう。",
+        "en": "Yes it is. Let's do our best today too."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、頑張りましょう。",
+        "en": "Yes, let's do our best."
+      }
+    ]
   },
   {
     "title": "面接直前の自己PR練習",
@@ -5184,7 +8128,30 @@
         "text": "その流れを骨子にすれば、面接官にも分けやすく伝わると思うよ。三つぐらいの節に分けると完結するでしょう。"
       }
     ],
-    "id": 129
+    "id": 129,
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
+      }
+    ]
   },
   {
     "title": "面接会場で待つ候補者",
@@ -5215,7 +8182,30 @@
         "text": "向かいの方、〇〇様、準備が整いましたのでこちらへお進みください。"
       }
     ],
-    "id": 130
+    "id": 130,
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
+      }
+    ]
   },
   {
     "title": "集団面接での自己紹介",
@@ -5246,7 +8236,30 @@
         "text": "アルバイト先で苦情を受けた際、丁寧にお客様のご意見を伺い、解決策を提示できたことが私の強みです。"
       }
     ],
-    "id": 131
+    "id": 131,
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
+      }
+    ]
   },
   {
     "title": "合格通知を受け取る瞬間",
@@ -5277,7 +8290,30 @@
         "text": "もちろん！お父さんにも電話して、みんなでお祝いするわね。これからもがんばってね！"
       }
     ],
-    "id": 132
+    "id": 132,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "title": "不採用の連絡を受けた後の気持ちの整理",
@@ -5308,7 +8344,30 @@
         "text": "その気持ち大事だね。もっと適切な会社探そう、きっといいところが見つかるよ。"
       }
     ],
-    "id": 133
+    "id": 133,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "title": "自己PRを準備する面接前日",
@@ -5339,7 +8398,30 @@
         "text": "その流れを骨子にすれば、面接官にも分けやすく伝わると思うよ。三つぐらいの節に分けると完結するでしょう。"
       }
     ],
-    "id": 134
+    "id": 134,
+    "context": "面接での会話。",
+    "lines": [
+      {
+        "speaker": "面接官",
+        "jp": "自己紹介をお願いします。",
+        "en": "Please introduce yourself."
+      },
+      {
+        "speaker": "応募者",
+        "jp": "はい。私は田中です。大学で経済学を勉強しました。",
+        "en": "Yes. I'm Tanaka. I studied economics at university."
+      },
+      {
+        "speaker": "面接官",
+        "jp": "当社を志望した理由は何ですか？",
+        "en": "Why do you want to work for our company?"
+      },
+      {
+        "speaker": "応募者",
+        "jp": "御社の成長性に惹かれたからです。",
+        "en": "Because I'm attracted to your company's growth potential."
+      }
+    ]
   },
   {
     "turn": "인사",
@@ -5348,7 +8430,30 @@
     "cn": "你好，今天请多关照。",
     "vi": "Xin chào, hôm nay xin phép được hỗ trợ tốt.",
     "th": "สวัสดี วันนี้ขอขอบคุณเป็นอย่างดี",
-    "id": 135
+    "id": 135,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "감사",
@@ -5357,7 +8462,30 @@
     "cn": "承蒙照顾了，谢谢。",
     "vi": "Cảm ơn bạn đã giúp đỡ tôi.",
     "th": "ขอบคุณที่ดูแลฉัน",
-    "id": 136
+    "id": 136,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "사과",
@@ -5366,7 +8494,30 @@
     "cn": "抱歉，我迟到了。",
     "vi": "Xin lỗi, tôi bị muộn.",
     "th": "ขอโทษ ฉันมาช้า",
-    "id": 137
+    "id": 137,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "질문",
@@ -5375,7 +8526,30 @@
     "cn": "这是怎么用的？",
     "vi": "Cái này dùng thế nào?",
     "th": "นี่ใช้ยังไง?",
-    "id": 138
+    "id": 138,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "답변",
@@ -5384,7 +8558,30 @@
     "cn": "按这个按钮就能运作。",
     "vi": "Nhấn nút này thì nó sẽ hoạt động.",
     "th": "กดปุ่มนี้มันจะทำงาน",
-    "id": 139
+    "id": 139,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "요청",
@@ -5393,7 +8590,30 @@
     "cn": "请再慢一点。",
     "vi": "Làm chậm hơn một chút nhé.",
     "th": "ช้าๆหน่อยนะ",
-    "id": 140
+    "id": 140,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "도움",
@@ -5402,7 +8622,30 @@
     "cn": "能帮帮我吗？",
     "vi": "Bạn có thể giúp tôi được không?",
     "th": "ช่วยผมได้ไหม?",
-    "id": 141
+    "id": 141,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "확인",
@@ -5411,7 +8654,30 @@
     "cn": "这样可以吗？",
     "vi": "Với cái này có ổn không?",
     "th": "พร้อมแล้วใช่ไหม?",
-    "id": 142
+    "id": 142,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "거절",
@@ -5420,7 +8686,30 @@
     "cn": "很遗憾，那一天我已经有安排。",
     "vi": "Rất tiếc, ngày đó mình đã có lịch rồi.",
     "th": "เสียใจ วันนั้นผมมีนัดแล้ว",
-    "id": 143
+    "id": 143,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "수락",
@@ -5429,7 +8718,30 @@
     "cn": "好的，我乐意接受。",
     "vi": "Vâng, tôi sẵn sàng nhé.",
     "th": "ได้เลย ยินดีเลย",
-    "id": 144
+    "id": 144,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "소개",
@@ -5438,7 +8750,30 @@
     "cn": "我叫田中，在销售部工作。",
     "vi": "Tôi tên là Tanaka, tôi thuộc bộ phận bán hàng.",
     "th": "ฉันชื่อ Tanaka อยู่แผนกขาย",
-    "id": 145
+    "id": 145,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "작별",
@@ -5447,7 +8782,30 @@
     "cn": "辛苦了，我们明天再见。",
     "vi": "Cảm ơn bạn đã hết giờ làm việc, mai gặp lại nhé.",
     "th": "ขอบคุณที่เหนื่อย ลา วันพรุ่งนี้เจอกันใหม่",
-    "id": 146
+    "id": 146,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "예약",
@@ -5456,7 +8814,30 @@
     "cn": "明天三点能预约吗？",
     "vi": "Ngày mai 3 giờ booking được không?",
     "th": "พรุ่งนี้สามโมงจองได้ไหม?",
-    "id": 147
+    "id": 147,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "위치",
@@ -5465,7 +8846,30 @@
     "cn": "洗手间在哪里？",
     "vi": "Nhà vệ sinh ở đâu?",
     "th": "ห้องน้ำอยู่ที่ไหน?",
-    "id": 148
+    "id": 148,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "가격",
@@ -5474,7 +8878,30 @@
     "cn": "这个多少钱？",
     "vi": "Cái này bao nhiêu tiền?",
     "th": "นี่ราคาเท่าไหร่?",
-    "id": 149
+    "id": 149,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "주문",
@@ -5483,7 +8910,30 @@
     "cn": "来一杯咖啡。",
     "vi": "Cho tôi một cốc cà phê nhé.",
     "th": "เอากาแฟหนึ่งแก้ว",
-    "id": 150
+    "id": 150,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "turn": "이동",
@@ -5492,7 +8942,30 @@
     "cn": "能告诉我去车站的路吗？",
     "vi": "Bạn chỉ đường đến ga được không?",
     "th": "บอกทางไปสถานีหน่อยได้ไหม?",
-    "id": 151
+    "id": 151,
+    "context": "日常の会話。",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "おはよう。今日は何する？",
+        "en": "Good morning. What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "jp": "特に予定はないけど、あなたは？",
+        "en": "No special plans, but you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "買い物に行こうと思ってる。",
+        "en": "I'm thinking of going shopping."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいね。一緒に行こう。",
+        "en": "Nice. Let's go together."
+      }
+    ]
   },
   {
     "title": "受付での問診",
