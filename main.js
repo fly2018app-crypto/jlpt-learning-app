@@ -299,9 +299,14 @@ const Words = {
   data() { return { words: [], isLoading: true, showAll: false, currentPage: 1 }; },
   mounted() {
     const level = this.getSavedLevel();
-    fetch(`/japanese-data/words_${level.toLowerCase()}.json?t=${Date.now()}`)
-      .then(r => r.json())
-      .then(data => { this.words = data; this.isLoading = false; });
+    const lv = level.toLowerCase();
+    const fetches = [];
+    for (let i = 1; i <= 10; i++) {
+      fetches.push(fetch(`/japanese-data/words_${lv}_${i}.json?t=${Date.now()}`).then(r => r.json()));
+    }
+    Promise.all(fetches)
+      .then(chunks => { this.words = [].concat(...chunks); this.isLoading = false; })
+      .catch(() => { this.isLoading = false; });
   },
   watch: {
     currentPage() {
@@ -399,11 +404,15 @@ const WordDetail = {
     const parts = hash.split('/');
     const id = parts[2];
     if (id) {
-      fetch(`/japanese-data/words_${this.currentLevel.toLowerCase()}.json?t=${Date.now()}`)
-        .then(r => r.json())
-        .then(data => {
-          this.levelWords = data;
-          this.word = data.find(w => w.id == Number(id) || w.id == id);
+      const lv = this.currentLevel.toLowerCase();
+      const fetches = [];
+      for (let i = 1; i <= 10; i++) {
+        fetches.push(fetch(`/japanese-data/words_${lv}_${i}.json?t=${Date.now()}`).then(r => r.json()));
+      }
+      Promise.all(fetches)
+        .then(chunks => {
+          this.levelWords = [].concat(...chunks);
+          this.word = this.levelWords.find(w => w.id == Number(id) || w.id == id);
           this.isLoading = false;
         })
         .catch(() => { this.isLoading = false; });
