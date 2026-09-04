@@ -1,0 +1,710 @@
+[
+  {
+    "title": "N2 総合練習 - 第1回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「高層」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. industrial arts",
+          "2. upper",
+          "3. carving; engraving; sculpture",
+          "4. structure; construction"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「〜に際して」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. along; in line with; following",
+          "2. through; by way of; throughout",
+          "3. on the occasion of; at the time of",
+          "4. be forced to; be compelled to"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「簡」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. しょ",
+          "2. かい",
+          "3. えらぶ",
+          "4. うん"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「〜ずにはいられない」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. cannot help but; can't resist",
+          "2. be forced to; be compelled to",
+          "3. based on; in accordance with",
+          "4. in place of; instead of; on behalf of"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「大」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. やぶれる",
+          "2. いく",
+          "3. おお-",
+          "4. わく"
+        ],
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第2回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「〜に基づいて」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. based on; in accordance with",
+          "2. along; in line with; following",
+          "3. contrary to; against",
+          "4. cannot help but; can't resist"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「良」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. こん",
+          "2. まねく",
+          "3. ささる",
+          "4. よい"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「係」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. かかる",
+          "2. れい",
+          "3. おとずれる",
+          "4. みる"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「設」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. もうける",
+          "2. とり",
+          "3. ふく",
+          "4. おる"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「〜に加えて」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. in place of; instead of; on behalf of",
+          "2. in addition to",
+          "3. cannot help but; can't resist",
+          "4. through; by way of; throughout"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第3回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「由」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. よし",
+          "2. おとす",
+          "3. かつ",
+          "4. い"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「〜に伴って」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. as; in accordance with; along with",
+          "2. based on; in accordance with",
+          "3. cannot help feeling; unable to restrain",
+          "4. when it comes to; at the point of"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「回」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. たのしむ",
+          "2. まわる",
+          "3. あらそう",
+          "4. ひ"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「清い」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. clear; pure; noble",
+          "2. birth date",
+          "3. head; lead; vanguard; first",
+          "4. salty (taste)"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「定員」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. shop; business firm",
+          "2. fixed number of regular personnel; capacity (of boat; etc.)",
+          "3. let me see; well; er....",
+          "4. radius"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第4回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「円周」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. extension; elongation; prolongation; lengthening",
+          "2. to rust; to become rusty",
+          "3. sliding screen",
+          "4. circumference"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「〜に至って」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. cannot help feeling; unable to restrain",
+          "2. be forced to; be compelled to",
+          "3. based on; in accordance with",
+          "4. when it comes to; at the point of"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「〜に沿って」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. according to; in proportion to; depending on",
+          "2. as; in accordance with; along with",
+          "3. contrary to; against",
+          "4. along; in line with; following"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「憎らしい」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. cover; lid; cap",
+          "2. odious; hateful",
+          "3. nourishment; nutrient",
+          "4. use; usefulness"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「先端」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. pointed end; tip; fine point",
+          "2. commuter pass; season ticket",
+          "3. spring (e.g. coil; leaf)",
+          "4. good-for-nothing; stupid; trivial; worthless"
+        ],
+        "answer": "1"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第5回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「〜を通して」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. contrary to; against",
+          "2. in addition to",
+          "3. throughout; over; spanning",
+          "4. through; by way of; throughout"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「短期」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. integer",
+          "2. prize; monetary award",
+          "3. short term",
+          "4. underpants"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「質」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. おさめる",
+          "2. あたり",
+          "3. りん",
+          "4. たち"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「肯定」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. footprints",
+          "2. positive; affirmation",
+          "3. to bury; to fill up; to fill (a seat; a vacant position)",
+          "4. corpse"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「儲ける」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. address; direction",
+          "2. to get; to earn; to gain; to have (bear; beget) a child",
+          "3. to be familiar; to discover; to detect",
+          "4. notice; notification"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第6回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「瓶」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. かね",
+          "2. てら",
+          "3. むね",
+          "4. かめ"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「園」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. その",
+          "2. そく",
+          "3. せる",
+          "4. おこなう"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「〜にわたって」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. through; by way of; throughout",
+          "2. through; by means of; throughout",
+          "3. throughout; over; spanning",
+          "4. on the occasion of; at the time of"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「残」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. ちょ",
+          "2. いやす",
+          "3. のこる",
+          "4. ふく"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「低」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. くま",
+          "2. かい",
+          "3. へい",
+          "4. ひくい"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第7回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「催促」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. first 10 days of the month",
+          "2. straight line",
+          "3. request; demand; claim; urge (action); press for",
+          "4. another time; again; over again; anew; formally"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「油」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. まさる",
+          "2. げん",
+          "3. いぬ",
+          "4. あぶら"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「〜に代わって」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. in place of; instead of; on behalf of",
+          "2. throughout; over; spanning",
+          "3. through; by means of; throughout",
+          "4. triggered by; taking the opportunity of"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「〜を余儀なくされる」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. contrary to; against",
+          "2. through; by way of; throughout",
+          "3. in place of; instead of; on behalf of",
+          "4. be forced to; be compelled to"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「女」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. とう",
+          "2. あと",
+          "3. いわ",
+          "4. おんな"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第8回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「鳴らす」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. to ring; to sound; to chime; to beat; to snort (nose)",
+          "2. roadside tree; row of trees",
+          "3. by itself; automatically; naturally",
+          "4. to love; to be affectionate"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「畜」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. よごす",
+          "2. ちく",
+          "3. にし",
+          "4. やく"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「〜を除いて」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. in place of; instead of; on behalf of",
+          "2. except for; excluding",
+          "3. as; in accordance with; along with",
+          "4. cannot help but; can't resist"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「削る」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. to cut down little by little; to take a percentage",
+          "2. concrete",
+          "3. gravity",
+          "4. descendants; posterity; offspring"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「〜に反して」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. through; by way of; throughout",
+          "2. along; in line with; following",
+          "3. contrary to; against",
+          "4. based on; in accordance with"
+        ],
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第9回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「〜をきっかけに」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. triggered by; taking the opportunity of",
+          "2. throughout; over; spanning",
+          "3. be forced to; be compelled to",
+          "4. might; there is a risk that"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「助かる」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. chart; diagram; graph",
+          "2. plastic",
+          "3. to be saved; to be rescued; to survive; to be helpful",
+          "4. electric power"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「外部」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. to sow (seeds)",
+          "2. throb; beat (fast)",
+          "3. the outside; external",
+          "4. corpse"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「日の出」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. the Japanese syllabary",
+          "2. youthful; young",
+          "3. sunrise",
+          "4. heart (of city)"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「〜を通じて」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. through; by means of; throughout",
+          "2. except for; excluding",
+          "3. in addition to",
+          "4. be forced to; be compelled to"
+        ],
+        "answer": "1"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第10回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「どきどき」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. principle; theory; fundamental truth",
+          "2. throb; beat (fast)",
+          "3. contradiction; inconsistency",
+          "4. hydrogen"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「〜かのようだ」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. as if; just like",
+          "2. except for; excluding",
+          "3. might; there is a risk that",
+          "4. be forced to; be compelled to"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「炭」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. こ",
+          "2. すみ",
+          "3. はやす",
+          "4. せつ"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「墨」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. ink",
+          "2. to cool; to dampen; to let cool",
+          "3. rational",
+          "4. spoon"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「〜かねない」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. in place of; instead of; on behalf of",
+          "2. as if; just like",
+          "3. be forced to; be compelled to",
+          "4. might; there is a risk that"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第11回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「律」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. きょう",
+          "2. デシメートル",
+          "3. か",
+          "4. りつ"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "「〜に応じて」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. as if; just like",
+          "2. according to; in proportion to; depending on",
+          "3. based on; in accordance with",
+          "4. throughout; over; spanning"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「すくなくとも」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. arrival in Japan; coming to Japan; visit to Japan",
+          "2. comparatively; relatively",
+          "3. at least",
+          "4. new moon; crescent moon"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「〜をめぐって」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. cannot help but; can't resist",
+          "2. concerning; regarding; around",
+          "3. in place of; instead of; on behalf of",
+          "4. on the occasion of; at the time of"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「盗」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. とおる",
+          "2. -こ",
+          "3. ぬすむ",
+          "4. あと"
+        ],
+        "answer": "3"
+      }
+    ]
+  },
+  {
+    "title": "N2 総合練習 - 第12回",
+    "level": "N2",
+    "type": "practice",
+    "category": "総合",
+    "body": "次の問題に答えなさい。",
+    "questions": [
+      {
+        "question": "「字」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. く",
+          "2. さだめる",
+          "3. あざ",
+          "4. くすり"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「茶」の読み方として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. ちゃ",
+          "2. けつ",
+          "3. よし",
+          "4. せつ"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "「効力」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. to begin with; first of all",
+          "2. effect; efficacy; validity; potency",
+          "3. to sit (down)",
+          "4. sheet"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "「〜を禁じえない」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. in place of; instead of; on behalf of",
+          "2. through; by way of; throughout",
+          "3. cannot help feeling; unable to restrain",
+          "4. be forced to; be compelled to"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "「タイア」の意味として最も適切なものを、1・2・3・4から一つ選びなさい。",
+        "options": [
+          "1. tire; tyre",
+          "2. length; long and short; +-",
+          "3. (n) broom",
+          "4. pointed end; tip; fine point"
+        ],
+        "answer": "1"
+      }
+    ]
+  }
+]

@@ -1471,43 +1471,35 @@ const Settings = {
 // ----- Practice (练习题) -----
 
 const PracticeCategorySelect = {
-  data() { return { categories: [] }; },
+  data() { 
+    return { 
+      categories: [],
+      counts: {},
+      isLoadingCounts: true
+    }; 
+  },
   computed: {
-    currentLevel() { return this.getSavedLevel(); }
+    currentLevel() { return this.getSavedLevel(); },
+    levelBadge(level) {
+      const colors = {
+        'N0': 'bg-purple-100 text-purple-800',
+        'N1': 'bg-blue-100 text-blue-800',
+        'N2': 'bg-green-100 text-green-800',
+        'N3': 'bg-orange-100 text-orange-800',
+        'N4': 'bg-yellow-100 text-yellow-800',
+        'N5': 'bg-gray-100 text-gray-800'
+      };
+      return colors[level] || 'bg-gray-100 text-gray-800';
+    },
+    t(zh, en) { return this.languageStore.language === 'en' ? en : zh; }
   },
   mounted() {
-    // 从已有的 practice 文件中发现有哪些题型
-    const discovered = new Set();
-    const catMap = {
-      '文法': 'grammar',
-      '漢字読み': 'reading',
-      '漢字書き': 'writing',
-      '語彙': 'vocab',
-      '読解': 'reading',
-      '表現': 'expression'
-    };
-    // 扫描所有 practice JSON 文件，收集类别
-    const files = [
-      'practice_n5_grammar.json', 'practice_n4_grammar.json',
-      'practice_n3_grammar.json', 'practice_n2_grammar.json', 'practice_n1_grammar.json',
-      'practice_n5_reading.json', 'practice_n4_reading.json',
-      'practice_n3_reading.json', 'practice_n2_reading.json', 'practice_n1_reading.json',
-      'practice_n5_vocab.json', 'practice_n4_vocab.json',
-      'practice_n3_vocab.json', 'practice_n2_vocab.json', 'practice_n1_vocab.json',
-    ];
-    // 先用我们已生成的文件
-    const existingFiles = [
-      { level: 'N5', cat: '語彙', file: 'practice/practice_n5_.json' },
-      { level: 'N3', cat: '文法', file: 'practice/practice_n3_.json' },
-      { level: 'N2', cat: '漢字読み', file: 'practice/practice_n2_.json' },
-      { level: 'N1', cat: '読解', file: 'practice/practice_n1_.json' },
-    ];
-    // 这里简化：直接用固定映射
     this.categories = [
       { key: 'grammar', label: '文法', levels: ['N5', 'N4', 'N3', 'N2', 'N1'] },
-      { key: 'reading', label: '単語読音（漢字読み）', levels: ['N5', 'N4', 'N3', 'N2', 'N1'] },
+      { key: 'reading', label: '漢字読み', levels: ['N5', 'N4', 'N3', 'N2', 'N1'] },
       { key: 'reading_comp', label: '読解', levels: ['N5', 'N4', 'N3', 'N2', 'N1'] },
     ];
+    this.loadCounts();
   },
   methods: {
     goToCategory(catKey, level) {
@@ -1524,7 +1516,44 @@ const PracticeCategorySelect = {
       };
       return colors[level] || 'bg-gray-100 text-gray-800';
     },
-    t(zh, en) { return this.languageStore.language === 'en' ? en : zh; }
+    t(zh, en) { return this.languageStore.language === 'en' ? en : zh; },
+    loadCounts() {
+      const level = this.currentLevel.toLowerCase();
+      const files = [
+        `practice/practice_${level}_.json`,
+        `practice/practice_${level}_extra.json`
+      ];
+      
+      Promise.all(files.map(f => 
+        fetch(`/japanese-data/${f}?t=${Date.now()}`)
+          .then(r => r.ok ? r.json() : [])
+          .catch(() => [])
+      )).then(([main, extra]) => {
+        const all = [...main, ...extra];
+        const counts = { grammar: 0, reading: 0, reading_comp: 0, vocab: 0 };
+        
+        all.forEach(set => {
+          const cat = set.category || '';
+          const qCount = (set.questions || []).length;
+          if (cat === '文法' || cat === 'grammar') {
+            counts.grammar += qCount;
+          } else if (cat === '漢字読み' || cat === 'reading') {
+            counts.reading += qCount;
+          } else if (cat === '読解' || cat === 'reading_comp') {
+            counts.reading_comp += qCount;
+          } else if (cat === '語彙' || cat === 'vocab') {
+            counts.vocab += qCount;
+          } else {
+            counts.grammar += qCount;
+            counts.reading += qCount;
+            counts.reading_comp += qCount;
+          }
+        });
+        
+        this.counts = counts;
+        this.isLoadingCounts = false;
+      });
+    }
   },
   template: `
     <div class="min-h-screen bg-gray-50">
@@ -1544,7 +1573,10 @@ const PracticeCategorySelect = {
                 @click="goToCategory(cat.key, currentLevel)"
                 class="py-4 px-4 bg-indigo-600 text-white rounded-lg shadow-md hover:bg-indigo-700 text-left">
                 <div class="text-xl mb-1">{{ cat.label }}</div>
-                <div class="text-xs opacity-80">{{ t('点开开始练习', 'Click to start') }}</div>
+                <div class="text-xs opacity-80">
+                  <span v-if="isLoadingCounts">...</span>
+                  <span v-else>{{ counts[cat.key] || 0 }} 题</span>
+                </div>
               </button>
             </div>
           </div>
@@ -1602,27 +1634,25 @@ const PracticeList = {
       };
       const catName = catMap[this.categoryKey] || this.categoryKey;
       const levelLower = this.level.toLowerCase();
-      // 尝试加载匹配的 practice 文件
-      const fileName = `practice/practice_${levelLower}_.json`;
-      fetch(`/japanese-data/${fileName}?t=${Date.now()}`)
-        .then(r => {
-          if (!r.ok) throw new Error('not found');
-          return r.json();
-        })
-        .then(data => {
-          if (Array.isArray(data)) {
-            this.sets = data.filter(s => s.category === catName || s.category === this.categoryKey || !s.category);
-          } else if (data && data.questions) {
-            this.sets = [data];
-          } else {
-            this.sets = [];
-          }
-        })
-        .catch(() => {
-          // fallback: 尝试静态映射文件
-          this.loadFallback();
-        })
-        .finally(() => { this.isLoading = false; });
+      
+      // Load both the main file and extra file
+      const files = [
+        `practice/practice_${levelLower}_.json`,
+        `practice/practice_${levelLower}_extra.json`
+      ];
+      
+      Promise.all(files.map(f => 
+        fetch(`/japanese-data/${f}?t=${Date.now()}`)
+          .then(r => r.ok ? r.json() : [])
+          .catch(() => [])
+      )).then(([main, extra]) => {
+        const all = [...main, ...extra];
+        if (Array.isArray(all) && all.length > 0) {
+          this.sets = all.filter(s => s.category === catName || s.category === this.categoryKey || !s.category || s.category === '総合');
+        } else {
+          this.sets = [];
+        }
+      }).finally(() => { this.isLoading = false; });
     },
     loadFallback() {
       // 如果上面的文件不存在，尝试从对应级别的专门文件加载
