@@ -143,141 +143,9 @@ function t(zh, en) {
 // Add t as a mixin for all components (reactive)
 // (will be set after app is created)
 
-// ========== Auth ==========
-function checkAuth() {
-  return localStorage.getItem('isLoggedIn') === 'true';
-}
-
-function setAuth(val) {
-  if (val) {
-    localStorage.setItem('isLoggedIn', 'true');
-  } else {
-    localStorage.removeItem('isLoggedIn');
-  }
-}
-
-function getCurrentUser() {
-  return localStorage.getItem('currentUsername') || '';
-}
-
-function setCurrentUser(username) {
-  localStorage.setItem('currentUsername', username);
-}
-
-function clearCurrentUser() {
-  localStorage.removeItem('currentUsername');
-}
-
-// ========== Users Store ==========
-function getUsers() {
-  const data = localStorage.getItem('users');
-  if (!data) {
-    const defaultUsers = [
-      { username: 'admin', password: '1234', isAdmin: true },
-      { username: 'user1', password: '1234', isAdmin: false },
-      { username: 'user2', password: '1234', isAdmin: false }
-    ];
-    localStorage.setItem('users', JSON.stringify(defaultUsers));
-    return defaultUsers;
-  }
-  return JSON.parse(data);
-}
-
-function saveUsers(users) {
-  localStorage.setItem('users', JSON.stringify(users));
-}
-
-function findUser(username) {
-  return getUsers().find(u => u.username === username);
-}
-
-function validateLogin(username, password) {
-  const user = findUser(username);
-  return user && user.password === password;
-}
-
-function resetPassword(username) {
-  const users = getUsers();
-  const user = users.find(u => u.username === username);
-  if (user) {
-    user.password = '123456';
-    saveUsers(users);
-    return true;
-  }
-  return false;
-}
-
-function changePassword(username, oldPassword, newPassword) {
-  const users = getUsers();
-  const user = users.find(u => u.username === username);
-  if (user && user.password === oldPassword) {
-    user.password = newPassword;
-    saveUsers(users);
-    return true;
-  }
-  return false;
-}
-
-function isAdmin() {
-  const username = getCurrentUser();
-  const user = findUser(username);
-  return user && user.isAdmin;
-}
-
 // ========== Components ==========
 
-const Login = {
-  data() {
-    return {
-      username: '',
-      password: '',
-      error: ''
-    };
-  },
-  methods: {
-    login() {
-      if (validateLogin(this.username, this.password)) {
-        setAuth(true);
-        setCurrentUser(this.username);
-        this.$emit('navigate', '/home');
-      } else {
-        this.error = '用户名或密码错误';
-      }
-    }
-  },
-  template: `
-    <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
-      <div class="bg-white rounded-2xl shadow-xl p-8 w-full max-w-sm">
-        <h1 class="text-3xl font-bold text-indigo-800 mb-2 text-center">JLPT Learning App</h1>
-        <p class="text-gray-500 text-center mb-6">请登录以继续</p>
-        <div class="space-y-4">
-          <div>
-            <label class="block text-sm font-medium text-gray-700 mb-1">用户名</label>
-            <input v-model="username" type="text" placeholder="请输入用户名"
-              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-          </div>
-          <div>
-            <label class="block text-sm font-medium text-gray-700 mb-1">密码</label>
-            <input v-model="password" type="password" placeholder="请输入密码" @keyup.enter="login"
-              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-          </div>
-          <p v-if="error" class="text-red-500 text-sm text-center">{{ error }}</p>
-          <button @click="login" class="w-full py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition">
-            登录
-          </button>
-        </div>
-        <p class="text-xs text-gray-400 text-center mt-4">默认账号: user1 / 1234</p>
-      </div>
-    </div>
-  `
-};
-
 const Home = {
-  computed: {
-    isAdminUser() {
-      return isAdmin();
-    }
-  },
   template: `
     <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
       <h1 class="text-4xl font-bold text-indigo-800 mb-8">JLPT Learning App</h1>
@@ -1252,163 +1120,7 @@ const Favorites = {
   `
 };
 
-// ========== User Management ==========
-const UserManagement = {
-  data() {
-    return {
-      users: [],
-      message: '',
-      messageType: ''
-    };
-  },
-  mounted() {
-    this.loadUsers();
-  },
-  methods: {
-    loadUsers() {
-      this.users = getUsers();
-    },
-    resetPassword(username) {
-      if (username === 'admin') {
-        this.message = '不能重置管理员密码';
-        this.messageType = 'error';
-        return;
-      }
-      if (resetPassword(username)) {
-        this.message = `用户 ${username} 密码已重置为 123456`;
-        this.messageType = 'success';
-        this.loadUsers();
-      }
-    }
-  },
-  template: `
-    <div class="min-h-screen bg-gray-50">
-      <div class="sticky top-0 z-10 bg-gray-50 pb-2 pt-4 px-4">
-        <div class="max-w-4xl mx-auto flex items-center justify-between">
-          <h1 class="text-2xl font-bold">👥 用户管理</h1>
-          <button @click="$emit('navigate', '/home')" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">← 戻る</button>
-        </div>
-      </div>
-      <div class="px-4"><div class="max-w-4xl mx-auto">
-        <div v-if="message" :class="messageType === 'success' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'" class="p-3 rounded-lg mb-4">{{ message }}</div>
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <table class="w-full">
-            <thead class="bg-gray-100">
-              <tr>
-                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">用户名</th>
-                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">密码</th>
-                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">权限</th>
-                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">操作</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              <tr v-for="user in users" :key="user.username" class="hover:bg-gray-50">
-                <td class="px-4 py-3 text-sm">{{ user.username }}</td>
-                <td class="px-4 py-3 text-sm font-mono">{{ user.password }}</td>
-                <td class="px-4 py-3 text-sm">
-                  <span :class="user.isAdmin ? 'bg-orange-100 text-orange-700' : 'bg-gray-100 text-gray-600'" class="px-2 py-1 rounded text-xs font-medium">
-                    {{ user.isAdmin ? '管理员' : '普通用户' }}
-                  </span>
-                </td>
-                <td class="px-4 py-3 text-sm">
-                  <button v-if="!user.isAdmin" @click="resetPassword(user.username)" class="px-3 py-1 bg-yellow-100 text-yellow-700 rounded hover:bg-yellow-200 text-xs font-medium">
-                    重置密码
-                  </button>
-                  <span v-else class="text-gray-400 text-xs">不可操作</span>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div></div>
-    </div>
-  `
-};
-
-// ========== Change Password ==========
-const ChangePassword = {
-  data() {
-    return {
-      oldPassword: '',
-      newPassword: '',
-      confirmPassword: '',
-      message: '',
-      messageType: ''
-    };
-  },
-  computed: {
-    currentUser() {
-      return getCurrentUser();
-    }
-  },
-  methods: {
-    changePassword() {
-      if (!this.oldPassword || !this.newPassword || !this.confirmPassword) {
-        this.message = '请填写所有字段';
-        this.messageType = 'error';
-        return;
-      }
-      if (this.newPassword !== this.confirmPassword) {
-        this.message = '新密码与确认密码不一致';
-        this.messageType = 'error';
-        return;
-      }
-      if (this.newPassword.length < 4) {
-        this.message = '新密码至少4位';
-        this.messageType = 'error';
-        return;
-      }
-      if (changePassword(this.currentUser, this.oldPassword, this.newPassword)) {
-        this.message = '密码修改成功，请重新登录';
-        this.messageType = 'success';
-        setTimeout(() => {
-          setAuth(false);
-          clearCurrentUser();
-          this.$emit('navigate', '/login');
-        }, 1500);
-      } else {
-        this.message = '原密码错误';
-        this.messageType = 'error';
-      }
-    }
-  },
-  template: `
-    <div class="min-h-screen bg-gray-50">
-      <div class="sticky top-0 z-10 bg-gray-50 pb-2 pt-4 px-4">
-        <div class="max-w-4xl mx-auto flex items-center justify-between">
-          <h1 class="text-2xl font-bold">🔑 修改密码</h1>
-          <button @click="$emit('navigate', '/home')" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">← 戻る</button>
-        </div>
-      </div>
-      <div class="px-4"><div class="max-w-4xl mx-auto">
-        <div class="bg-white rounded-lg shadow-md p-6 max-w-md mx-auto">
-          <p class="text-sm text-gray-500 mb-4">当前用户：<span class="font-semibold text-indigo-600">{{ currentUser }}</span></p>
-          <div v-if="message" :class="messageType === 'success' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'" class="p-3 rounded-lg mb-4">{{ message }}</div>
-          <div class="space-y-4">
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">原密码</label>
-              <input v-model="oldPassword" type="password" placeholder="请输入原密码"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-            </div>
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">新密码</label>
-              <input v-model="newPassword" type="password" placeholder="请输入新密码"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-            </div>
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">确认新密码</label>
-              <input v-model="confirmPassword" type="password" placeholder="请再次输入新密码" @keyup.enter="changePassword"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-            </div>
-            <button @click="changePassword" class="w-full py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition">
-              确认修改
-            </button>
-          </div>
-        </div>
-      </div></div>
-    </div>
-  `
-};
+// ========== Settings ==========
 
 const Settings = {
   data() {
@@ -1479,19 +1191,7 @@ const PracticeCategorySelect = {
     }; 
   },
   computed: {
-    currentLevel() { return this.getSavedLevel(); },
-    levelBadge(level) {
-      const colors = {
-        'N0': 'bg-purple-100 text-purple-800',
-        'N1': 'bg-blue-100 text-blue-800',
-        'N2': 'bg-green-100 text-green-800',
-        'N3': 'bg-orange-100 text-orange-800',
-        'N4': 'bg-yellow-100 text-yellow-800',
-        'N5': 'bg-gray-100 text-gray-800'
-      };
-      return colors[level] || 'bg-gray-100 text-gray-800';
-    },
-    t(zh, en) { return this.languageStore.language === 'en' ? en : zh; }
+    currentLevel() { return this.getSavedLevel(); }
   },
   mounted() {
     this.categories = [
@@ -1655,25 +1355,9 @@ const PracticeList = {
       }).finally(() => { this.isLoading = false; });
     },
     loadFallback() {
-      // 如果上面的文件不存在，尝试从对应级别的专门文件加载
-      const catMap = {
-        'grammar': 'grammar',
-        'reading': 'reading',
-        'reading_comp': 'reading',
-        'vocab': 'vocab'
-      };
-      const suffix = catMap[this.categoryKey] || 'grammar';
-      const fileName = `practice/practice_${this.level.toLowerCase()}_${suffix}.json`;
-      fetch(`/japanese-data/${fileName}?t=${Date.now()}`)
-        .then(r => {
-          if (!r.ok) throw new Error('not found');
-          return r.json();
-        })
-        .then(data => {
-          this.sets = Array.isArray(data) ? data : (data && data.questions ? [data] : []);
-        })
-        .catch(() => { this.sets = []; })
-        .finally(() => { this.isLoading = false; });
+      // Deprecated: loadSets now handles both files
+      this.sets = [];
+      this.isLoading = false;
     },
     goToSet(s) {
       this.$emit('navigate', `/practice/set/${encodeURIComponent(s.title)}/${this.categoryKey}/${this.level}`);
@@ -1781,59 +1465,42 @@ const PracticeSetDetail = {
       };
       const catName = catMap[categoryKey] || categoryKey;
       const levelLower = level.toLowerCase();
+      const decodedTitle = decodeURIComponent(encodedTitle);
 
-      // 先尝试直接从文件找
-      const fileName = `practice/practice_${levelLower}_.json`;
-      fetch(`/japanese-data/${fileName}?t=${Date.now()}`)
-        .then(r => r.json())
-        .then(data => {
-          let found = null;
-          if (Array.isArray(data)) {
-            found = data.find(s => s.title === decodeURIComponent(encodedTitle) || encodeURIComponent(s.title) === encodedTitle);
-            if (!found) {
-              // 尝试按类别模糊匹配
-              found = data.find(s => s.category === catName || s.category === categoryKey);
-            }
-          } else if (data && data.questions) {
-            found = data;
+      const files = [
+        `practice/practice_${levelLower}_.json`,
+        `practice/practice_${levelLower}_extra.json`
+      ];
+
+      Promise.all(files.map(f =>
+        fetch(`/japanese-data/${f}?t=${Date.now()}`)
+          .then(r => r.ok ? r.json() : [])
+          .catch(() => [])
+      )).then(([main, extra]) => {
+        const all = [...main, ...extra];
+        let found = null;
+        
+        // Try exact title match first
+        for (const set of all) {
+          if (set.title === decodedTitle || encodeURIComponent(set.title) === encodedTitle) {
+            found = set;
+            break;
           }
-          if (found) {
-            this.set = found;
-          } else {
-            // fallback 另一个文件名
-            return this.loadFallbackSet(encodedTitle, categoryKey, level);
-          }
-        })
-        .catch(() => {
-          return this.loadFallbackSet(encodedTitle, categoryKey, level);
-        })
+        }
+        
+        // Try fuzzy category match
+        if (!found) {
+          found = all.find(s => s.category === catName || s.category === categoryKey);
+        }
+        
+        this.set = found || null;
+      }).catch(() => { this.set = null; })
         .finally(() => { this.isLoading = false; });
     },
     loadFallbackSet(encodedTitle, categoryKey, level) {
-      const catMap = {
-        'grammar': 'grammar',
-        'reading': 'reading',
-        'reading_comp': 'reading',
-        'vocab': 'vocab'
-      };
-      const suffix = catMap[categoryKey] || 'grammar';
-      const fileName = `practice/practice_${level.toLowerCase()}_${suffix}.json`;
-      fetch(`/japanese-data/${fileName}?t=${Date.now()}`)
-        .then(r => {
-          if (!r.ok) throw new Error('not found');
-          return r.json();
-        })
-        .then(data => {
-          if (Array.isArray(data)) {
-            this.set = data.find(s => s.title === decodeURIComponent(encodedTitle) || encodeURIComponent(s.title) === encodedTitle) || data[0];
-          } else if (data && data.questions) {
-            this.set = data;
-          } else {
-            this.set = null;
-          }
-        })
-        .catch(() => { this.set = null; })
-        .finally(() => { this.isLoading = false; });
+      // Deprecated: loadSet now handles both files
+      this.set = null;
+      this.isLoading = false;
     },
     selectAnswer(qIdx, answer) {
       this.answers[qIdx] = answer;
@@ -2005,8 +1672,7 @@ const PracticeSetDetail = {
 // ========== Routes ==========
 
 const routes = {
-  '/': Login,
-  '/login': Login,
+  '/': Home,
   '/home': Home,
   '/words': Words,
   '/word/:id': WordDetail,
@@ -2018,8 +1684,6 @@ const routes = {
   '/topic/:id': TopicDetail,
   '/favorites': Favorites,
   '/settings': Settings,
-  '/users': UserManagement,
-  '/changepassword': ChangePassword,
   '/practice': PracticeCategorySelect,
   '/practice/:catKey/:level': PracticeList,
   '/practice/set/:encodedTitle/:catKey/:level': PracticeSetDetail
@@ -2044,22 +1708,11 @@ const app = createApp({
   },
   computed: {
     currentComponent() {
-      // Admin-only routes
-      if (this.currentPath.startsWith('/users') && !isAdmin()) {
-        return Home;
-      }
       return matchRoute(this.currentPath);
     }
   },
   methods: {
     navigate(path) {
-      // Admin-only routes
-      if (path.startsWith('/users') && !isAdmin()) {
-        this.currentPath = '/home';
-        window.location.hash = '/home';
-        return;
-      }
-      
       this.currentPath = path;
       window.location.hash = path;
     }
