@@ -1348,7 +1348,15 @@ const PracticeList = {
       )).then(([main, extra]) => {
         const all = [...main, ...extra];
         if (Array.isArray(all) && all.length > 0) {
-          this.sets = all.filter(s => s.category === catName || s.category === this.categoryKey || !s.category || s.category === '総合');
+          // For reading_comp, only accept actual 読解-category sets
+          if (this.categoryKey === 'reading_comp') {
+            this.sets = all.filter(s => s.category === '読解' || s.category === 'reading_comp');
+          } else if (this.categoryKey === 'reading') {
+            // 漢字読み: accept 漢字読み and any 総合 as fallback still fine for reading kanji
+            this.sets = all.filter(s => s.category === '漢字読み' || s.category === 'reading' || !s.category);
+          } else {
+            this.sets = all.filter(s => s.category === catName || s.category === this.categoryKey || !s.category || s.category === '総合');
+          }
         } else {
           this.sets = [];
         }
