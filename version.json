@@ -1,0 +1,124 @@
+{
+  "latest_version": "1.6",
+  "history": [
+    {
+      "version": "0.1",
+      "sha": "1af2f92c",
+      "date": "2026-08-31",
+      "time": "20:53",
+      "message": "Initial commit: JLPT Learning App"
+    },
+    {
+      "version": "0.2",
+      "sha": "d20207d2",
+      "date": "2026-08-31",
+      "time": "20:54",
+      "message": "Remove data files from tracking"
+    },
+    {
+      "version": "0.3",
+      "sha": "17bc5328",
+      "date": "2026-08-31",
+      "time": "22:59",
+      "message": "Re-add data files for deployment"
+    },
+    {
+      "version": "0.4",
+      "sha": "c30569af",
+      "date": "2026-08-31",
+      "time": "23:49",
+      "message": "Remove login requirement and user management for public deployment"
+    },
+    {
+      "version": "0.5",
+      "sha": "8c99e85e",
+      "date": "2026-09-01",
+      "time": "00:00",
+      "message": "Add Google Analytics"
+    },
+    {
+      "version": "0.6",
+      "sha": "0f6fcddc",
+      "date": "2026-09-01",
+      "time": "19:48",
+      "message": "feat: update JLPT data (grammar, scenes, topics)"
+    },
+    {
+      "version": "0.7",
+      "sha": "3689c217",
+      "date": "2026-09-02",
+      "time": "13:31",
+      "message": "feat: update JLPT data with improved scenes and topics"
+    },
+    {
+      "version": "0.8",
+      "sha": "18b8ef38",
+      "date": "2026-09-02",
+      "time": "14:46",
+      "message": "chore: trigger Vercel redeployment"
+    },
+    {
+      "version": "0.9",
+      "sha": "3fe56395",
+      "date": "2026-09-02",
+      "time": "15:02",
+      "message": "chore: migrate large data files to Git LFS to fix Vercel deployment"
+    },
+    {
+      "version": "0.9",
+      "sha": "024012c3",
+      "date": "2026-09-02",
+      "time": "15:09",
+      "message": "refactor: split words data into 10 files per level, remove LFS"
+    },
+    {
+      "version": "1.0",
+      "sha": "2807f35f",
+      "date": "2026-09-02",
+      "time": "15:32",
+      "message": "chore: trigger vercel rebuild"
+    },
+    {
+      "version": "1.1",
+      "sha": "53cb0444",
+      "date": "2026-09-04",
+      "time": "13:02",
+      "message": "feat: add practice (练习题) feature with question bank"
+    },
+    {
+      "version": "1.2",
+      "sha": "e0584a1d",
+      "date": "2026-09-04",
+      "time": "23:33",
+      "message": "feat: add practice counts in category view, load extra questions"
+    },
+    {
+      "version": "1.3",
+      "sha": "931aeafb",
+      "date": "2026-09-06",
+      "time": "01:53",
+      "message": "fix: restore no-login + practice edition (Settings component fixed, auth removed); practice routes intact"
+    },
+    {
+      "version": "1.4",
+      "sha": "39fd0545",
+      "date": "2026-09-07",
+      "time": "09:58",
+      "message": "fix: reading practice no longer mixes 総合 into 読解; add news-based 読解 sets for N2~N5"
+    },
+    {
+      "version": "1.5",
+      "sha": "346426c0",
+      "date": "2026-09-07",
+      "time": "12:08",
+      "message": "fix: add full article body to N2~N5 読解 practice sets (use マツダ新型CX-5 news)"
+    },
+    {
+      "version": "1.6",
+      "sha": "fa294502",
+      "date": "2026-09-07",
+      "time": "14:06",
+      "message": "fix: remove duplicate/empty 読解 set in N2, keep full-article マツダ新型CX-5 set"
+    }
+  ]
+}

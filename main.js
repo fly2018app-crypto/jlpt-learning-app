@@ -157,6 +157,7 @@ const Home = {
         <button @click="$emit('navigate', '/favorites')" class="py-4 px-6 bg-red-500 text-white rounded-lg shadow-md hover:bg-red-600">⭐ 收藏一覧 (Favorites)</button>
         <button @click="$emit('navigate', '/settings')" class="py-4 px-6 bg-gray-500 text-white rounded-lg shadow-md hover:bg-gray-600">⚙️ 設定 (Settings)</button>
         <button @click="$emit('navigate', '/practice')" class="py-4 px-6 bg-pink-600 text-white rounded-lg shadow-md hover:bg-pink-700">📝 練習題 (Practice)</button>
+        <button @click="$emit('navigate', '/version-history')" class="py-4 px-6 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-700">📋 版本歷史 (Version)</button>
       </div>
     </div>
   `
@@ -1694,7 +1695,8 @@ const routes = {
   '/settings': Settings,
   '/practice': PracticeCategorySelect,
   '/practice/:catKey/:level': PracticeList,
-  '/practice/set/:encodedTitle/:catKey/:level': PracticeSetDetail
+  '/practice/set/:encodedTitle/:catKey/:level': PracticeSetDetail,
+  '/version-history': VersionHistory
 };
 
 function matchRoute(path) {
@@ -1707,6 +1709,62 @@ function matchRoute(path) {
   if (path.startsWith('/practice/')) return routes['/practice/:catKey/:level'];
   return routes['/'];
 }
+
+// ========== Version History Component ==========
+
+const VersionHistory = {
+  data() {
+    return {
+      version: '0.0',
+      history: [],
+      isLoading: true
+    };
+  },
+  mounted() {
+    fetch('/version.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(json => {
+        this.version = json.latest_version || '0.0';
+        this.history = json.history || [];
+        this.isLoading = false;
+      })
+      .catch(() => {
+        this.version = '0.0';
+        this.isLoading = false;
+      });
+  },
+  template: `
+    <div class="min-h-screen bg-gray-50">
+      <div class="sticky top-0 z-10 bg-gray-50 pb-2 pt-4 px-4">
+        <div class="max-w-4xl mx-auto flex items-center justify-between">
+          <h1 class="text-2xl font-bold text-gray-800">📋 版本歷史</h1>
+          <button @click="$emit('navigate', '/home')" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">← 返回</button>
+        </div>
+      </div>
+      <div class="px-4">
+        <div class="max-w-2xl mx-auto">
+          <div class="bg-gray-100 rounded-lg p-4 mb-4 text-center">
+            <span class="text-sm text-gray-500">當前版本</span>
+            <span class="text-2xl font-bold text-indigo-600 ml-2">{{ version }}</span>
+          </div>
+          <div v-if="isLoading" class="text-center py-8 text-gray-500">載入中...</div>
+          <div v-else-if="history.length === 0" class="text-center py-8 text-gray-500">無歷史記錄</div>
+          <div v-else class="space-y-3">
+            <div v-for="(item, idx) in history" :key="idx"
+              class="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="font-mono font-bold text-indigo-600 text-lg">{{ item.version }}</span>
+                <span class="text-xs text-gray-400">{{ item.date }} {{ item.time }}</span>
+              </div>
+              <p class="text-sm text-gray-700">{{ item.message }}</p>
+              <p class="text-xs text-gray-400 mt-1">commit: {{ item.sha }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `
+};
 
 // ========== App ==========
 
