@@ -1762,6 +1762,7 @@ const VersionHistory = {
           </div>
         </div>
       </div>
+      <div class="absolute bottom-2 right-4 text-xs text-gray-400">v{{ version }}</div>
     </div>
   `
 };
