@@ -11174,5 +11174,1179 @@
     ],
     "notes": "用于表示某事不受前述名词的影响，常用于正式书面语。",
     "id": 451
+  },
+  {
+    "title": "~次第で",
+    "meaning": "depending on ~",
+    "level": "N2",
+    "explanation": "Used to indicate that the result or outcome depends entirely on the noun that follows. Common with nouns like 味, 調理法, 食材, 店の雰囲気, etc. (food-related context).",
+    "patterns": [
+      "N + 次第で",
+      "N + 次第だ"
+    ],
+    "examples": [
+      {
+        "jp": "この和牛は肉質次第で、A5ランクに格付けされることもある。",
+        "en": "Depending on the meat quality, this wagyu may even be graded A5."
+      },
+      {
+        "jp": "寿司の美味しさは、シャリの炊き具合次第で決まる。",
+        "en": "The deliciousness of sushi depends on how the sushi rice is cooked."
+      }
+    ],
+    "notes": "Similar to ~によって異なる, but ~次第で implies a more direct causal relationship where the subject's outcome is fully determined by the noun.",
+    "id": 452
+  },
+  {
+    "title": "~にしては",
+    "meaning": "for ~; given that it is ~",
+    "level": "N2",
+    "explanation": "Expresses that something is unusual or unexpected considering the situation described by the noun. Often used in comparative contexts (e.g., comparing what one would expect from a price/level versus reality).",
+    "patterns": [
+      "N + にしては"
+    ],
+    "examples": [
+      {
+        "jp": "この値段のラーメンにしては、具材が信じられないほど豪華だ。",
+        "en": "For ramen at this price, the toppings are unbelievably luxurious."
+      },
+      {
+        "jp": "初めて握ったにしては、弟子の寿司は形がとても立派だ。",
+        "en": "For his first time making sushi, the apprentice's pieces are impressively well-shaped."
+      }
+    ],
+    "notes": "Often followed by expressions of evaluation (素晴らしい, 上手だ, ひどい, etc.).",
+    "id": 453
+  },
+  {
+    "title": "~抜きで",
+    "meaning": "without ~; omitting ~",
+    "level": "N2",
+    "explanation": "Indicates doing something without the usual or expected element. Common in food contexts for omitting ingredients, condiments, or steps.",
+    "patterns": [
+      "N + 抜きで",
+      "N + 抜きの + N",
+      "N + 抜きにする"
+    ],
+    "examples": [
+      {
+        "jp": "私はいつもネギ抜きでラーメンを注文する。",
+        "en": "I always order ramen without green onions."
+      },
+      {
+        "jp": "今日はワサビ抜きのお寿司にしてください。",
+        "en": "Please make today's sushi without wasabi."
+      },
+      {
+        "jp": "ミシュラン三つ星の和牛ステーキは塩コショウ抜きでも十分美味しい。",
+        "en": "Even without salt and pepper, the Michelin three-star wagyu steak is delicious enough."
+      }
+    ],
+    "notes": "Related forms: ~抜きには (without ~ cannot...), ~は抜きにして (setting aside ~).",
+    "id": 454
+  },
+  {
+    "title": "~ぶり",
+    "meaning": "after a lapse of ~; manner/condition",
+    "level": "N2",
+    "explanation": "Two related uses: (1) attached to time expressions meaning 'after a long time', (2) attached to nouns meaning 'manner/style of doing'. Both useful in food review contexts.",
+    "patterns": [
+      "時間 + ぶり",
+      "N + ぶりだ",
+      "N + ぶりの + N"
+    ],
+    "examples": [
+      {
+        "jp": "三年ぶりに友人と再会して、有名なラーメン屋に行った。",
+        "en": "After three years, I reunited with my friend and went to a famous ramen shop."
+      },
+      {
+        "jp": "この店の店主はいつも大胆な飾りぶりで寿司を握る。",
+        "en": "The shop owner always makes sushi with bold, decorative style."
+      }
+    ],
+    "notes": "Time usage often pairs with verbs like 食べる, 行く, 会う. Manner usage pairs with nouns describing style/behavior.",
+    "id": 455
+  },
+  {
+    "title": "~向きだ",
+    "meaning": "suitable for ~; aimed at ~",
+    "level": "N2",
+    "explanation": "Expresses that something is suitable, aimed at, or intended for a particular audience or type. Frequently seen in descriptions of restaurants, menus, or cooking styles.",
+    "patterns": [
+      "N + 向きだ",
+      "N + 向きに",
+      "N + 向きの + N"
+    ],
+    "examples": [
+      {
+        "jp": "この味噌ラーメンは北海道の厳寒向きに濃厚な味わいに仕上げてある。",
+        "en": "This miso ramen is finished with a rich flavor suitable for Hokkaido's harsh cold."
+      },
+      {
+        "jp": "このお寿司は外国人観光客向きに、見た目が美しく作られている。",
+        "en": "This sushi is made with beautiful presentation aimed at foreign tourists."
+      },
+      {
+        "jp": "脂が控えめの和牛ステーキは、健康志向の人にぴったり向いている。",
+        "en": "Lean wagyu steak is perfectly suited for health-conscious people."
+      }
+    ],
+    "notes": "Opposite expression: ~向け (more about targeting an audience), ~向き (more about suitability for conditions/people).",
+    "id": 456
+  },
+  {
+    "title": "～にしては",
+    "meaning": "Considering; given that",
+    "level": "N2",
+    "explanation": "Used to indicate that something is surprising or unexpected given a certain standard or context.",
+    "patterns": [
+      "Nにしては",
+      "Naにしては"
+    ],
+    "examples": [
+      {
+        "jp": "このラーメン店は、繁華街にあるにしては料金が安い。",
+        "en": "Despite being located in a downtown area, this ramen shop has surprisingly affordable prices."
+      }
+    ],
+    "notes": "Expresses a judgment that something does not meet the expected standard.",
+    "id": 457
+  },
+  {
+    "title": "～抜きで",
+    "meaning": "Without; excluding",
+    "level": "N2",
+    "explanation": "Indicates that something is done without a specific element or with something omitted.",
+    "patterns": [
+      "N抜きで",
+      "N抜きにして",
+      "N抜きでは"
+    ],
+    "examples": [
+      {
+        "jp": "今日は箸抜きでラーメンを食べてみようと思う。",
+        "en": "Today, I am thinking of trying to eat ramen without using chopsticks."
+      }
+    ],
+    "notes": "Similar meaning to なしで or を除いて.",
+    "id": 458
+  },
+  {
+    "title": "～ぶりに",
+    "meaning": "After a period of; for the first time in",
+    "level": "N2",
+    "explanation": "Indicates the interval of time that has passed since the last occurrence of an action or state.",
+    "patterns": [
+      "時間/期間 + ぶりに"
+    ],
+    "examples": [
+      {
+        "jp": "三年ぶりに東京で本格的な寿司を食べた。",
+        "en": "I ate authentic sushi in Tokyo for the first time in three years."
+      }
+    ],
+    "notes": "Often paired with 久しぶり to express a long interval.",
+    "id": 459
+  },
+  {
+    "title": "～甲斐がある",
+    "meaning": "Worth the effort; rewarding",
+    "level": "N2",
+    "explanation": "Indicates that an effort or action was worthwhile because it produced a good result.",
+    "patterns": [
+      "V-甲斐がある",
+      "Nの甲斐がある"
+    ],
+    "examples": [
+      {
+        "jp": "三時間並んで食べた味噌ラーメンは、待つ甲斐があった。",
+        "en": "The miso ramen I ate after waiting in line for three hours was worth the wait."
+      }
+    ],
+    "notes": "Negative form is 甲斐がない meaning 'futile' or 'pointless'.",
+    "id": 460
+  },
+  {
+    "title": "〜次第で",
+    "meaning": "depending on; according to",
+    "level": "N2",
+    "explanation": "〜次第で follows a noun and means 'depending on' or 'according to'. It indicates that the result or outcome will change based on the preceding factor. It is often contrasted with 〜次第だ, which states the outcome itself.",
+    "patterns": [
+      "名詞 + 次第で",
+      "名詞 + 次第では"
+    ],
+    "examples": [
+      {
+        "jp": "このラーメンの味は、使っているスープ次第で大きく変わる。",
+        "en": "The taste of this ramen changes greatly depending on the soup used."
+      },
+      {
+        "jp": "美味しいすしになるかどうか、ネタの新鮮さ次第です。",
+        "en": "Whether it becomes delicious sushi or not depends on the freshness of the ingredients."
+      },
+      {
+        "jp": "和牛の焼き加減次第では、肉本来の旨味を最大限に引き出すことができる。",
+        "en": "Depending on how you grill wagyu, you can bring out the maximum umami of the meat itself."
+      }
+    ],
+    "notes": "〜次第だ means 'the result is already determined/clear', while 〜次第で indicates that the result is contingent on the stated factor. Often used with expressions like 結果, 成功, 価値, 運命, 評価, etc.",
+    "id": 461
+  },
+  {
+    "title": "〜てからでないと",
+    "meaning": "如果不先做某事就不能做另一事",
+    "level": "N2",
+    "explanation": "强调必须先完成前项动作，才能进行后项动作。常用于表示顺序上的必要条件。",
+    "patterns": [
+      "动词て形 + からでないと + 动词辞書形"
+    ],
+    "examples": [
+      {
+        "jp": "予習をしてからでないと、授業の内容が理解できないかもしれません。",
+        "en": "如果不先预习的话，可能无法理解课上的内容。"
+      },
+      {
+        "jp": "先生に相談してからでないと、決められません。",
+        "en": "如果不先跟老师商量的话，我无法决定。"
+      }
+    ],
+    "notes": "在教育场景中，常用于强调学习或决策的前提条件。",
+    "id": 462
+  },
+  {
+    "title": "〜に即して",
+    "meaning": "按照；切合；结合（实际）",
+    "level": "N2",
+    "explanation": "表示与实际情况相结合或按照某标准去做。常用于教育中说明教学要贴近实际情况或学生水平。",
+    "patterns": [
+      "名词 + に即して + 动作"
+    ],
+    "examples": [
+      {
+        "jp": "学生のレベルに即して、教材を選ぶ必要があります。",
+        "en": "需要根据学生的水平来选择教材。"
+      },
+      {
+        "jp": "現場のニーズに即したカリキュラムが求められています。",
+        "en": "现在需要符合现场需求的课程设置。"
+      }
+    ],
+    "notes": "比「〜に基づいて」更强调贴合实际。",
+    "id": 463
+  },
+  {
+    "title": "〜つつある",
+    "meaning": "正在逐渐……",
+    "level": "N2",
+    "explanation": "表示某事态正在持续地发生变化。多用于书面语。在教育领域常用于描述正在转变的趋势。",
+    "patterns": [
+      "动词ます形 + つつある"
+    ],
+    "examples": [
+      {
+        "jp": "近年、オンライン学習を利用する学生が増えつつある。",
+        "en": "近年来，使用线上学习的学生正在逐渐增加。"
+      },
+      {
+        "jp": "伝統的な授業方法から新しいスタイルへと変わりつつある。",
+        "en": "教学方式正在从传统方法向新风格转变。"
+      }
+    ],
+    "notes": "书面用语，强调变化过程的持续性。",
+    "id": 464
+  },
+  {
+    "title": "〜にしては",
+    "meaning": "for; considering that",
+    "level": "N2",
+    "explanation": "Used to indicate that something is unusual or unexpected given the circumstances, commonly used in education to comment on a learner's performance relative to their background.",
+    "patterns": [
+      "N + にしては",
+      "V（dictionary form）+ にしては"
+    ],
+    "examples": [
+      {
+        "jp": "小学生にしては難しい漢字を正確に読むことができる。",
+        "en": "For an elementary school student, he can read difficult kanji accurately."
+      },
+      {
+        "jp": "オンラインで勉強したにしては、テストの成績がずいぶん良かった。",
+        "en": "Considering he studied online, his test scores were surprisingly good."
+      }
+    ],
+    "notes": "Implies a gap between expectation and reality, often with evaluative nuance.",
+    "id": 465
+  },
+  {
+    "title": "〜抜きで",
+    "meaning": "without; excluding",
+    "level": "N2",
+    "explanation": "Used to indicate doing something without the usual element or person involved, often in the context of skipping class materials, teachers, or specific study methods.",
+    "patterns": [
+      "N + 抜きで",
+      "N + 抜きにして",
+      "N + 抜きには"
+    ],
+    "examples": [
+      {
+        "jp": "教科書抜きで授業をするのは難しい。",
+        "en": "It's difficult to conduct a lesson without a textbook."
+      },
+      {
+        "jp": "先生抜きでは、補習を進めることができません。",
+        "en": "We cannot proceed with the supplementary lesson without the teacher."
+      }
+    ],
+    "notes": "In academic settings, often used to stress the indispensability of a particular resource or person.",
+    "id": 466
+  },
+  {
+    "title": "〜向けに",
+    "meaning": "targeted at; aimed at",
+    "level": "N2",
+    "explanation": "Used to describe content, services, or products designed for a specific audience, commonly used for educational materials and platforms.",
+    "patterns": [
+      "N + 向けに",
+      "N + 向けの + N"
+    ],
+    "examples": [
+      {
+        "jp": "このアプリは初心者向けに作られた日本語学習ソフトです。",
+        "en": "This app is a Japanese learning software designed for beginners."
+      },
+      {
+        "jp": "中学生向けのオンライン塾が最近人気を集めている。",
+        "en": "Online cram schools aimed at junior high school students have recently become popular."
+      }
+    ],
+    "notes": "Pairs naturally with 向け to describe the intended audience for educational products.",
+    "id": 467
+  },
+  {
+    "title": "～次第で",
+    "meaning": "depending on; contingent upon",
+    "level": "N2",
+    "explanation": "表示结果会因前项的不同而不同，意为'取决于……''根据……而定'。常用于教育场景中，说明学习效果或升学结果取决于学生的努力程度或学习方法。接在名词后，与'～によって'类似但更强调'根据……情况'。",
+    "patterns": [
+      "名詞次第で",
+      "名詞次第だ"
+    ],
+    "examples": [
+      {
+        "jp": "オンライン授業の効果は、受講生の取り組み方次第で変わる。",
+        "en": "The effectiveness of online classes varies depending on how the students engage with them."
+      },
+      {
+        "jp": "合格できるかどうかは、本人の努力次第です。",
+        "en": "Whether you can pass or not depends on your own effort."
+      },
+      {
+        "jp": "進学か就職かは、今後の成績次第だ。",
+        "en": "Whether to go on to higher education or get a job depends on future grades."
+      }
+    ],
+    "notes": "与'～によって'的区别：'～次第だ'更强调'全凭……而定'的主观性，而'～によって'更客观地表示'由于……不同而……'。",
+    "id": 468
+  },
+  {
+    "title": "〜からこそ",
+    "meaning": "precisely because / for the very reason that",
+    "level": "N2",
+    "explanation": "Emphasizes that the reason stated is the real or important one, often contrasted with an obvious or surface-level reason. Equivalent to 'precisely because' or 'the very reason ... is that ...'.",
+    "patterns": [
+      "V普通形 + からこそ",
+      "イ形容詞普通形 + からこそ",
+      "ナ形容詞語幹 + な + からこそ",
+      "名詞 + だからこそ"
+    ],
+    "examples": [
+      {
+        "jp": "オンライン授業だからこそ、自分のペースで学習を進められる。",
+        "en": "Precisely because it is an online class, students can proceed at their own pace."
+      },
+      {
+        "jp": "先生だからこそ分かる悩みもある。",
+        "en": "There are some concerns that only a teacher can understand."
+      },
+      {
+        "jp": "練習したからこそ、上手にできるようになったのです。",
+        "en": "It is precisely because I practiced that I became able to do it well."
+      }
+    ],
+    "notes": "Often paired with phrases like 'だからこそ' and used when the reason is not immediately obvious or needs strong emphasis.",
+    "id": 469
+  },
+  {
+    "title": "〜ものだから",
+    "meaning": "表示原因、理由（强调主观原因，带有辩解或情感色彩）",
+    "level": "N2",
+    "explanation": "接在名词・な形容词词干+な、ない形、い形容词普通形后，用于强调说话人主观认为的原因，语气中常带有辩解、不满或强调的语气。与「〜だから」相比更具主观感情色彩，常用于解释自己的行为或表达不满。",
+    "patterns": [
+      "名词（普通形）＋ものだから",
+      "な形容词词干＋なものだから",
+      "い形容词普通形＋ものだから",
+      "动词普通形＋ものだから",
+      "ない形＋ものだから"
+    ],
+    "examples": [
+      {
+        "jp": "先生に言われたものだから、仕方なく塾に通い始めた。",
+        "en": "Because my teacher told me to, I reluctantly started going to a cram school."
+      },
+      {
+        "jp": "友達に誘われたものだから、オンラインの英会話レッスンに登録してしまった。",
+        "en": "Since a friend invited me, I ended up signing up for an online English conversation course."
+      }
+    ],
+    "notes": "比「〜だから」更强调主观理由，常带有辩解、无奈、抱怨等语气。在书面语和口语中均可使用，但口语中使用频率更高。",
+    "id": 470
+  },
+  {
+    "title": "〜て済む",
+    "meaning": "表示某事只要这样做就能解决，足够处理",
+    "level": "N2",
+    "explanation": "接在动词て形后，意思为「这样做就能解决／足够」。表示只要采取这种做法就足够解决事情，无需花费更多精力或采取其他更复杂的方法。常与「〜ば」「〜で」等搭配使用。",
+    "patterns": [
+      "动词て形＋済む",
+      "动词て形＋済む＋形式（こと/の/よう）",
+      "〜て済まない（无法简单解决）"
+    ],
+    "examples": [
+      {
+        "jp": "試験に落ちたが、追試を受けて済んだ。",
+        "en": "I failed the exam, but it was resolved by taking a makeup test."
+      },
+      {
+        "jp": "学校には行きたくないが、出席だけして済ませたい。",
+        "en": "I don't want to go to school, but I just want to attend and get it over with."
+      },
+      {
+        "jp": "オンライン授業なら、教科書代だけで済んで助かる。",
+        "en": "With online classes, it can be resolved with just the textbook fee, which is helpful."
+      }
+    ],
+    "notes": "常用于评价事情是否容易处理，含有「只要这样做就够了」的含义。与之相对的「〜て済まない」表示无法简单解决，需要更复杂的处理方式。在教育场景中常用于讨论学校手续、学费、考试等问题。",
+    "id": 471
+  },
+  {
+    "title": "～んばかりに",
+    "meaning": "动作几乎就要发生 / as if to (express that an action was almost done)",
+    "level": "N2",
+    "explanation": "「～んばかりに」接在动词未然形（ない形去掉ない）后，表示某种动作、状态几乎就要发生或处于临界状态。常用于描写感情溢于言表或动作即将发生的状态。属于书面语，常见于小说、新闻等文体。",
+    "patterns": [
+      "動詞未然形（ない形）+ んばかりに"
+    ],
+    "examples": [
+      {
+        "jp": "彼女は今にも泣き出さんばかりに、唇を震わせていた。",
+        "en": "She was trembling her lips as if she were about to cry at any moment."
+      },
+      {
+        "jp": "彼は倒れんばかりに疲れていた。",
+        "en": "He was so tired that he looked as if he were about to collapse."
+      }
+    ],
+    "notes": "「～んばかりだ」「～んばかりの」也是类似用法。前接动词时需注意「する」要变为「せん（せ＋ん）」的形式，即「せんばかりに」。",
+    "id": 472
+  },
+  {
+    "title": "～ようものなら",
+    "meaning": "如果真的做…的话（后述不良结果） / if one should do…(with negative consequence)",
+    "level": "N2",
+    "explanation": "「～ようものなら」接在动词意志形（よう形）后，表示假设一旦实施了某动作就会引起重大的、往往是不良的后果。语气较强，强调一旦发生就难以挽回。常带有警告或夸张的语感。",
+    "patterns": [
+      "動詞意向形（よう形）+ ものなら"
+    ],
+    "examples": [
+      {
+        "jp": "彼に嘘をつこうものなら、二度と口をきいてもらえないだろう。",
+        "en": "If I were to lie to him, I doubt he would ever speak to me again."
+      },
+      {
+        "jp": "あのとき、あと5分でも遅刻しようものなら、合格できなかっただろう。",
+        "en": "If I had been even five minutes late at that time, I wouldn't have passed."
+      }
+    ],
+    "notes": "「～ようものなら」与「～ものなら」相比，强调假设的后果更加严重。后续内容通常为负面评价或严重后果。前接动词意志形（よう形）。",
+    "id": 473
+  },
+  {
+    "title": "～あっての",
+    "meaning": "正因为有了… / ...being the basis of... (emphasis on the premise)",
+    "level": "N2",
+    "explanation": "「～あっての」接在名词后，表示正是因为有了前项，才有后项的存在或成立。强调前项是后项不可或缺的基石或前提条件。常用于表达感谢、感恩之情，或强调某事的重要基础。",
+    "patterns": [
+      "名詞 + あっての + 名詞"
+    ],
+    "examples": [
+      {
+        "jp": "お客様あっての商売ですから、クレームには真剣に対応します。",
+        "en": "Since our business exists thanks to our customers, we take complaints seriously."
+      },
+      {
+        "jp": "チームあっての優勝ですから、選手全員に感謝しています。",
+        "en": "The championship exists because of the team, so I am grateful to all the players."
+      }
+    ],
+    "notes": "「～あっての」后通常接续与前项紧密相关的名词（如「商売」「仕事」「生活」等），且后项常带有感谢、感恩或强烈的评价语气。属于书面表达。",
+    "id": 474
+  },
+  {
+    "title": "～ために（目的）",
+    "meaning": "为了；为了做某事的目的",
+    "level": "N2",
+    "explanation": "「～ために」接在动词基本形或名词后面，表示为了实现某个目的而做某事。前项是意志性动作，后项是为了达成前项目的所采取的行动。常用于表示明确的目的。",
+    "patterns": [
+      "动词基本形＋ために",
+      "名词＋のために"
+    ],
+    "examples": [
+      {
+        "jp": "日本語を正しく読むために、毎日新聞を読んでいます。",
+        "en": "为了正确地阅读日语，我每天都在读报纸。"
+      },
+      {
+        "jp": "健康のために、毎日ジョギングをしています。",
+        "en": "为了健康，我每天都在慢跑。"
+      },
+      {
+        "jp": "大学に合格するために、一生懸命勉強しています。",
+        "en": "为了考上大学，我正在拼命学习。"
+      }
+    ],
+    "notes": "区分「～ために」的目的与原因用法：・目的：前接意志动词（基本形）、名词＋の，表示为了达成目标。・原因：前接な形容词＋な、い形容词・名词・动词过去式，表示原因理由。例：雨が降ったために、運動会は中止になった。（因为下了雨，运动会被中止了。）",
+    "id": 475
+  },
+  {
+    "title": "～ように（目的・目标）",
+    "meaning": "为了；使得；以便",
+    "level": "N2",
+    "explanation": "「～ように」接在动词基本形、可能动词或ない形后面，表示为了实现某个目标或状态而做出的努力。前项是状态性、非意志性的事情。常用于可能动词或否定形后。",
+    "patterns": [
+      "动词基本形＋ように",
+      "动词可能形＋ように",
+      "动词ない形＋ように"
+    ],
+    "examples": [
+      {
+        "jp": "遅刻しないように、時計を早めにしてあります。",
+        "en": "为了不迟到，把钟表调快了。"
+      },
+      {
+        "jp": "日本語が上手になるように、毎日練習しています。",
+        "en": "为了日语变得更好，每天都在练习。"
+      },
+      {
+        "jp": "忘れないように、メモを取ってください。",
+        "en": "为了不忘掉，请记一下笔记。"
+      }
+    ],
+    "notes": "「～ように」与「～ために」的区别：・「～ために」用于意志动词（基本形）强调目的性动作。・「～ように」用于可能动词或状态性动词，强调达成某种状态。注意：希望、愿望、请求动词（知る、わかる、できる等）后续用「～ように」，不用「～ために」。",
+    "id": 476
+  },
+  {
+    "title": "～手段（～で／～を使って／～を通じて）",
+    "meaning": "手段；方法；通过",
+    "level": "N2",
+    "explanation": "表示实现某事所使用的手段或方法。「～で」表示工具或手段；「～を使って」明确表示使用某物；「～を通じて」表示通过某种途径或方式。N2级别中需掌握这些手段表达的高级用法。",
+    "patterns": [
+      "名词＋で",
+      "名词＋を使って",
+      "名词＋を通じて／を通して"
+    ],
+    "examples": [
+      {
+        "jp": "スマートフォンアプリで、簡単に言葉を調べることができます。",
+        "en": "通过智能手机应用，可以轻松查询单词。"
+      },
+      {
+        "jp": "インターネットを通じて、世界中の人々と交流できるようになりました。",
+        "en": "通过互联网，能够与世界各地的人们交流了。"
+      },
+      {
+        "jp": "辞書を使って勉強する方法は、まだ効果的です。",
+        "en": "使用字典来学习的方法，依然很有效。"
+      }
+    ],
+    "notes": "・「～を通じて」强调经由某种媒介、途径。・「～を通して」与「～を通じて」类似，但更强调持续性。・「～で」为最常用的手段表达，可表示工具、方法等。注意区分手段与材料：「～で」（手段）和「～から」（材料）。",
+    "id": 477
+  },
+  {
+    "title": "〜んばかりに",
+    "meaning": "Almost to the point of doing something; on the verge of",
+    "level": "N2",
+    "explanation": "Used to express that something is almost happening or someone is on the verge of doing something. Often emphasizes an emotional state or imminent action.",
+    "patterns": [
+      "〜んばかりに"
+    ],
+    "examples": [
+      {
+        "jp": "彼は泣き出さんばかりに、唇を震わせていた。",
+        "en": "His lips trembled as if he were about to cry."
+      },
+      {
+        "jp": "鳥が飛んで行かんばかりに、翼を大きく広げた。",
+        "en": "The bird spread its wings wide as if about to fly away."
+      }
+    ],
+    "notes": "Written style. 〜ん is a literary form of 〜ない. Strong literary tone, often used in novels and formal writing.",
+    "id": 478
+  },
+  {
+    "title": "〜ともなく / 〜ともなしに",
+    "meaning": "Without any particular intention/aim",
+    "level": "N2",
+    "explanation": "Expresses doing something without a specific purpose or intention, almost accidentally. Translates as 'without intending to', 'as if by chance'.",
+    "patterns": [
+      "〜ともなく / 〜ともなしに"
+    ],
+    "examples": [
+      {
+        "jp": "聞くともなく聞いていたら、友人が会社を辞めたという話が聞こえてきた。",
+        "en": "Listening without really paying attention, I overheard that my friend had quit the company."
+      },
+      {
+        "jp": "散歩するともなく外に出ると、桜が満開だった。",
+        "en": "I went outside without any particular intention to take a walk, and the cherry blossoms were in full bloom."
+      }
+    ],
+    "notes": "Often used with 聞く, 見る, 言う, 散歩する. Implies an almost accidental or unintentional action.",
+    "id": 479
+  },
+  {
+    "title": "～に向けて",
+    "meaning": "面向；朝着（目标、方向）",
+    "level": "N2",
+    "explanation": "用于表示朝着某个目标、方向而努力或前进。常与「努力する」「進む」「準備する」等动词搭配使用，强调为了实现某个目的而采取的行动。",
+    "patterns": [
+      "名詞 + に向けて",
+      "名詞 + に向けた + 名詞"
+    ],
+    "examples": [
+      {
+        "jp": "オリンピックに向けて、毎日練習している。",
+        "en": "I practice every day in preparation for the Olympics."
+      },
+      {
+        "jp": "日本留学に向けて、日本語を勉強しています。",
+        "en": "I am studying Japanese in preparation for studying abroad in Japan."
+      },
+      {
+        "jp": "合格に向けて努力すれば、きっと結果はついてくる。",
+        "en": "If you work hard toward passing the exam, the results will surely follow."
+      }
+    ],
+    "notes": "与「～のために」区别：前者强调朝向目标努力，后者强调目的；「～に向けて」后多接努力性动词。",
+    "id": 480
+  },
+  {
+    "title": "～つもりで",
+    "meaning": "当作……那样；抱着……的心态",
+    "level": "N2",
+    "explanation": "表示以某种心态、态度去做某事，或假装、假定某种状态。常用于表示一种意识、姿态或目的。",
+    "patterns": [
+      "名詞 + のつもりで",
+      "な形容詞 + なつもりで",
+      "い形容詞 + つもりで",
+      "動詞 + つもりで"
+    ],
+    "examples": [
+      {
+        "jp": "旅行に行くつもりで、お金を貯めている。",
+        "en": "I am saving money with the intention of traveling."
+      },
+      {
+        "jp": "本気で成功するつもりで取り組まないと、意味がない。",
+        "en": "There's no point unless you tackle it with the intention of truly succeeding."
+      },
+      {
+        "jp": "自分の家だつもりで、この部屋を使ってください。",
+        "en": "Please use this room as if it were your own home."
+      }
+    ],
+    "notes": "「～つもりで」强调心理状态和意图，与「～つもりだ」区别在于后者是表示意志或预定。",
+    "id": 481
+  },
+  {
+    "title": "〜次第だ",
+    "meaning": "取决于...；要看...",
+    "level": "N2",
+    "explanation": "表示某事的结果完全取决于所接的事项。常用于说明搬家时间、入住日期、签约等具体安排取决于对方或条件的情况。",
+    "patterns": [
+      "〜次第だ",
+      "〜次第で〜"
+    ],
+    "examples": [
+      {
+        "jp": "入居日は大家さんの都合次第なので、まだ決まっていない。",
+        "en": "The move-in date depends on the landlord's schedule, so it hasn't been decided yet."
+      },
+      {
+        "jp": "契約の可否は今月の審査結果次第です。",
+        "en": "Whether we can sign the contract depends on the review results this month."
+      }
+    ],
+    "notes": "前项多为名词，也可接「あなた次第」「時の運次第」等。",
+    "id": 482
+  },
+  {
+    "title": "〜ぶりに",
+    "meaning": "时隔...又...",
+    "level": "N2",
+    "explanation": "表示距离上次做某事已经过去了一段时间。搬家后回到以前住过的地方、重新见到老邻居等情境常用。",
+    "patterns": [
+      "〜ぶりに",
+      "〜ぶりの＋名词"
+    ],
+    "examples": [
+      {
+        "jp": "10年ぶりに前の住所を訪ねたら、近所の様子がずいぶん変わっていた。",
+        "en": "When I visited my old address for the first time in 10 years, the neighborhood had changed a lot."
+      },
+      {
+        "jp": "引っ越しの挨拶も済んで、やっと数年ぶりの穏やかな暮らしが始まる。",
+        "en": "After finishing greetings to neighbors, a peaceful life I've had for the first time in years finally begins."
+      }
+    ],
+    "notes": "前面接表示时间的数量词，如「3年ぶり」「久しぶり」等。",
+    "id": 483
+  },
+  {
+    "title": "〜に先立って",
+    "meaning": "在...之前；先于...",
+    "level": "N2",
+    "explanation": "表示在某个事项进行之前先做某事。租房签约、搬家前需要做一系列准备时常用此表达。",
+    "patterns": [
+      "〜に先立って",
+      "〜に先立つ＋名词"
+    ],
+    "examples": [
+      {
+        "jp": "契約に先立って、物件の内見をしなければならない。",
+        "en": "Prior to signing the contract, we must view the property."
+      },
+      {
+        "jp": "引っ越しに先立つ準備として、不用品を処分した。",
+        "en": "As preparation before moving, I disposed of unnecessary items."
+      }
+    ],
+    "notes": "比「〜する前に」更书面、正式。",
+    "id": 484
+  },
+  {
+    "title": "～おそれがある",
+    "meaning": "there is a risk/possibility that...",
+    "level": "N2",
+    "explanation": "前接动词普通形或「ない形」，表示担心某种不良情况发生的可能性。多用于租房签约时，对可能的纠纷、拖欠房费、退房时房屋损坏等表达担忧。",
+    "patterns": [
+      "动词普通形＋おそれがある",
+      "动词ない形＋おそれがある"
+    ],
+    "examples": [
+      {
+        "jp": "更新料について説明がないと、後でトラブルになるおそれがある。",
+        "en": "If there's no explanation about the renewal fee, there may be trouble later."
+      },
+      {
+        "jp": "契約書を読まずにサインすると、不利な条件を押しつけられるおそれがある。",
+        "en": "If you sign the contract without reading it, you may be forced into unfavorable conditions."
+      }
+    ],
+    "notes": "书面用语，表达负面可能性；与「可能性がある」区别在于「～おそれがある」更强调令人担忧的不利情况。",
+    "id": 485
+  },
+  {
+    "title": "～ものだから",
+    "meaning": "because; the reason is that... (with subjective excuse)",
+    "level": "N2",
+    "explanation": "前接普通形或「な形容词＋な／名词＋な」，表示主观上带有辩解、强调理由的语气。常用于解释搬家或租房时做出的选择。",
+    "patterns": [
+      "名词＋な／な形容词＋な＋ものだから",
+      "动词普通形＋ものだから"
+    ],
+    "examples": [
+      {
+        "jp": "駅に近かったものだから、このマンションを即決した。",
+        "en": "Because it was close to the station, I decided on this apartment right away."
+      },
+      {
+        "jp": "大家さんがとても親切だったものだから、ここに決めました。",
+        "en": "The landlord was so kind that I decided to rent this place."
+      }
+    ],
+    "notes": "比「～だから」更主观，带有辩解、说明自己立场的语气。",
+    "id": 486
+  },
+  {
+    "title": "～うえで",
+    "meaning": "after doing...; on the basis of...",
+    "level": "N2",
+    "explanation": "接续在动词「た形」后表示「在…之后（再做下一步）」；接续在名词或「の」后表示「在…方面」「关于…」。在签约、确认搬家条件时常用。",
+    "patterns": [
+      "动词た形＋うえで",
+      "名词＋の＋うえで"
+    ],
+    "examples": [
+      {
+        "jp": "内覧したうえで、契約するかどうか決めたいと思います。",
+        "en": "I'd like to decide whether to sign the contract after viewing the inside."
+      },
+      {
+        "jp": "退去時の原状回復について、契約書の上でしっかり確認したほうがいい。",
+        "en": "You should carefully confirm the restoration upon moving out in the contract."
+      }
+    ],
+    "notes": "「～うえで」与「～うちに」区别：前者强调先后顺序，后者强调在某一时间段内。",
+    "id": 487
+  },
+  {
+    "title": "～をめぐって",
+    "meaning": "围绕……；关于……",
+    "level": "N2",
+    "explanation": "用于提出问题或争论的核心话题。常用于邻里纠纷的语境。",
+    "patterns": [
+      "Nをめぐって"
+    ],
+    "examples": [
+      {
+        "jp": "騒音の問題をめぐって、隣人と何度も話し合いました。",
+        "en": "We discussed many times with the neighbor about the noise issue."
+      },
+      {
+        "jp": "ゴミ出しのルールをめぐって、住民同士の意見が対立しています。",
+        "en": "Opinions among residents are divided over the rules for taking out the trash."
+      }
+    ],
+    "notes": "也写作～をめぐって；后面常接议论、争论等动词。",
+    "id": 488
+  },
+  {
+    "title": "〜に伴い",
+    "meaning": "随着……；伴随……",
+    "level": "N2",
+    "explanation": "前接名词或动词辞书形，表示前项发生变化后，后项也随之发生相应变化。多用于书面语，常见于通知、公告、合同条款等正式场合。",
+    "patterns": [
+      "名词＋に伴い",
+      "动词辞书形＋に伴い"
+    ],
+    "examples": [
+      {
+        "jp": "新居に引っ越すに伴い、住所変更の手続きを行ってください。",
+        "en": "伴随着搬家到新住所，请办理地址变更手续。"
+      },
+      {
+        "jp": "家賃の改定に伴い、入居者全員に契約書の内容変更をお知らせします。",
+        "en": "随着房租调整，我们将通知所有入住者合同内容的变更。"
+      }
+    ],
+    "notes": "近义语法：〜につれて、〜にしたがって、〜とともに。〜に伴い更强调前后两项的紧密伴随关系，语气较为正式。",
+    "id": 489
+  },
+  {
+    "title": "〜に限って",
+    "meaning": "偏偏……；只有……才……",
+    "level": "N2",
+    "explanation": "前接名词，表示限定范围。用于前者时表示'只有……才……'；用于后者时表示'偏偏……'，带有不满或意外的语气，常用于抱怨邻居或搬家时的突发状况。",
+    "patterns": [
+      "名词＋に限って"
+    ],
+    "examples": [
+      {
+        "jp": "隣の人に限って、毎晩深夜に洗濯機を使うらしい。",
+        "en": "偏偏隔壁的人好像每天深夜都使用洗衣机。"
+      },
+      {
+        "jp": "引っ越し当日は、天気予報に限って外れて大雨になった。",
+        "en": "偏偏在搬家那天，天气预报不准，下起了大雨。"
+      }
+    ],
+    "notes": "表示'偏偏'的不满语气时，前项往往是一般情况下不太会发生的事情。",
+    "id": 490
+  },
+  {
+    "title": "～上で",
+    "meaning": "在……之后；根据……（书面语）",
+    "level": "N2",
+    "explanation": "「～上で」接在动词た形后表示「在某事之后（再进行下一步）」；接在名词后表示「根据……、基于……」。书面语，常用于租房签约、办理手续等正式语境。",
+    "patterns": [
+      "动词た形 + 上で",
+      "名词 + 上の + 名词"
+    ],
+    "examples": [
+      {
+        "jp": "部屋の内見をした上で、契約するかどうか決めたいです。",
+        "en": "在看房之后，我再决定是否签约。"
+      },
+      {
+        "jp": "契約書をよく確認した上で、サインをお願いします。",
+        "en": "请在确认好合同内容之后再签字。"
+      },
+      {
+        "jp": "これは法律の上での問題なので、すぐには解決できない。",
+        "en": "这是法律层面的问题，所以无法立刻解决。"
+      },
+      {
+        "jp": "実際に住んでみた上で、近所の騒音について大家さんに伝えた。",
+        "en": "实际入住之后，我把邻居噪音的事情告诉了房东。"
+      }
+    ],
+    "notes": "「～上で」与「～うえに」（表示累加「而且」）写法相同，但含义不同，需根据语境判断。前者强调先后顺序或依据。",
+    "id": 491
+  },
+  {
+    "title": "～次第（しだい）",
+    "meaning": "一旦…就…；一…就…",
+    "level": "N2",
+    "explanation": "表示前项动作或状态一发生，后项动作或状态就会紧接着发生，或表示某事依赖于前项的进展。常用于商务邮件中，表示事情的进展或通知。",
+    "patterns": [
+      "動詞ます形＋次第"
+    ],
+    "examples": [
+      {
+        "jp": "資料が届き次第、すぐに内容を確認いたします。",
+        "en": "As soon as the materials arrive, I will check the contents immediately."
+      },
+      {
+        "jp": "詳細が決まり次第、改めてご連絡させていただきます。",
+        "en": "As soon as the details are decided, I will contact you again."
+      },
+      {
+        "jp": "お電話いただき次第、担当者transferいたします。",
+        "en": "Upon your call, we will transfer you to the responsible person."
+      }
+    ],
+    "notes": "多用于书面语或正式场合，表示迅速、立即的行动。",
+    "id": 492
+  },
+  {
+    "title": "～に際して（にさいして）",
+    "meaning": "在…之际；在…的时候",
+    "level": "N2",
+    "explanation": "表示在某个重要的时间点或场合做某事。常用于通知、声明等正式邮件中。",
+    "patterns": [
+      "名詞＋に際して",
+      "動詞辞書形＋に際して"
+    ],
+    "examples": [
+      {
+        "jp": "新システムの導入に際しまして、皆様にはご協力をお願いいたします。",
+        "en": "We kindly ask for your cooperation regarding the introduction of the new system."
+      },
+      {
+        "jp": "ご不明な点がございましたら、ご遠慮なくお問い合わせください。",
+        "en": "If you have any questions, please do not hesitate to contact us."
+      },
+      {
+        "jp": "入社に際して、必要な書類を提出してください。",
+        "en": "Please submit the required documents upon joining the company."
+      }
+    ],
+    "notes": "比「～の時」更正式，带有庄重、隆重的语气。",
+    "id": 493
+  },
+  {
+    "title": "～をもちまして",
+    "meaning": "到…为止；以…为限",
+    "level": "N2",
+    "explanation": "表示某个时期、活动或状态的结束。常用于通知、公告类邮件中。",
+    "patterns": [
+      "名詞＋をもちまして"
+    ],
+    "examples": [
+      {
+        "jp": "本日の営業は午後5時をもちまして終了させていただきます。",
+        "en": "Today's business will close at 5 PM."
+      },
+      {
+        "jp": "誠に勝手ながら、弊社は〇月〇日をもちまして閉店することとなりました。",
+        "en": "Although it is selfish of us, our company will be closing on [Date]."
+      },
+      {
+        "jp": "本公演は12月31日をもちまして終了いたします。",
+        "en": "This performance will end on December 31."
+      }
+    ],
+    "notes": "非常正式的表达方式，多用于书面语或公共场合的通知。",
+    "id": 494
+  },
+  {
+    "title": "～につき",
+    "meaning": "因为…；每…",
+    "level": "N2",
+    "explanation": "表示原因、理由，多用于书面语，如通知、告示等。也可以表示单位、比例。",
+    "patterns": [
+      "名詞＋につき"
+    ],
+    "examples": [
+      {
+        "jp": "システムメンテナンス中につき、現在サービスをご利用いただけません。",
+        "en": "由于系统维护，目前无法使用服务。"
+      },
+      {
+        "jp": "本日は休業日につき、お電話での対応は致しかねます。",
+        "en": "今天是休息日，无法通过电话提供服务。"
+      },
+      {
+        "jp": "担当者が出張中につき、返信が遅れる可能性があります。",
+        "en": "As the person in charge is on a business trip, replies may be delayed."
+      }
+    ],
+    "notes": "常用于商务邮件或通知中，语气比较正式。",
+    "id": 495
+  },
+  {
+    "title": "～かねます",
+    "meaning": "难以…；不能…",
+    "level": "N2",
+    "explanation": "表示做某事有困难或不方便，委婉地拒绝或表示无法做到。是「～できない」的委婉表达。",
+    "patterns": [
+      "動詞ます形＋かねます"
+    ],
+    "examples": [
+      {
+        "jp": "誠に申し訳ございませんが、ご要望にはお応えしかねます。",
+        "en": "非常抱歉，我们无法满足您的要求。"
+      },
+      {
+        "jp": "個人情報に関わることですので、お答え致しかねます。",
+        "en": "这涉及到个人信息，我无法回答。"
+      },
+      {
+        "jp": "状況が変わりましたので、日程変更はしかねます。",
+        "en": "Since the situation has changed, we cannot change the schedule."
+      }
+    ],
+    "notes": "多用于商务邮件或回复中，表示拒绝或困难时使用，语气比直接说「できません」更委婉客气。",
+    "id": 496
+  },
+  {
+    "title": "～まで",
+    "meaning": "直到…；到…为止",
+    "level": "N2",
+    "explanation": "表示时间、范围或程度的终点。在商务邮件中常用于表示截止日期或持续时间。",
+    "patterns": [
+      "名詞＋まで"
+    ],
+    "examples": [
+      {
+        "jp": "ご返信は来週月曜日までにお願いいたします。",
+        "en": "请在下周一之前回复。"
+      },
+      {
+        "jp": "このキャンペーンは、今月末まで実施されます。",
+        "en": "这项活动将持续到本月底。"
+      },
+      {
+        "jp": "ご記入いただいた上面、期限までにお戻しください。",
+        "en": "After filling out the top part, please return it by the deadline."
+      }
+    ],
+    "notes": "虽然是N5的基础语法，但在商务邮件中，尤其是在通知截止日期或活动范围时，其使用频率和重要性仍然很高，且常与敬语结合使用，体现N2级别的正式语境。此处选择是为了强调其在商务邮件中的特定用法和语境匹配度。",
+    "id": 497
+  },
+  {
+    "title": "～に際して / ～に際し",
+    "meaning": "在…的时候；在…之际 (多用于书面语，表示在某个特殊或重要的场合、时机。)",
+    "level": "N2",
+    "explanation": "表示在某个特殊或重要的时机、场合。常用于邮件、通知等正式场合，表达对某个事件的开始或进行。",
+    "patterns": [
+      "動辞書形/名詞＋に際して/に際し"
+    ],
+    "examples": [
+      {
+        "jp": "この度の新サービス開始に際し、皆様にご案内申し上げます。",
+        "en": "On the occasion of the launch of our new service, we would like to inform everyone."
+      },
+      {
+        "jp": "ご登録いただくに際して、いくつかのご確認事項がございます。",
+        "en": "There are a few things to confirm when registering."
+      },
+      {
+        "jp": "式典開催に際し、ご来賓の皆様をご案内いたします。",
+        "en": "On the occasion of the ceremony, we will guide the guests."
+      }
+    ],
+    "notes": "比「～とき」更正式，多用于书面语或郑重的场合。后项多为表示行为或决定的句子。",
+    "id": 498
+  },
+  {
+    "title": "～かねます / ～かねない",
+    "meaning": "～かねます：难以…；不能… (表示做某事有困难或不可能，常用于委婉拒绝。)\n～かねない：很可能…；有…的危险 (表示不好的可能性或担忧。)",
+    "level": "N2",
+    "explanation": "～かねます：表示委婉的拒绝或难以实现某事，常用于商务邮件中，以礼貌的方式表达拒绝。\n～かねない：表示某事有发生的可能性，且通常是不好的结果，用于提醒或警告。",
+    "patterns": [
+      "動ます形＋かねます",
+      "動ます形＋かねない"
+    ],
+    "examples": [
+      {
+        "jp": "誠に申し訳ございませんが、ご要望にはお応えしかねます。",
+        "en": "We are very sorry, but we cannot meet your request."
+      },
+      {
+        "jp": "このような対応は、お客様の信頼を失いかねません。",
+        "en": "Such a response could lead to a loss of customer trust."
+      },
+      {
+        "jp": "予算の関係上、新規投資は見送らざるを得ません。",
+        "en": "Due to budget constraints, we must refrain from new investment."
+      }
+    ],
+    "notes": "「～かねます」是「～できない」的委婉表达，多用于服务行业或商务场合。 「～かねない」多用于表示负面或不好的结果，带有担忧或警告的语气。",
+    "id": 499
+  },
+  {
+    "title": "〜につき",
+    "meaning": "表示原因、理由，多用于书面语或通知。",
+    "level": "N2",
+    "explanation": "「〜につき」接在名词或动词连体形之后，表示前项是后项的原因或理由。常用于商务邮件、通知、公告等正式场合。语气比「〜ので」更正式。",
+    "patterns": [
+      "名詞＋につき",
+      "動詞連体形＋につき"
+    ],
+    "examples": [
+      {
+        "jp": "システムメンテナンス中につき、現在サービスをご利用いただけません。",
+        "en": "Due to system maintenance, the service is currently unavailable."
+      },
+      {
+        "jp": "担当者不在につき、ご返信が遅れますこと、お詫び申し上げます。",
+        "en": "We apologize for the delay in our reply due to the absence of the person in charge."
+      },
+      {
+        "jp": "悪天候につき、本日のイベントは中止とさせていただきます。",
+        "en": "Today's event has been cancelled due to bad weather."
+      }
+    ],
+    "notes": "多用于表示客观原因，不带主观意志。在口语中不常用。",
+    "id": 500
+  },
+  {
+    "title": "〜のほど",
+    "meaning": "表示请求、希望的委婉表达，有“大约、左右”的含义，使语气更柔和。",
+    "level": "N2",
+    "explanation": "「〜のほど」接在名词、动词连体形或形容词连体形之后，表示请求、希望的程度，使语气变得更加委婉、客气。常用于商务邮件或正式场合的请求。",
+    "patterns": [
+      "名詞＋のほど",
+      "動詞連体形＋のほど",
+      "形容詞連体形＋のほど"
+    ],
+    "examples": [
+      {
+        "jp": "ご確認のほど、よろしくお願いいたします。",
+        "en": "We kindly ask for your confirmation."
+      },
+      {
+        "jp": "ご検討のほど、お願い申し上げます。",
+        "en": "We kindly request your consideration."
+      },
+      {
+        "jp": "詳細につきましては、後ほど改めてご連絡させていただきますので、ご理解のほど、よろしくお願い申し上げます。",
+        "en": "Regarding the details, we will contact you again later, so we kindly ask for your understanding."
+      }
+    ],
+    "notes": "与「〜ください」相比，「〜のほど」更显恭敬和委婉，尤其适合用于上级或客户。",
+    "id": 501
   }
 ]

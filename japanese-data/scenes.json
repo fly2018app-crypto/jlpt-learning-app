@@ -9111,5 +9111,1025 @@
       }
     ],
     "id": 156
+  },
+  {
+    "title": "ラーメン屋で注文する",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "客",
+        "jp": "すみません、味噌ラーメンを一つお願いします。",
+        "en": "Excuse me, I'd like one miso ramen, please."
+      },
+      {
+        "speaker": "店員",
+        "jp": "麺の硬さはどうなさいますか？",
+        "en": "How would you like your noodle firmness?"
+      },
+      {
+        "speaker": "客",
+        "jp": "バリ硬でお願いします。チャーシューは多めの方がいいんですが。",
+        "en": "I'd like it very firm. And can I have extra chashu, please?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "かしこまりました。替玉もご利用されますか？",
+        "en": "Understood. Would you also like a kaedama (refill noodles)?"
+      },
+      {
+        "speaker": "客",
+        "jp": "はい、あとでお願いします。あ、できれば半熟の煮卵も追加できますか？",
+        "en": "Yes, I'll have that later. Oh, if possible, can I also add a soft-boiled egg?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、＋150円で追加できます。およそ10分ほどお待ちください。",
+        "en": "Yes, that's an extra 150 yen. Please wait about 10 minutes."
+      }
+    ],
+    "id": 157
+  },
+  {
+    "title": "寿司カウンターで大将と話す",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "客",
+        "jp": "今日のおすすめは何ですか？",
+        "en": "What do you recommend today?"
+      },
+      {
+        "speaker": "大将",
+        "jp": "今日は鹿児島産の本マグロがすごく良いですよ。中トロも脂がのっています。",
+        "en": "Today we have excellent bluefin tuna from Kagoshima. The chutoro is also very fatty."
+      },
+      {
+        "speaker": "客",
+        "jp": "じゃあ、おまかせでお願いします。",
+        "en": "Then I'll have the omakase course, please."
+      },
+      {
+        "speaker": "大将",
+        "jp": "かしこまりました。ウニとイカの活造りも入れましょうか？",
+        "en": "Understood. Shall I include some sea urchin and live squid sashimi?"
+      },
+      {
+        "speaker": "客",
+        "jp": "ぜひお願いします。日本酒はどんな銘柄がありますか？",
+        "en": "Yes, please. What kind of sake do you have?"
+      },
+      {
+        "speaker": "大将",
+        "jp": "新潟の久保田と、山形の十四代がございますが。",
+        "en": "We have Kubota from Niigata and Juyondai from Yamagata."
+      },
+      {
+        "speaker": "客",
+        "jp": "十四性を冷やでいただけますか。",
+        "en": "I'll have Juyondai chilled, please."
+      }
+    ],
+    "id": 158
+  },
+  {
+    "title": "焼肉店で和牛を注文する",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "客",
+        "jp": "A5ランクの和牛はありますか？",
+        "en": "Do you have A5 grade wagyu?"
+      },
+      {
+        "speaker": "店員",
+        "jp": "はい、神戸ビーフと松阪牛、どちらもご用意しております。",
+        "en": "Yes, we have both Kobe beef and Matsusaka beef."
+      },
+      {
+        "speaker": "客",
+        "jp": "じゃあ、松阪牛のサーロインを200グラムお願いします。",
+        "en": "Then I'll have 200 grams of Matsusaka sirloin, please."
+      },
+      {
+        "speaker": "店員",
+        "jp": "焼き加減はいかがいたしましょう？",
+        "en": "How would you like it cooked?"
+      },
+      {
+        "speaker": "客",
+        "jp": "ミディアムレアで、表面だけさっと焼いてもらえると嬉しいです。",
+        "en": "I'd like it medium rare, just seared on the outside."
+      },
+      {
+        "speaker": "店員",
+        "jp": "かしこまりました。付け合わせの野菜は追加されますか？",
+        "en": "Understood. Would you like to add some side vegetables?"
+      },
+      {
+        "speaker": "客",
+        "jp": "はい、野菜の盛り合わせもお願いします。あとはサガリとハラミもお願いします。",
+        "en": "Yes, I'll have the vegetable platter. And also sagari and harami, please."
+      }
+    ],
+    "id": 159
+  },
+  {
+    "title": "ラーメン店について友達と語る",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中さん",
+        "jp": "最近、札幌の味噌ラーメンが無性に食べたくなりませんか？",
+        "en": "Don't you find yourself craving Sapporo miso ramen lately?"
+      },
+      {
+        "speaker": "佐藤さん",
+        "jp": "分かります。あの濃厚なスープと中太の縮れ麺の組み合わせが最高ですよね。",
+        "en": "I know exactly what you mean. That rich broth with medium-thick curly noodles is the best."
+      },
+      {
+        "speaker": "田中さん",
+        "jp": "東京にもいくつか名店があるけど、本場で食べた味とはやっぱり違いますよ。",
+        "en": "There are some famous shops in Tokyo too, but it's just not the same as eating it in Hokkaido."
+      },
+      {
+        "speaker": "佐藤さん",
+        "jp": "今度長期休暇が取まったら、札幌まで食べに行きませんか？",
+        "en": "When we get a long vacation next time, shall we go to Sapporo to eat?"
+      },
+      {
+        "speaker": "田中さん",
+        "jp": "いいですね。すすきのあたりで何件かハシゴしましょうよ。",
+        "en": "Sounds great. Let's go hopping around a few places in Susukino."
+      },
+      {
+        "speaker": "佐藤さん",
+        "jp": "北海道はラーメンだけでなく、海鮮丼も楽しみです。",
+        "en": "In Hokkaido I'm looking forward to seafood bowls as well as ramen."
+      }
+    ],
+    "id": 160
+  },
+  {
+    "title": "海外出張先で和食を語る",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "山田さん",
+        "jp": "今回のニューヨーク出張で、何か日本食は食べましたか？",
+        "en": "Did you eat any Japanese food during this New York business trip?"
+      },
+      {
+        "speaker": "鈴木さん",
+        "jp": "はい、ミッドタウンに新しくできた寿司屋に行ってきました。",
+        "en": "Yes, I went to a sushi restaurant that recently opened in Midtown."
+      },
+      {
+        "speaker": "山田さん",
+        "jp": "現地の寿司はどうでしたか？ネタの鮮度は日本のものに比べてどうでしたか？",
+        "en": "How was the sushi there? How did the freshness of the ingredients compare to those in Japan?"
+      },
+      {
+        "speaker": "鈴木さん",
+        "jp": "さすがに本マグロや雲丹は日本とまではいかないですね。",
+        "en": "Of course, bluefin tuna and sea urchin weren't quite at the same level as in Japan."
+      },
+      {
+        "speaker": "山田さん",
+        "jp": "やっぱり寿司は日本で食べるのが一番ですね。次は蕎麦でも食べに行きませんか？",
+        "en": "As expected, sushi tastes best in Japan. Shall we go for soba next time?"
+      },
+      {
+        "speaker": "鈴木さん",
+        "jp": "いいですね。帰国したらすぐにでも行きましょう。",
+        "en": "Sounds good. Let's go right away when we're back in Japan."
+      }
+    ],
+    "id": 161
+  },
+  {
+    "title": "塾を選ぶ相談",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "佐藤",
+        "jp": "田中さん、お子さんは大学受験に向けて塾に通っているんですか？",
+        "en": "Tanaka-san, is your child attending a cram school to prepare for university entrance exams?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "はい、近所の有名な塾に通わせています。でも、最近オンライン塾も気になっているんです。",
+        "en": "Yes, they're going to a famous cram school nearby. But lately, I've also been interested in online cram schools."
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "オンライン塾は便利だけど、モチベーションを維持するのが難しいって聞きますよ。",
+        "en": "I hear that online cram schools are convenient, but it's hard to maintain motivation."
+      },
+      {
+        "speaker": "田中",
+        "jp": "確かにそうですよね。わが家は集団指導の方が合っているのかも。体験授業を受けてみて決めようと思います。",
+        "en": "That's true. Group instruction might be a better fit for my child. I think we'll decide after attending a trial lesson."
+      }
+    ],
+    "id": 162
+  },
+  {
+    "title": "学校の進路指導",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "担任",
+        "jp": "鈴木さん、将来の進路について、もう少し具体的に考えたことはありますか？",
+        "en": "Suzuki-san, have you thought more concretely about your future path?"
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "正直、まだ迷っています。文系か理系かでも悩んでいます。",
+        "en": "Honestly, I'm still undecided. I'm even struggling with whether to choose the humanities or sciences track."
+      },
+      {
+        "speaker": "担任",
+        "jp": "夏休みにはオープンキャンパスに積極的に参加しましょう。雰囲気を肌で感じることが大切です。",
+        "en": "Let's actively participate in open campus events during summer break. It's important to feel the atmosphere firsthand."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "わかりました。先生、いくつかおすすめの大学があれば教えていただけますか？",
+        "en": "Understood. Teacher, could you recommend some universities if you have any?"
+      }
+    ],
+    "id": 163
+  },
+  {
+    "title": "オンライン授業の感想",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "山田",
+        "jp": "オンライン授業が始まって、もう三ヶ月になるね。どう、慣れた？",
+        "en": "It's been three months since online classes started. How are you getting used to it?"
+      },
+      {
+        "speaker": "高橋",
+        "jp": "うん、画面越しでも先生との距離感は近く感じられるけど、さすがに対面授業とは違うよね。",
+        "en": "Yeah, even through the screen I feel close to the teacher, but it's certainly different from in-person classes."
+      },
+      {
+        "speaker": "山田",
+        "jp": "集中力が続かないときがあるんだよね。チャットの通知に気を取られたりして。",
+        "en": "Sometimes I can't stay focused. I get distracted by chat notifications and things like that."
+      },
+      {
+        "speaker": "高橋",
+        "jp": "わかる。ヘッドホンをして、自分専用の学習環境を作るのがコツみたいだよ。",
+        "en": "I get it. The trick seems to be wearing headphones and setting up your own dedicated learning environment."
+      }
+    ],
+    "id": 164
+  },
+  {
+    "title": "親子で受験勉強を話す",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "母",
+        "jp": "もうすぐ期末テストね。勉強の進み具合はどうなの？",
+        "en": "Final exams are coming up soon. How is your studying going?"
+      },
+      {
+        "speaker": "息子",
+        "jp": "数学の模擬試験の点数が伸びなくて、正直焦っているんだ。",
+        "en": "Honestly, I'm anxious because my math practice test scores aren't improving."
+      },
+      {
+        "speaker": "母",
+        "jp": "苦手な単元は先生や塾の先生にもう一度聞いてみたら？恥ずかしいことじゃないよ。",
+        "en": "Why don't you ask your teacher or cram school teacher again about the topics you struggle with? It's nothing to be embarrassed about."
+      },
+      {
+        "speaker": "息子",
+        "jp": "わかった。今週中に苦手な分野をリストアップして、来週から重点的に対策するよ。",
+        "en": "Understood. I'll make a list of my weak areas by this week and focus on tackling them starting next week."
+      }
+    ],
+    "id": 165
+  },
+  {
+    "title": "留学前の準備を相談する",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "中村",
+        "jp": "来月からカナダに留学するんだけど、何か準備しておくべきことはあるかな？",
+        "en": "I'm going to study abroad in Canada from next month, but is there anything I should prepare?"
+      },
+      {
+        "speaker": "森",
+        "jp": "ビザの申請はもう済んだ？それと、ホームステイ先との連絡は早めに取った方がいいよ。",
+        "en": "Have you applied for your visa yet? Also, you should contact your homestay family as early as possible."
+      },
+      {
+        "speaker": "中村",
+        "jp": "ビザは昨日承認されたんだ。ホームステイ先にメールしてみようかな。",
+        "en": "My visa was approved yesterday. Maybe I should email the homestay family."
+      },
+      {
+        "speaker": "森",
+        "jp": "日本のお土産を持っていけば、最初からの雰囲気が良くなるよ。",
+        "en": "If you bring Japanese souvenirs, it will set a good tone from the start."
+      }
+    ],
+    "id": 166
+  },
+  {
+    "title": "ボランティア活動の計画を立てる",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "佐藤",
+        "jp": "今度の週末、公園の掃除ボランティアに参加しない？",
+        "en": "Won't you join the park cleaning volunteer activity this weekend?"
+      },
+      {
+        "speaker": "田中",
+        "jp": "いい考えだね。どんな目的でやるの？",
+        "en": "That's a good idea. What's the purpose of it?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "地域をきれいにすることが一番の目的だけど、住民同士の交流も兼ねているんだ。",
+        "en": "The main purpose is to keep the area clean, but it also serves as a chance for residents to interact."
+      },
+      {
+        "speaker": "田中",
+        "jp": "なるほど。計画を立てる必要があるね。まず何から始めようか。",
+        "en": "I see. We need to make a plan. Where should we start?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "参加人数を把握するために、SNSで参加者を募ろう。集まったら道具を準備するよ。",
+        "en": "Let's recruit participants on SNS to grasp the number of attendees. Once we gather, we'll prepare the tools."
+      },
+      {
+        "speaker": "田中",
+        "jp": "ゴミ袋とか軍手は誰が買うの？",
+        "en": "Who's going to buy garbage bags and work gloves?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "私がまとめてインターネットで注文するつもりだ。前日に届くように手配しよう。",
+        "en": "I plan to order everything together online. Let's arrange so that they arrive the day before."
+      },
+      {
+        "speaker": "田中",
+        "jp": "了解。終わった後、近くのカフェで打ち上げをするのはどう？",
+        "en": "Got it. How about having a celebration at a nearby café after we finish?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "それはいい目標だね。達成感を共有するために、ぜひそうしよう。",
+        "en": "That's a good goal. Let's definitely do that to share the sense of accomplishment."
+      }
+    ],
+    "id": 167
+  },
+  {
+    "title": "資格試験の勉強法を相談する",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "山本",
+        "jp": "来年、宅建の試験を受けるために勉強を始めたんだ。",
+        "en": "I've started studying to take the real estate transaction agent exam next year."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "すごいね。具体的にどんな計画を立てているの？",
+        "en": "That's impressive. What kind of plan do you have specifically?"
+      },
+      {
+        "speaker": "山本",
+        "jp": "目標は半年で全範囲をマスターすること。そのために、平日2時間、土日5時間を確保するつもりだ。",
+        "en": "My goal is to master the entire range of topics in half a year. To achieve that, I plan to secure 2 hours on weekdays and 5 hours on weekends."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "計画的だね。どんな手段で勉強しているの？",
+        "en": "You're systematic. What methods are you using to study?"
+      },
+      {
+        "speaker": "山本",
+        "jp": "まず通信講座で基礎を固めて、過去問を繰り返し解いているんだ。",
+        "en": "First, I'm solidifying the basics with a correspondence course, and I'm repeatedly solving past exam questions."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "効率的に合格するために、何か工夫していることはある？",
+        "en": "Do you have any ideas to pass the exam efficiently?"
+      },
+      {
+        "speaker": "山本",
+        "jp": "間違えた問題をノートにまとめて、週末に復習しているよ。弱点克服が目的なんだ。",
+        "en": "I summarize the questions I got wrong in a notebook and review them on weekends. The purpose is to overcome my weak points."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "なるほど。一人で続けるのは大変だから、勉強会を開くのはどう？",
+        "en": "I see. It might be tough to continue alone, so how about organizing a study group?"
+      },
+      {
+        "speaker": "山本",
+        "jp": "いい提案だね。お互いに教え合うことで、理解が深まると思う。",
+        "en": "That's a good suggestion. I think by teaching each other, we'll deepen our understanding."
+      }
+    ],
+    "id": 168
+  },
+  {
+    "title": "プロジェクトの目的を確認する",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中",
+        "jp": "今回のプロジェクトの最終的な目的は何ですか？",
+        "en": "What is the ultimate goal of this project?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "新規顧客の獲得数を半年以内に20パーセント増やすことです。",
+        "en": "It's to increase new customer acquisition by 20 percent within six months."
+      },
+      {
+        "speaker": "田中",
+        "jp": "そのためにはどのような手段を考えていますか？",
+        "en": "What methods are you considering to achieve that?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "SNS広告を強化しつつ、体験イベントを開催する計画です。",
+        "en": "We're planning to strengthen social media advertising while hosting experiential events."
+      },
+      {
+        "speaker": "田中",
+        "jp": "目標達成のためにリソースは十分ですか？",
+        "en": "Do we have sufficient resources to achieve the goal?"
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "はい、現状の人員と予算で対応できると見込んでいます。",
+        "en": "Yes, we expect to handle it with the current staff and budget."
+      },
+      {
+        "speaker": "田中",
+        "jp": "では、来週までに具体的な行動計画をまとめてください。",
+        "en": "Then, please compile a concrete action plan by next week."
+      },
+      {
+        "speaker": "佐藤",
+        "jp": "承知しました。早速取りかかります。",
+        "en": "Understood. I'll get started on it right away."
+      }
+    ],
+    "id": 169
+  },
+  {
+    "title": "マラソン大会の完走を目指す相談",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "山田",
+        "jp": "今年の目標はフルマラソンを5時間以内で完走することです。",
+        "en": "My goal this year is to complete a full marathon in under five hours."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "その目標のためにどんなトレーニングをしていますか？",
+        "en": "What kind of training are you doing to achieve that goal?"
+      },
+      {
+        "speaker": "山田",
+        "jp": "週4回走り込んで、月200キロ以上走る計画を立てています。",
+        "en": "I'm planning to run four times a week, totaling over 200 kilometers per month."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "食事や休息も意識した方がいいですよ。",
+        "en": "You should also be mindful of your diet and rest."
+      },
+      {
+        "speaker": "山田",
+        "jp": "はい、たんぱく質を中心に栄養管理もしていきたいと考えています。",
+        "en": "Yes, I also intend to manage my nutrition, focusing on protein."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "大会3週間前からは taper といって調整期間も必要ですよ。",
+        "en": "You'll need a tapering period three weeks before the race as well."
+      },
+      {
+        "speaker": "山田",
+        "jp": "なるほど。無理をせず段階的に準備を進めていきたいと思います。",
+        "en": "I see. I want to proceed with my preparation gradually, without overdoing it."
+      },
+      {
+        "speaker": "鈴木",
+        "jp": "応援しています。頑張って完走してください！",
+        "en": "I'm rooting for you. Please do your best and finish!"
+      }
+    ],
+    "id": 170
+  },
+  {
+    "title": "海外プロジェクトの目的と計画を話し合う",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中部長",
+        "jp": "来月から始まるベトナム支社の立ち上げプロジェクトについて、目標を整理しておきたいと思います。",
+        "en": "I would like to organize the goals for the Vietnam branch launch project starting next month."
+      },
+      {
+        "speaker": "山田",
+        "jp": "はい。第一段階の目標としては、3か月以内に現地スタッフ10人を採用することを目指しています。",
+        "en": "Yes. For the first phase, we aim to hire 10 local staff members within three months."
+      },
+      {
+        "speaker": "田中部長",
+        "jp": "具体的にはどうやって採用を進めるつもりですか。手段を聞かせてください。",
+        "en": "Specifically, how do you plan to carry out the hiring? Please explain the method."
+      },
+      {
+        "speaker": "山田",
+        "jp": "現地の大学と連携して説明会を開催し、面接はオンラインで行う予定です。",
+        "en": "We plan to hold information sessions in cooperation with local universities and conduct interviews online."
+      },
+      {
+        "speaker": "田中部長",
+        "jp": "なるほど。それなら予算と期間を早目に見積もっておいてください。",
+        "en": "I see. Then please estimate the budget and schedule as early as possible."
+      },
+      {
+        "speaker": "山田",
+        "jp": "承知しました。来週中に試算を出して、目標達成のためのロードマップもお見せします。",
+        "en": "Understood. I will present a rough calculation by next week and also show a roadmap for achieving the goal."
+      },
+      {
+        "speaker": "田中部長",
+        "jp": "いいアイデアだ。ただし、想定外のリスクに備えた代替案も用意しておいてください。",
+        "en": "That's a good idea. However, please also prepare an alternative plan in case of unexpected risks."
+      },
+      {
+        "speaker": "山田",
+        "jp": "了解しました。現地の情勢や法規制の変化に対応できるよう、複数の手段を並行して検討します。",
+        "en": "Got it. I will consider multiple methods in parallel so that we can respond to changes in local conditions and legal regulations."
+      },
+      {
+        "speaker": "田中部長",
+        "jp": "その方針で進めてください。最終的な目的はあくまで、半年以内に支社の営業を開始させることです。",
+        "en": "Please proceed with that policy. The ultimate goal is to start the branch's operations within six months."
+      },
+      {
+        "speaker": "山田",
+        "jp": "はい、目標と手段を常に確認しながら、計画通り進めていきます。",
+        "en": "Yes. I will keep checking the goals and methods while proceeding according to the plan."
+      }
+    ],
+    "id": 171
+  },
+  {
+    "title": "賃貸契約を結ぶ",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "不動産屋のスタッフ",
+        "jp": "お部屋は本日ご案内した2DKでよろしいですか？",
+        "en": "Would you like the 2DK apartment I showed you today?"
+      },
+      {
+        "speaker": "客",
+        "jp": "はい、南向きで日当たりもいいのでここに決めたいです。",
+        "en": "Yes, it faces south and has good sunlight, so I'd like to choose this one."
+      },
+      {
+        "speaker": "不動産屋のスタッフ",
+        "jp": "では、契約書類をご用意します。身分証明書と認印をお願いします。",
+        "en": "Then I'll prepare the contract documents. Please provide your ID and personal seal."
+      },
+      {
+        "speaker": "客",
+        "jp": "契約期間は2年間で、更新時はどうなるんですか？",
+        "en": "The contract is for two years. What happens at renewal?"
+      },
+      {
+        "speaker": "不動産屋のスタッフ",
+        "jp": "更新料として1か月分のお家賃がかかります。",
+        "en": "You'll need to pay a renewal fee equal to one month's rent."
+      },
+      {
+        "speaker": "客",
+        "jp": "敷金と礼金の支払いも今日でいいですね？",
+        "en": "I pay the deposit and key money today, right?"
+      },
+      {
+        "speaker": "不動産屋のスタッフ",
+        "jp": "はい、合計で28万円になります。クレジットカードは使えますが分割払いはできません。",
+        "en": "Yes, the total is 280,000 yen. We accept credit cards, but no installment payments."
+      }
+    ],
+    "id": 172
+  },
+  {
+    "title": "引っ越し業者との打ち合わせ",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "引っ越し業者",
+        "jp": "お荷物の量はこのリストで間違いないですか？",
+        "en": "Is the amount of your belongings correct on this list?"
+      },
+      {
+        "speaker": "客",
+        "jp": "はい、大型家具は冷蔵庫、洗濯機、ソファの3点です。",
+        "en": "Yes, the large furniture items are three: a refrigerator, washing machine, and sofa."
+      },
+      {
+        "speaker": "引っ越し業者",
+        "jp": "ご希望の引っ越し日を教えてください。",
+        "en": "Please tell me your preferred moving date."
+      },
+      {
+        "speaker": "客",
+        "jp": "来月の3月15日の土曜日にしたいのですが、午後は空いていますか？",
+        "en": "I'd like March 15th, a Saturday, next month. Is the afternoon available?"
+      },
+      {
+        "speaker": "引っ越し業者",
+        "jp": "午前中は埋まっていますが、午後1時からは対応可能です。",
+        "en": "Mornings are booked up, but we can do it from 1:00 PM."
+      },
+      {
+        "speaker": "客",
+        "jp": "料金はどのくらいになりますか？",
+        "en": "How much will it cost?"
+      },
+      {
+        "speaker": "引っ越し業者",
+        "jp": "通常料金で8万円です。繁忙期なので時期によっては追加料金が発生します。",
+        "en": "It will be 80,000 yen at the regular rate. During peak season, there may be additional charges."
+      },
+      {
+        "speaker": "客",
+        "jp": "わかりました。荷造りは自分たちでやる予定ですが、不用品の引き取りもお願いできますか？",
+        "en": "Understood. We plan to pack ourselves, but can you also pick up our unwanted items?"
+      }
+    ],
+    "id": 173
+  },
+  {
+    "title": "隣の部屋に挨拶する",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "田中さん",
+        "jp": "失礼します。隣の201号室に引っ越してきた田中です。",
+        "en": "Excuse me. I'm Tanaka, who just moved into room 201 next door."
+      },
+      {
+        "speaker": "隣人",
+        "jp": "あ、田中さんですね。先日は引っ越し作業で音が響いていましたね。",
+        "en": "Oh, you're Tanaka. The other day during your move, the noise was loud."
+      },
+      {
+        "speaker": "田中さん",
+        "jp": "本当に申し訳ありませんでした。これからは気をつけます。",
+        "en": "I'm really sorry about that. I'll be careful from now on."
+      },
+      {
+        "speaker": "隣人",
+        "jp": "いえいえ、引っ越しはどうしても音が出ますから。これからよろしくお願いします。",
+        "en": "Not at all, moving is noisy no matter what. Looking forward to being neighbors."
+      },
+      {
+        "speaker": "田中さん",
+        "jp": "こちらこそ、よろしくお願いします。これからは夜10時以降は静かにするよう心がけます。",
+        "en": "Likewise. I'll try to keep quiet after 10 PM."
+      },
+      {
+        "speaker": "隣人",
+        "jp": "実はごみ収集の日とか、近隣の付き合い方もよくわからないんですよ。",
+        "en": "Actually, I'm not quite sure about garbage collection days or how to get along with the neighborhood."
+      },
+      {
+        "speaker": "田中さん",
+        "jp": "実は私もです。今度管理会社の資料をもらった時に一緒に確認しましょう。",
+        "en": "Actually, neither am I. Let's check together when I get the management company's materials."
+      }
+    ],
+    "id": 174
+  },
+  {
+    "title": "管理会社に修繕を依頼する",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "住人",
+        "jp": "あのう、お風呂場の蛇口から水が漏れていまして…",
+        "en": "Um, water is leaking from the faucet in the bathroom..."
+      },
+      {
+        "speaker": "管理人",
+        "jp": "それは大変ですね。いつ頃からですか？",
+        "en": "That's serious. Since when has this been happening?"
+      },
+      {
+        "speaker": "住人",
+        "jp": "2、3日前からなんですが、少しずつひどくなっている気がします。",
+        "en": "It's been about 2 or 3 days, but it seems to be getting worse."
+      },
+      {
+        "speaker": "管理人",
+        "jp": "修理業者を手配しますが、今週中なら金曜日が空いています。",
+        "en": "I'll arrange a repair company, but Friday is open this week."
+      },
+      {
+        "speaker": "住人",
+        "jp": "金曜日の午後3時以降は大丈夫なんですが、作業時間はどのくらいですか？",
+        "en": "Friday after 3 PM works for me. How long will the work take?"
+      },
+      {
+        "speaker": "管理人",
+        "jp": "簡単な修理なので1時間程度だと思います。その間は水道を一時止める可能性があります。",
+        "en": "It's a simple repair, so about an hour. We may need to temporarily shut off the water."
+      },
+      {
+        "speaker": "住人",
+        "jp": "了解しました。修理費用はかかりますか？",
+        "en": "Understood. Is there a repair fee?"
+      },
+      {
+        "speaker": "管理人",
+        "jp": "通常の消耗であれば大家さんが負担しますが、故意の破損だと借主負担となります。",
+        "en": "If it's normal wear, the landlord covers it, but if it's intentional damage, the tenant pays."
+      }
+    ],
+    "id": 175
+  },
+  {
+    "title": "大家さんとの退去立ち会い",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "大家さん",
+        "jp": "本日はこちらこそお疲れさまでした。全体的にきれいにお使いですね。",
+        "en": "Thank you for your hard work today. The whole place has been kept clean."
+      },
+      {
+        "speaker": "住人",
+        "jp": "ありがとうございます。原状回復は問題ないでしょうか？",
+        "en": "Thank you. Will the restoration to its original condition be okay?"
+      },
+      {
+        "speaker": "大家さん",
+        "jp": "フローリングに少し傷がついていますが、これは通常の使用範囲内と判断します。",
+        "en": "There are a few scratches on the flooring, but I judge them to be within normal use."
+      },
+      {
+        "speaker": "住人",
+        "jp": "ホッとしました。壁の画鋲の穴は大丈夫ですか？",
+        "en": "What a relief. Are the pin holes in the wall okay?"
+      },
+      {
+        "speaker": "大家さん",
+        "jp": "画鋲の穴は通常損耗とみなしますので問題ありません。",
+        "en": "Pin holes are considered normal wear, so there's no issue."
+      },
+      {
+        "speaker": "住人",
+        "jp": "敷金の返還はどのくらいで振り込まれますか？",
+        "en": "How long until the deposit refund is transferred?"
+      },
+      {
+        "speaker": "大家さん",
+        "jp": "退去日から2週間以内に、指定口座にお振込みいたします。",
+        "en": "Within two weeks of the move-out date, we'll transfer to your designated account."
+      },
+      {
+        "speaker": "住人",
+        "jp": "ありがとうございました。今のアパートは気に入っていたので残念です。",
+        "en": "Thank you. It's a shame, I really liked this apartment."
+      }
+    ],
+    "id": 176
+  },
+  {
+    "title": "ビジネスメールでの会議日程調整",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "田中様、いつもお世話になっております。先日のプロジェクト会議の件ですが、来週以降でいくつか候補日をいただけますでしょうか？",
+        "en": "Mr. Tanaka, thank you for your continued support. Regarding the recent project meeting, could you please provide some candidate dates for next week or later?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、承知いたしました。来週の火曜日と木曜日の午後でしたら、今のところ空いております。ご都合はいかがでしょうか？",
+        "en": "Yes, understood. Next Tuesday and Thursday afternoon are currently free. How do those dates suit you?"
+      },
+      {
+        "speaker": "A",
+        "jp": "ありがとうございます。火曜日の午後で調整させていただければと存じます。改めて招待メールをお送りいたします。",
+        "en": "Thank you. I would like to arrange it for Tuesday afternoon. I will send a new invitation email."
+      },
+      {
+        "speaker": "B",
+        "jp": "かしこまりました。ご連絡お待ちしております。",
+        "en": "Understood. I look forward to hearing from you."
+      },
+      {
+        "speaker": "A",
+        "jp": "先日のご提案資料の件ですが、修正版ができましたら共有いただけますでしょうか。",
+        "en": "Regarding the proposal materials from before, could you share them once the revised version is ready?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、修正が完了次第、メールにてお送りいたします。",
+        "en": "Yes, I will send them via email as soon as the revisions are complete."
+      }
+    ],
+    "id": 177
+  },
+  {
+    "title": "社内通知メールへの返信",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "皆さん、お疲れ様です。来月の社内研修についてですが、参加希望者は本日中に人事部までご連絡ください。",
+        "en": "Everyone, good work. Regarding next month's in-house training, please contact the HR department today if you wish to participate."
+      },
+      {
+        "speaker": "B",
+        "jp": "人事部様、お疲れ様です。〇〇部の山田です。来月の社内研修に参加を希望いたします。よろしくお願いいたします。",
+        "en": "HR Department, good work. This is Yamada from the 〇〇 Department. I would like to participate in next month's in-house training. Thank you."
+      },
+      {
+        "speaker": "A",
+        "jp": "山田さん、ご連絡ありがとうございます。参加の件、承知いたしました。後日、詳細をご連絡いたします。",
+        "en": "Mr. Yamada, thank you for your message. I have noted your participation. We will contact you with details later."
+      },
+      {
+        "speaker": "B",
+        "jp": "ありがとうございます。楽しみにしております。",
+        "en": "Thank you. I'm looking forward to it."
+      },
+      {
+        "speaker": "A",
+        "jp": "追って研修の詳細スケジュールが決まりましたら、改めて連絡させていただきます。",
+        "en": "Once the detailed training schedule is decided, I will contact you again."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。楽しみに待っています。",
+        "en": "Understood. I'll look forward to it."
+      }
+    ],
+    "id": 178
+  },
+  {
+    "title": "顧客からの問い合わせメールへの返信",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "いつもお世話になっております。貴社製品のAについて質問がございます。詳細な仕様書をいただけますでしょうか？",
+        "en": "Thank you for your continued support. I have a question about your product A. Could you please provide a detailed specification sheet?"
+      },
+      {
+        "speaker": "B",
+        "jp": "〇〇様、お問い合わせありがとうございます。A製品の仕様書ですが、添付ファイルにてお送りいたしました。ご不明な点がございましたら、お気軽にお申し付けください。",
+        "en": "Mr./Ms. 〇〇, thank you for your inquiry. I have sent the specification sheet for product A as an attachment. Please feel free to ask if you have any questions."
+      },
+      {
+        "speaker": "A",
+        "jp": "早速のご対応ありがとうございます。確認させていただきます。",
+        "en": "Thank you for your prompt response. I will check it."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、よろしくお願いいたします。",
+        "en": "Yes, please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "仕様書は拝見いたしました。他にもご質問が出るかもしれませんが、その際は再度ご連絡いたします。",
+        "en": "I have reviewed the spec sheet. I may have other questions and will contact you again."
+      },
+      {
+        "speaker": "B",
+        "jp": "いつでもお問い合わせください。迅速に対応いたします。",
+        "en": "Please feel free to contact us anytime. We will respond promptly."
+      }
+    ],
+    "id": 179
+  },
+  {
+    "title": "イベント開催通知メール",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "皆様、この度、恒例の社内懇親会を下記の通り開催することになりました。ご多忙とは存じますが、是非ご参加ください。",
+        "en": "Everyone, we are pleased to announce that our annual company social gathering will be held as follows. We know you are busy, but please join us."
+      },
+      {
+        "speaker": "B",
+        "jp": "イベントのご案内ありがとうございます。参加を検討させていただきます。",
+        "en": "Thank you for the event announcement. I will consider participating."
+      },
+      {
+        "speaker": "A",
+        "jp": "ありがとうございます。ご参加いただけますようでしたら、〇月〇日までにご返信いただけますと幸いです。",
+        "en": "Thank you. If you can participate, we would appreciate it if you could reply by 〇Month〇Day."
+      },
+      {
+        "speaker": "B",
+        "jp": "承知いたしました。",
+        "en": "Understood."
+      },
+      {
+        "speaker": "A",
+        "jp": "会場が狭いとのお声もあり、定員を50名とさせていただいております。",
+        "en": "Due to feedback about the venue being small, we have set the capacity at 50 people."
+      },
+      {
+        "speaker": "B",
+        "jp": "定員があるのですね。申込み希望者はどのようにすればよいでしょうか。",
+        "en": "There is a limit, I see. How should those wishing to register proceed?"
+      }
+    ],
+    "id": 180
+  },
+  {
+    "title": "業務報告メールへの返信",
+    "level": "N2",
+    "isImportant": false,
+    "dialogues": [
+      {
+        "speaker": "A",
+        "jp": "部長、お疲れ様です。〇〇プロジェクトの進捗状況をご報告いたします。現在、計画通りに進行しております。",
+        "en": "Manager, good work. I would like to report on the progress of the 〇〇 project. It is currently proceeding as planned."
+      },
+      {
+        "speaker": "B",
+        "jp": "〇〇さん、報告ありがとう。順調に進んでいるようで安心しました。引き続きよろしく頼む。",
+        "en": "〇〇, thank you for the report. I'm relieved to hear that it's going smoothly. Please continue your good work."
+      },
+      {
+        "speaker": "A",
+        "jp": "はい、承知いたしました。何か変更点がありましたら、改めてご報告いたします。",
+        "en": "Yes, understood. If there are any changes, I will report them again."
+      },
+      {
+        "speaker": "B",
+        "jp": "頼みます。",
+        "en": "Please do."
+      },
+      {
+        "speaker": "A",
+        "jp": "途中で minor な遅延がありましたが、現在は回復しております。",
+        "en": "There was a minor delay midway, but it has now been recovered."
+      },
+      {
+        "speaker": "B",
+        "jp": "了解。遅延の原因は何か、必要があれば記録しておいて。",
+        "en": "Understood. If necessary, record the cause of the delay."
+      }
+    ],
+    "id": 181
   }
 ]

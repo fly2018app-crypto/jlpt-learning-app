@@ -118,6 +118,68 @@ function toggleCompleted(category, item) {
 window.isCompleted = isCompleted;
 window.toggleCompleted = toggleCompleted;
 
+// ========== Practice History Store (学習履歴) ==========
+const practiceHistoryStore = reactive({
+  data: loadPracticeHistory(),
+  version: 0,
+  refresh() {
+    this.data = loadPracticeHistory();
+    this.version++;
+  }
+});
+
+function loadPracticeHistory() {
+  try {
+    const data = localStorage.getItem('practiceHistory');
+    if (!data) return [];
+    const parsed = JSON.parse(data);
+    if (!Array.isArray(parsed)) return [];
+    // 現場舊數據可能缺字段，補全後再返回，避免渲染時訪問 undefined
+    return parsed.map(item => ({
+      title: item.title || '未命名练习',
+      category: item.category || '',
+      level: item.level || '',
+      correct: Number(item.correct) || 0,
+      wrong: Number(item.wrong) || 0,
+      accuracy: Number(item.accuracy) || 0,
+      totalQuestions: Number(item.totalQuestions) || 0,
+      startTime: Number(item.startTime) || Date.now(),
+      elapsedSeconds: Number(item.elapsedSeconds) || 0,
+      completedAt: Number(item.completedAt) || Date.now()
+    }));
+  } catch (e) {
+    return [];
+  }
+}
+
+function savePracticeHistory(entries) {
+  localStorage.setItem('practiceHistory', JSON.stringify(entries));
+}
+
+function addPracticeRecord(record) {
+  const history = loadPracticeHistory();
+  // 确保记录有必要的字段，避免现场旧数据缺字段导致渲染报错
+  const safe = {
+    ...record,
+    title: record.title || '未命名练习',
+    category: record.category || '',
+    level: record.level || '',
+    correct: Number(record.correct) || 0,
+    wrong: Number(record.wrong) || 0,
+    accuracy: Number(record.accuracy) || 0,
+    totalQuestions: Number(record.totalQuestions) || 0,
+    startTime: Number(record.startTime) || Date.now(),
+    elapsedSeconds: Number(record.elapsedSeconds) || 0,
+    completedAt: Number(record.completedAt) || Date.now()
+  };
+  history.unshift(safe);
+  // 最多保留 200 条
+  if (history.length > 200) history.length = 200;
+  savePracticeHistory(history);
+  practiceHistoryStore.data = history;
+  practiceHistoryStore.version++;
+}
+
 // ========== Language Store ==========
 const languageStore = reactive({
   language: localStorage.getItem('userLanguage') || 'zh',
@@ -146,6 +208,13 @@ function t(zh, en) {
 // ========== Components ==========
 
 const Home = {
+  data() { return { version: '0.0' }; },
+  mounted() {
+    fetch('/version.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(json => { this.version = json.latest_version || '0.0'; })
+      .catch(() => { this.version = '0.0'; });
+  },
   template: `
     <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
       <h1 class="text-4xl font-bold text-indigo-800 mb-8">JLPT Learning App</h1>
@@ -159,6 +228,7 @@ const Home = {
         <button @click="$emit('navigate', '/practice')" class="py-4 px-6 bg-pink-600 text-white rounded-lg shadow-md hover:bg-pink-700">📝 練習題 (Practice)</button>
         <button @click="$emit('navigate', '/version-history')" class="py-4 px-6 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-700">📋 版本歷史 (Version)</button>
       </div>
+      <div class="absolute bottom-2 right-4 text-xs text-gray-400">v{{ version }}</div>
     </div>
   `
 };
@@ -191,6 +261,7 @@ const Words = {
       return this.getSavedLevel();
     },
     filteredWords() {
+      void completedStore.version;
       let result = this.words;
       if (!this.showAll) {
         result = result.filter(w => !isCompleted('words', w.id));
@@ -209,7 +280,7 @@ const Words = {
     goToDetail(word) { this.$emit('navigate', '/word/' + word.id); },
     isFav(word) { return isFavorite('words', word.id); },
     toggleFav(word) {
-      toggleFavorite('words', { id: word.id, word: word.word, reading: word.reading, meaning: word.meaning });
+      toggleFavorite('words', { id: word.id, word: word.word, reading: word.reading, meaning: word.meaning, level: word.level });
     },
     isWordCompleted(id) { return isCompleted('words', id); },
     toggleWordCompleted(word) { toggleCompleted('words', word); },
@@ -315,7 +386,7 @@ const WordDetail = {
     isWordCompleted() { return this.word ? isCompleted('words', this.word.id) : false; },
     toggleFav() {
       if (this.word) {
-        const isNowFav = toggleFavorite('words', { id: this.word.id, word: this.word.word, reading: this.word.reading, meaning: this.word.meaning });
+        const isNowFav = toggleFavorite('words', { id: this.word.id, word: this.word.word, reading: this.word.reading, meaning: this.word.meaning, level: this.word.level });
         if (!isNowFav) { this.$emit('navigate', '/words'); return; }
       }
     },
@@ -375,9 +446,6 @@ const WordDetail = {
           <div class="border-t pt-4 mt-4 flex gap-2">
             <button @click="toggleFav" class="flex-1 py-3 font-semibold rounded-lg transition" :class="isFav() ? 'bg-yellow-100 border border-yellow-400 text-yellow-700 hover:bg-yellow-200' : 'bg-yellow-400 hover:bg-yellow-500 text-yellow-900'">
               {{ isFav() ? t('★ 收藏中（タップで解除）', '★ Favorited (tap to remove)') : t('☆ 收藏に追加', '☆ Add to Favorites') }}
-            </button>
-            <button @click="toggleWordCompleted" class="flex-1 py-3 font-semibold rounded-lg transition" :class="isWordCompleted() ? 'bg-green-100 border border-green-400 text-green-700 hover:bg-green-200' : 'bg-green-400 hover:bg-green-500 text-green-900'">
-              {{ isWordCompleted() ? t('✓ 学习完毕', '✓ Completed') : t('○ 学习完毕', '○ Mark Complete') }}
             </button>
           </div>
         </div>
@@ -1066,7 +1134,8 @@ const Favorites = {
       return this.getSavedLevel();
     },
     filteredFavorites() {
-      return this.favorites.filter(f => f.level === this.currentLevel);
+      const cur = this.currentLevel;
+      return this.favorites.filter(f => f.level === cur || !f.level);
     }
   },
   methods: {
@@ -1678,38 +1747,6 @@ const PracticeSetDetail = {
   `
 };
 
-// ========== Routes ==========
-
-const routes = {
-  '/': Home,
-  '/home': Home,
-  '/words': Words,
-  '/word/:id': WordDetail,
-  '/grammar': Grammar,
-  '/grammar/:id': GrammarDetail,
-  '/scenes': Scenes,
-  '/scene/:id': SceneDetail,
-  '/topics': Topics,
-  '/topic/:id': TopicDetail,
-  '/favorites': Favorites,
-  '/settings': Settings,
-  '/practice': PracticeCategorySelect,
-  '/practice/:catKey/:level': PracticeList,
-  '/practice/set/:encodedTitle/:catKey/:level': PracticeSetDetail,
-  '/version-history': VersionHistory
-};
-
-function matchRoute(path) {
-  if (routes[path]) return routes[path];
-  if (path.startsWith('/word/')) return routes['/word/:id'];
-  if (path.startsWith('/grammar/')) return routes['/grammar/:id'];
-  if (path.startsWith('/scene/')) return routes['/scene/:id'];
-  if (path.startsWith('/topic/')) return routes['/topic/:id'];
-  if (path.startsWith('/practice/set/')) return routes['/practice/set/:encodedTitle/:catKey/:level'];
-  if (path.startsWith('/practice/')) return routes['/practice/:catKey/:level'];
-  return routes['/'];
-}
-
 // ========== Version History Component ==========
 
 const VersionHistory = {
@@ -1725,7 +1762,7 @@ const VersionHistory = {
       .then(r => r.json())
       .then(json => {
         this.version = json.latest_version || '0.0';
-        this.history = json.history || [];
+        this.history = (json.history || []).slice().reverse();
         this.isLoading = false;
       })
       .catch(() => {
@@ -1766,6 +1803,38 @@ const VersionHistory = {
     </div>
   `
 };
+
+// ========== Routes ==========
+
+const routes = {
+  '/': Home,
+  '/home': Home,
+  '/version-history': VersionHistory,
+  '/words': Words,
+  '/word/:id': WordDetail,
+  '/grammar': Grammar,
+  '/grammar/:id': GrammarDetail,
+  '/scenes': Scenes,
+  '/scene/:id': SceneDetail,
+  '/topics': Topics,
+  '/topic/:id': TopicDetail,
+  '/favorites': Favorites,
+  '/settings': Settings,
+  '/practice': PracticeCategorySelect,
+  '/practice/:catKey/:level': PracticeList,
+  '/practice/set/:encodedTitle/:catKey/:level': PracticeSetDetail
+};
+
+function matchRoute(path) {
+  if (routes[path]) return routes[path];
+  if (path.startsWith('/word/')) return routes['/word/:id'];
+  if (path.startsWith('/grammar/')) return routes['/grammar/:id'];
+  if (path.startsWith('/scene/')) return routes['/scene/:id'];
+  if (path.startsWith('/topic/')) return routes['/topic/:id'];
+  if (path.startsWith('/practice/set/')) return routes['/practice/set/:encodedTitle/:catKey/:level'];
+  if (path.startsWith('/practice/')) return routes['/practice/:catKey/:level'];
+  return routes['/'];
+}
 
 // ========== App ==========
 
